@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="es">
+  
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medicina-Natural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="styles" href="/js/popper.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="icon" href="/img/favico.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/img/favico16.png" sizes="16x16" type="image/png">
+ 
+  </head>
+
+
+
+
+   
+  <body>
+      <!-- Logo en la esquina izquierda -->
+    <div class="language-container bg-verde p-4">
+      <div class="float-end bg-verde">
+        <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
+      </div>
+    </div>
+
+
+    
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-md p-0">
+        <!-- Logo en la esquina izquierda -->
+        <a class="navbar-brand mis-colores-nav p-2" href="index.html">
+          <img src="/img/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
+        </a>
+    
+        <!-- Botón para toggle de navegación en pantallas pequeñas -->
+        <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Enlaces centrados -->
+        <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="letraNav1 nav-link mis-colores-nav" href="/index.html">Home</a>
+            <a class="letraNav1 nav-link mis-colores-nav" href="/centroDeAyuda.html">Centro de ayuda</a>
+            <li class="nav-item dropdown">
+              <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              <ul class="dropdown-menu">
+                <div class="container-flex m-2 me-4 text-center">
+                  <div class="row">
+                    <div class="col-lg-2 "><img src="/img/Group 6Telefono contacto.png" alt="">
+                      
+                    </div>
+                    <div class="text-center col-lg-7">
+                      
+                      <h5>Llamar</h5>
+                      <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> 1-718-651-6677</p>
+                      <hr class="my-4 w-100">
+                    </div>
+
+                    <div class="container-flex  me-4 text-center">
+                      <div class="row">
+                        <div class="col-lg-2 "><img src="/img/Group 7mailcontacto.png" alt="">
+                          
+                        </div>
+                        <div class="text-center col-lg-6">
+                          
+                          <h5>Mail</h5>
+                          <p class=" text-center phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> 1-718-651-6677</p>
+                          <!--<hr class="my-4 w-100">-->
+                        </div>
+                    
+                    
+                  </div>
+
+                
+
+              </ul>
+            </li>
+
+
+            <a class="letraNav1 nav-link mis-colores-nav" href="/cesarArmoza.html">Cesar Armoza</a>
+            <li class="nav-item dropdown">
+              <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Enlaces de Interes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/nuestraClinica.html">Nuestra Clinica</a></li>
+                <li><a class="dropdown-item" href="/enfermedadesMenu.html">Emfermedades</a></li>
+                <li><a class="dropdown-item" href="/resetasCaseras.html">Recetas Caseras</a></li>
+                <li><a class="dropdown-item" href="/ejercicios/ejerciciosParaSuSalud.html">Preguntas Frecuentes</a></li>
+                <li><a class="dropdown-item" href="/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </div>
+    
+
+    
+        <!-- Botón en la esquina derecha -->
+        <a href="" class="colorBotonesA mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img src="/img/calendar.png" alt=""> Reservar</a>
+        
+      </div>
+    </nav>
+    
+    
+
+
+<!-- Segunda barra de navegación -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-sm-block">
+  <div class="container">
+    <!-- Centra los enlaces en el medio de la pantalla -->
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item dropdown">
+        <a class="letraNav2 nav-link " href="/nuestraClinica.html" >
+          Nuestra Clinica
+        </a>
+        <div class="dropdown-menu center fade ">
+          <div class="d-flex ">
+            <div class="col vertical-bar">
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/acupuntura.html">Acupuntura</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/masajes.html">Masajes</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/parches.html">Parches</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/cupping.html">Cupping</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/ventosas.html">Ventosas</a>
+        
+
+          
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start" >
+              Enfermedades
+            </a>
+            <div class="dropdown-menu dropdown-menu1 center fade ">
+              <div class="d-flex ">
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center  textoNav ">A</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/alergias.html">Alergias</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/anemia.html">Anemia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/ansiedad.html">Ansiedad</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/arritmia.html">Arritmia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/artritis.html">Artritis</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/asma.html">Asma</a>
+                  <h5 class="dropdown-header text-center  textoNav">B</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/bronquitis.html">Bronquitis</a>
+                  <h5 class="dropdown-header text-center  textoNav">C</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/cancer.html">Cancer</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/colesterolAlto.html">Colesterol alto<br>(Hipercolesterolemia)</a>
+
+                </div>
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">D</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/desordenesGastricos.html">Desordenes Gastricos</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/diabetesMellitus.html">Diabetes Millitus</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/diarrea.html">Diarrea</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/dolorDeGarganta.html">Dolor de Garganta</a>
+                  <h5 class="dropdown-header text-center textoNav">E</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/enfermedadDeCrohn.html">Emfermedad de Crohn</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/ets.html">Enfermedad de<br>Transmision Sexual</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/epilepsia.html">Epilepsia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/estrenimiento.html">Estreñimiento</a>
+                </div>
+
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">H</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/halitosis.html">Halitosis (Mal Aliento)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hemorroides.html">Hemorroides</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hepatitis.html">Hepatitis</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  <h5 class="dropdown-header text-center textoNav">I</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/impotenciaSexual.html">Impotencia Sexual</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/incontinencia.html">Incontinencia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/infeccionVUrinarias.html">Infeccion de las vias Urinarias</a>
+
+                </div>
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">L</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/lupusEritematoso.html">Lupus Eritematoso</a>
+                  <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/menopausia.html">Menopausia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/migranias.html">Migraña</a>
+                  <h5 class="dropdown-header text-center textoNav">P</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/perdidaDeCabello.html">Perdida de Cabello</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipertension.html">Presion Arterial Alta<br>Hipertension</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/psoriasis.html">Psoriasis</a>
+                </div>
+                <div class="col">
+                  <h5 class="dropdown-header text-center textoNav">S</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/sinusitis.html">Sinusitis</a>
+                  <h5 class="dropdown-header text-center textoNav">T</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/trastornoDeLaVesicula.html">Trastorno de la Vesicula </a>
+                  <h5 class="dropdown-header text-center textoNav">V</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/vitiligo.html">Vitiligo</a>
+
+                </div>
+    
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link letraNav2" href="/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+              </li>
+
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Recetas caseras
+          </a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Preguntas frecuentes
+            </a>
+
+          
+          
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<!--ESTE ES EL CONTENIDO DE LA PAG-->
+
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="m-5 enferTitulo">
+        Asma
+      </h1>
+      <p class="enferTexto m-5">
+        Es una enfermedad respiratoria inflamatoria caracterizada por dificultad para respirar. Esto es causado por constricción y edema de las vías aéreas acompañado con un incremento de la secreción de moco, lo cual produce obstrucción del paso de aire. Como resultado el paciente no puede entrar ni sacar aire con la facilidad usual.
+
+       <br> El asma es más común en niños por debajo de los 10 años de edad y dos veces más frecuente en varones que en mujeres. Afecta aprox. al 3% de la población en general.
+      </p>
+    </div>
+
+
+    <div class="p-4 col-md-6">
+      <img class="img-fluid" src="/enfermedades/img/Rectangle 30asma.png" alt="">
+    </div>
+
+  </div>
+
+
+ <!--Acordeon-->
+  <div class="container-flex">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div class="centrar">
+              Signo y sintomas 
+            </div>
+          
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <p>
+            -Disnea (dificultad respiratoria) <br>
+            -Aleteo nasal, tos. <br>
+            -Retracción intercostal y esternal. <br>
+            -Respiración acortada. <br>
+            -Aumento de la frecuencia respiratoria. <br>
+            -Cianosis (coloración azulada de la piel por falta de oxígeno) <br>
+            -Sibilancias (sonido que se produce por el estrechamiento y obstrucción con moco de las vías respiratorias) 
+          </p>
+
+          </div>
+        </div>
+      </div>
+    
+     
+    
+      <!-- Repite la estructura para más elementos según sea necesario -->
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <div class="centrar">
+              Causas
+            </div>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Un ataque de asma puede ser provocado cuando un individuo susceptible es expuesto a un alergeno o irritante, entre los más comunes tenemos los siguientes:</p>
+            <p>
+              -Pelaje de animales (gatos, perros, conejos, etc.) <br>
+              -Juguetes de peluche, alfombras, plumas de ganso. <br>
+              -Quimicos, drogas, pululantes ambientales. <br>
+              -Polvos de casa, moho. <br>
+              -Vapores o gases, humo de tabaco. <br>
+              -Aditivos de comidas comerciales (meta bisulfitos, glutamato monosódico, caseinato sódico, caseinato cálcico) <br>
+              -Desorden adrenal, ansiedad, stress. <br>
+              -Cambios climáticos (aire frío, extremada humedad o resequedad.) <br>
+              -Ejercicios. <br>
+              -Situaciones emotivas (miedo, llanto, risa) <br>
+              -Hipoglucemia. <br>
+              -Infecciones respiratorias (Bronquitis).
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      
+
+
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <div class="centrar">
+              Recomendaciones Alimenticias
+            </div>
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              -Incluya en su dieta las cebollas y ajo ya que contienen difeniltiosulfato, un anti-inflamatorio con efecto antiasmático <br>
+              -Coma alimentos saludables como los granos enteros. <br>
+              -Coma más de los siguientes alimentos: vegetales de hojas verdes como el nabo. <br>
+              -Ingiera frutas como: uvas, piñas, mandarinas, melocotones, cerezas. <br>
+              -Son buenas las hortalizas como coliflor, zanahorias, rábanos. <br>
+              -Evite el consumo de pescados y mariscos ; sin embargo el salmón, la sardina y la tuna son saludables ya que contienen omega 3, un ácido graso que tiene propiedades anti-inflamatorias. <br>
+              -Evite las grasas y los azúcares refinados. <br>
+              -No coma helados, ni bebidas extremadamente frías. El frío puede provocar espasmo bronquial. <br>
+              -Sea prudente con el consumo de los siguientes alimentos: huevos, maní, leche de vaca, chocolate, trigo, cítricos, alimentos procesados, tofu, tomates, carnes rojas, alimentos congelados, sal de mesa, pan blanco, bananas, etc. <br>
+              <br> <strong> En caso de emergencia recurra a la cafeína; un par de tazas de café fuerte tiene un efecto benéfico en el asma.</strong> 
+
+            <p>Se recomienda la preparación de los siguientes jugos que pueden ser elaborados en extractor o licuadora. Los puede ingerir una o dos veces al día.
+              Prepare los siguientes numerales: <br>
+              J61, J11, J37, J60,J41
+              <br>
+              Tilo, valeriana y limonero en infusión actúan como anti-espasmódicos y sedantes.
+              El ajo ingiriéndolo crudo machacado es expectorante y antiasmático.
+              La cebolla cruda preparada en jugo fresco o como jarabe , tiene acción antibiótica, facilita la expulsión de la mucosidad y es anti-inflamatorio a la vez.</p>
+            </p>
+          </div>
+        </div>
+      </div>     
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <div class="centrar">
+              Recomendaciones Ambientales
+            </div>
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              <p>Manténgase lejos de las habitaciones llenas de humo; la gente con asma no debe fumar ni las personas que rodean a los asmáticos.</p>
+              <p>Evite la exposición a sustancias químicas como el uretano y poliuretano usados en la industria del plástico; a las resinas de la industria de pinturas y a los químicos del dry clean.</p>
+              <p>Aléjese del frío intenso, si precisa salir de casa, abríguese bien, use una bufanda ancha para cubrir boca y nariz, así respirará aire cálido y húmedo.</p>
+              
+              <p>
+                <strong>El yoga, relajación y técnicas de respiración profunda son excelentes para pacientes con asma; los cuales ayudan a fortalecer el aparato respiratorio. </strong>
+              </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <div class="centrar">
+              Cocina Saludable
+            </div>
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Aproveche nuestras recomendaciones alimenticias preparando las siguientes recetas:
+              R01, R02, R07, R17, R18, R19, R20, R21, R22, R24, R25, R26, R32, R35, RM43</p>
+          </div>
+        </div>
+      </div>
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            <div class="centrar">
+              Consideraciones Geneticas
+            </div>
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Es conocido que existen dos tipos de asma, de las cuales una es de origen intrínseco: <br>
+              O sea que no existen causas externas que la desencadenen, y la otra es de origen extrínseco es decir existe una causa externa que desencadena la crisis asmática.
+              
+              <p>Genéticamente existe una mayor expresión de la enzima ciclo-oxigenasa CX-1 en el Gen LTC4 localizado en el cromosoma 5q35, seria el marcador celular enzimático que correlaciona significativamente una hiperactsividad del árbol traqueobronquial 19 veces mayor que en un individuo normal. Estos individuos con esta alteración genética presentan una biopsia bronquial con mayor fragmentación de eosinofilia cinco veces mayor que personas normale</p></p>
+          </div>
+        </div>
+      </div> 
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <div class="centrar">
+              Baños y Aromaterapia
+            </div>
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>El uso de los siguientes aceites en inhalaciones como: lavanda, pepermint, pino, rosa y té de árbol; pueden ayudar a mejorar la respiración en el asma, pero no obstante el paciente puede desarrollar un tipo de alergia a una o más de estas sustancias.
+
+            </p>
+            <p> <strong>No importa la causa, el asma no tiene que ser una sentencia de cadena perpetua, los problemas del pecho pueden controlarse. El asma es una enfermedad reversible.
+              Siga el régimen prescrito por su médico</strong></p>
+          </div>
+        </div>
+      </div>     
+            
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            <div class="centrar">
+              Recomendaciones de Suplementos Nutricionales
+            </div>
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Pulmonal, Biototal, Dulce Sueno, Alergisol, Jarabe de la Reina, Pura Vida, Easy Digestion, Dagold, Rinofen, Herbal Tension, Calming, Inflora o Easy Pass, New Liver, Estaminax, Té Detox Asma.</p>
+          </div>
+        </div>
+      </div>    
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            <div class="centrar">
+              Posibles Diagnosticos en Medicina Tradicional China
+            </div>
+          </button>
+        </h2>
+        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+         <p>Deficiencia de pulmón. Muchísima flema y/o mucosidad generada por bazo que obstruye el funcionamiento del pulmón. Hígado atacando al bazo y debilitándolo (produciendo este ultimo exceso de flema y/o mucosidad que ofende al pulmón). Estancamiento de agua por debilidad de riñón en ciertos meridianos a diagnosticar que producen obstrucción y estancamiento en pulmón. Estancamiento y toxinas del intestino grueso o colon que estreñimiento u otras alteraciones del colon) que oprimen diafragma y limitan el funcionamiento del pulmón. Estancamiento de frió o calor en el sistema general a diagnosticar.</p>
+         <p><strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong></p>
+          </div>
+        </div>
+      </div>    
+      
+      
+
+            
+                  
+                        
+            
+            
+    
+    </div>
+  </div>
+ 
+  
+  
+
+    
+
+
+
+
+
+  <footer>
+
+    <div class="container-flex text-center bg-verde">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="p-4 col-md-4">
+            <img class="mx-4" src="/img/logo3 1Logofooter.png" width="" alt="Logo">
+          </div>
+          <div class="p-4 col-md-4 offset-md-4">
+            <a href="https://www.instagram.com/armozanatural1/"><img class="mx-2 img-fluid" src="/img/Component 1redes.png" width="30" alt="Instagram"></a>
+          <a href="https://www.facebook.com/armozanatural"><img class="mx-2 img-fluid" src="/img/Vectorredes-1.png" width="30" alt="Facebook"></a>
+          <a href=""><img class="mx-2 img-fluid" src="/img/Vectorredes-2.png" width="30" alt="TikTok"></a>
+          <a href="https://www.youtube.com/channel/UCGGaoxOt0dyOVFCRiqSrt4Q"><img class="mx-2 img-fluid" src="/img/Vectorredes.png" width="30" alt="YouTube"></a>
+          
+          </div>
+          <div>
+            <h6 class="disclaimerTitulo">
+              Disclaimer
+            </h6>
+            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
+              generales sugeridas, no intentan substituir los servicios
+              de un facultativo.<br>
+              Si sufre de alguna enfermedad consulte con su medico.
+              No pare de tomar ni cambie ningun medicamento o tratamiento
+              prescripto por su medico primario o el hospital.
+              Consulte con su medico primario antes de tomar vitaminas,
+              productos naturales, hacer ejercicios, o cualquier otra
+              sugerencia de esta pagina web.</p>
+          </div>
+        </div>
+
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </body>
+</html>
