@@ -308,7 +308,7 @@
  
     .iframe-container {
       position: relative;
-      overflow: auto;
+      overflow: hidden;
       padding-top: 125%; /* Proporción del aspecto 3:2 para el contenedor del iframe */
       margin-bottom: 5%;
     }
