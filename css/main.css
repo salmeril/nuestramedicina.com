@@ -308,8 +308,8 @@
  
     .iframe-container {
       position: relative;
-      overflow: hidden;
-      padding-top: 150%; /* Proporción del aspecto 3:2 para el contenedor del iframe */
+      overflow: auto;
+      padding-top: 90%; /* Proporción del aspecto 3:2 para el contenedor del iframe */
     }
 
     .iframe-container iframe {
@@ -317,11 +317,12 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 90%;
     }
 
     .custom-margin {
       margin-top: 2%; /* Ajusta el margen superior según tus necesidades */
+      
     }
 
     .tituloayuda{
