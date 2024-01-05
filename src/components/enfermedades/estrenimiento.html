@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="es">
+  
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medicina-Natural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="styles" href="/js/popper.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   
+    <link rel="icon" href="/img/favico.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/img/favico16.png" sizes="16x16" type="image/png">
+</head>
+
+
+
+
+   
+  <body>
+      <!-- Logo en la esquina izquierda -->
+    <div class="language-container bg-verde p-4">
+      <div class="float-end bg-verde">
+        <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
+      </div>
+    </div>
+
+
+    
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-md p-0">
+        <!-- Logo en la esquina izquierda -->
+        <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+          <img src="/img/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
+        </a>
+    
+        <!-- Botón para toggle de navegación en pantallas pequeñas -->
+        <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Enlaces centrados -->
+        <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="letraNav1 nav-link mis-colores-nav" href="/index.html">Home</a>
+            <a class="letraNav1 nav-link mis-colores-nav" href="/centroDeAyuda.html">Centro de ayuda</a>
+            <li class="nav-item dropdown">
+              <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              <ul class="dropdown-menu">
+                <div class="container-flex m-2 me-4 text-center">
+                  <div class="row">
+                    <div class="col-lg-2 "><img src="/img/Group 6Telefono contacto.png" alt="">
+                      
+                    </div>
+                    <div class="text-center col-lg-7">
+                      
+                      <h5>Llamar</h5>
+                      <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> 1-718-651-6677</p>
+                      <hr class="my-4 w-100">
+                    </div>
+
+                    <div class="container-flex  me-4 text-center">
+                      <div class="row">
+                        <div class="col-lg-2 "><img src="/img/Group 7mailcontacto.png" alt="">
+                          
+                        </div>
+                        <div class="text-center col-lg-6">
+                          
+                          <h5>Mail</h5>
+                          <p class=" text-center phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> 1-718-651-6677</p>
+                          <!--<hr class="my-4 w-100">-->
+                        </div>
+                    
+                    
+                  </div>
+
+                
+
+              </ul>
+            </li>
+
+
+            <a class="letraNav1 nav-link mis-colores-nav" href="/cesarArmoza.html">Cesar Armoza</a>
+            <li class="nav-item dropdown">
+              <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Enlaces de Interes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/nuestraClinica.html">Nuestra Clinica</a></li>
+                <li><a class="dropdown-item" href="/enfermedadesMenu.html">Emfermedades</a></li>
+                <li><a class="dropdown-item" href="/resetasCaseras.html">Recetas Caseras</a></li>
+                <li><a class="dropdown-item" href="/ejercicios/ejerciciosParaSuSalud.html">Preguntas Frecuentes</a></li>
+                <li><a class="dropdown-item" href="/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </div>
+    
+
+    
+        <!-- Botón en la esquina derecha -->
+        <a href="/reserva.html" class="colorBotonesA mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img src="/img/calendar.png" alt=""> Reservar</a>
+        
+      </div>
+    </nav>
+    
+    
+
+
+<!-- Segunda barra de navegación -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-sm-block">
+  <div class="container">
+    <!-- Centra los enlaces en el medio de la pantalla -->
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item dropdown">
+        <a class="letraNav2 nav-link " href="/nuestraClinica.html" >
+          Nuestra Clinica
+        </a>
+        <div class="dropdown-menu center fade ">
+          <div class="d-flex ">
+            <div class="col vertical-bar">
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/acupuntura.html">Acupuntura</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/masajes.html">Masajes</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/parches.html">Parches</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/cupping.html">Cupping</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/ventosas.html">Ventosas</a>
+        
+
+          
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start" >
+              Enfermedades
+            </a>
+            <div class="dropdown-menu dropdown-menu1 center fade ">
+              <div class="d-flex ">
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center  textoNav ">A</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/alergias.html">Alergias</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/anemia.html">Anemia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/ansiedad.html">Ansiedad</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/arritmia.html">Arritmia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/artritis.html">Artritis</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/asma.html">Asma</a>
+                  <h5 class="dropdown-header text-center  textoNav">B</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/bronquitis.html">Bronquitis</a>
+                  <h5 class="dropdown-header text-center  textoNav">C</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/cancer.html">Cancer</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/colesterolAlto.html">Colesterol alto<br>(Hipercolesterolemia)</a>
+
+                </div>
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">D</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/desordenesGastricos.html">Desordenes Gastricos</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/diabetesMellitus.html">Diabetes Millitus</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/diarrea.html">Diarrea</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/dolorDeGarganta.html">Dolor de Garganta</a>
+                  <h5 class="dropdown-header text-center textoNav">E</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/enfermedadDeCrohn.html">Emfermedad de Crohn</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/ets.html">Enfermedad de<br>Transmision Sexual</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/epilepsia.html">Epilepsia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/estrenimiento.html">Estreñimiento</a>
+                </div>
+
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">H</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/halitosis.html">Halitosis (Mal Aliento)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hemorroides.html">Hemorroides</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hepatitis.html">Hepatitis</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  <h5 class="dropdown-header text-center textoNav">I</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/impotenciaSexual.html">Impotencia Sexual</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/incontinencia.html">Incontinencia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/infeccionVUrinarias.html">Infeccion de las vias Urinarias</a>
+
+                </div>
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">L</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/lupusEritematoso.html">Lupus Eritematoso</a>
+                  <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/menopausia.html">Menopausia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/migranias.html">Migraña</a>
+                  <h5 class="dropdown-header text-center textoNav">P</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/perdidaDeCabello.html">Perdida de Cabello</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipertension.html">Presion Arterial Alta<br>Hipertension</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/psoriasis.html">Psoriasis</a>
+                </div>
+                <div class="col">
+                  <h5 class="dropdown-header text-center textoNav">S</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/sinusitis.html">Sinusitis</a>
+                  <h5 class="dropdown-header text-center textoNav">T</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/trastornoDeLaVesicula.html">Trastorno de la Vesicula </a>
+                  <h5 class="dropdown-header text-center textoNav">V</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/vitiligo.html">Vitiligo</a>
+
+                </div>
+    
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link letraNav2" href="/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+              </li>
+
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Recetas caseras
+          </a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Preguntas frecuentes
+            </a>
+
+          
+          
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<!--ESTE ES EL CONTENIDO DE LA PAG-->
+
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="m-5 enferTitulo">
+        estreñimiento
+      </h1>
+      <p class="enferTexto m-5">
+        El término estreñimiento se refiere a los cambios en los hábitos diarios intestinales, particularmente una disminución en el número o consistencia de movimientos intestinales, o dolor o dificultad para pasar las heces. Si usted va regularmente, pero pasa 2 o más días sin movimiento intestinal, y entonces tiene dolor o dificultad para pasar grandes y duras heces, usted está estreñido. Si tiene buen apetito y no está con molestias, no hay necesidad de preocuparse. Sin embargo, si usted pierde el apetito, está vomitando y tiene molestias, usted debería consultar a un médico sin demora. <br>
+
+        Es importante que los intestinos se muevan diariamente; el colon es un depósito de materia fecal que debe ser removida dentro de las 18 a 24 horas. Las toxinas dañinas podrían formarse dentro de este periodo. Los antígenos y toxinas de las bacterias intestinales y partículas de alimentos no digeridos podrían jugar un papel en el desarrollo de diabetes mellitus, meningitis, miastenia grave, enfermedades tiroideas, candidiasis, gases crónicos, migraña, fatiga y colitis ulcerativas de estreñimiento agudo
+      </p>
+    </div>
+
+
+    <div class="p-4 col-md-6">
+      <img class="img-fluid my-sm-5" src="/enfermedades/img/Rectangle 39crohn.png" alt="">
+    </div>
+
+  </div>
+
+
+ <!--Acordeon-->
+  <div class="container-flex">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div class="centrar">
+              Signos y Sintomas
+            </div>
+          
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <ul>
+              <li>Defecación infrecuente y/o dolorosa</li>
+              <li>Heces duras y pequeñas</li>
+              <li>Sensación de pasaje incompleto de las heces (tenesmo)</li>
+              <li>Esfuerzo excesivo para defecar</li>
+              <li>Abotagamiento, gases, distensión abdominal</li>
+              <li>Mal aliento (halitosis)</li>
+              <li>Lengua seca y pegajosa</li>
+              <li>Dolor de cabeza</li>
+              <li>Calambres abdominales</li>
+              <li>Fatiga</li>
+              <li>Problemas de piel (acné vulgar)</li>
+              <li>Disminución del apetito</li>
+              <li>Sobre ansiedad y pobre función intestinal</li>
+              <li>Uso frecuente de laxantes</li>
+              <li>Abdomen en tabla a la palpación</li>
+              <li>Heces palpables en colon</li>
+              <li>Disminución de los ruidos intestinales</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    
+      <!-- Repite la estructura para los siguientes elementos -->
+      
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header ">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <div class="centrar">
+              Causas de Estreñimiento Agudo
+            </div>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+
+            <ul>
+              <li>Cambios en la dieta</li>
+              <li>Viajes</li>
+              <li>Íleo adinámico</li>
+              <li>Efecto colateral de algún fármaco</li>
+              <li>Tumores colónicos</li>
+              <li>Patologías anorectales</li>
+              <li>Stress</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    
+      <!-- Repite la estructura para más elementos según sea necesario -->
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <div class="centrar">
+              Causas de Estreñimiento Cronico
+            </div>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+
+            <ul>
+              <li>Apendicitis</li>
+              <li>Mal aliento</li>
+              <li>Mal olor del cuerpo</li>
+              <li>Lengua saburra</li>
+              <li>Depresión</li>
+              <li>Diverticulitis</li>
+              <li>Fatiga</li>
+              <li>Gases, dolor de cabeza</li>
+              <li>Hemorroides, fisura anal</li>
+              <li>Hernia</li>
+              <li>Indigestión</li>
+              <li>Insomnio</li>
+              <li>Síndrome de mala absorción</li>
+              <li>Obesidad</li>
+              <li>Vena varicosa</li>
+              
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Repite la estructura para más elementos según sea necesario -->
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <div class="centrar">
+              Recomendaciones Generales y Consejos Caseros
+            </div>
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              El proceso digestivo comienza en la boca. Las enzimas de la saliva degradan los alimentos antes de que usted trague. Recuerde que su estómago no tiene dientes, así que mastique bien sus alimentos y no sobrecoma.
+            </p>
+            <p>
+              Todos los días ponga dos cucharadas de jugo de limón en 8 onz. De agua tibia y bébalo.
+            </p>
+            <p>
+              Debido a que la deshidratación puede conducir al estreñimiento, aumente la cantidad de fluidos en su dieta. Beba por lo menos 8 vasos de agua al día de preferencia spring water
+            </p>
+            <p>
+              Para un rápido alivio de la constipación, beba grandes vasos de agua de calidad cada diez minutos por media hora. Esto puede trabajar maravillosamente a evacuar las toxinas y alivia el estreñimiento.
+            </p>
+            <p>
+              Vaya al toilet todos los días a la misma hora, aunque no exista la urgencia, y relájese. Mucha gente encuentra ayuda en la lectura como una manera de relajarse. Nunca reprima los deseos de defecar.
+            </p>
+            <p>
+              Mantenga limpio su intestino. Si el estreñimiento es persistente, haga enemas de limpieza.
+            </p>
+            <p>
+              Revise sus medicamentos y suplementos. Hay muchos medicamentos que pueden producir o exacerbar el estreñimiento.
+            </p>
+            <p>
+              Cuídese de determinados alimentos; algunos alimentos pueden estreñir a una persona y a otras no.
+            </p>
+            <p>
+              No se esfuerce; por más que tenga la tentación de pujar para salir de su estreñimiento, no es prudente hacerlo, pues corre el riesgo de producir hemorroides y fisura anal, que no solo resultan dolorosas, sino que también pueden empeorar el estreñimiento al reducir la abertura anal. Además, pujar también puede elevar su presión sanguínea y disminuir la frecuencia cardiaca.
+            </p>
+            <p>
+              Evite cocinar en utensilios de cocina de aluminio. Es posible que las trazas de aluminio puedan exacerbar el estreñimiento.
+            </p>
+            <p>
+              FITOTERAPIA: La mayor parte de los casos de estreñimiento son de causa funcional, es decir que no se deben a ninguna lesión orgánica del intestino. Las plantas que se indican están especialmente recomendadas para el estreñimiento funcional por su acción laxante suave y fisiológica.
+            </p>
+            <p>
+              <ul>
+                <li>Boldo: La infusión de sus hojas, normaliza el funcionamiento de la vesícula biliar y es un laxante suave.</li>
+                <li>Diente de león: Un té de infusión de sus hojas o raíz por la mañana, es un laxante suave y depurativo.</li>
+                <li>Sen: La infusión de sus hojas y extractos en dosis bajas, actúa como laxante facilitando la emisión de heces blandas sin cólico.</li>
+                <li>Cáscara sagrada: El polvo o infusión de la corteza es un purgante enérgico aunque bien tolerado.</li>
+                <li>Cerezo: Una cura de cerezas es un laxante suave y tonificante del conducto digestivo</li>
+                <li>Manzanilla: La infusión de sus semillas o esencias, facilita la expulsión de gases intestinales.</li>
+
+              </ul>
+              
+            </p>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <div class="centrar">
+              Recomendaciones Alimenticias
+            </div>
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Incremente la cantidad de fibras en su dieta: Frutas, vegetales y granos enteros son ricos en fibra. Simplemente coma una pieza de fruta, tal como una manzana o piña, puede ayudar a resolver el estreñimiento; cómalas especialmente media hora o una hora después de las comida
+            </p>
+            
+            <p>
+              Las prunas son ahora honradas como el mejor remedio para el estreñimiento, si prefiere póngalas a remojo en agua durante toda la noche, podría ser más fácil digerirlas que la variedad seca, tome agua tibia o cereales calientes tales como la avena, cada mañana, actúa estimulando suavemente el tracto gastrointestinal, además provee fibra.
+            </p>
+            <p>
+              Los alimentos con alto contenido de magnesio, tales como los vegetales de hojas verdes.
+            </p>
+            <p>
+              Para aliviar el estreñimiento durante la noche, mezcle media taza de jugo de pruna, una cucharada de jugo de limón y una taza de spring water. Beba esto antes de ir a dormir.
+            </p>
+            <p>
+              Sea consciente de que estimulantes como el café y bebidas alcohólicas deshidratan el sistema con el riesgo de estreñimiento.
+            </p>
+            <p>
+              Consuma alimentos ricos en pectina tales como: manzanas, zanahorias, coles, bananas, frutas cítricas, arvejas secas, etc.
+            </p>
+            <p>
+              Siga una dieta muy baja en grasas, evite las frituras.<br>
+              Evite los alimentos que estimulan la secreción de las membranas mucosas, tales como productos diarios, grasas y especias para las comidas.
+            </p>
+            <p>
+              No consuma productos diarios, bebidas suaves (sodas, refrescos), carnes rojas, harinas blancas, alimentos altamente procesados, sal, café, o azúcares. Estos productos son de difícil digestión y no contienen fibras.<br>
+              Coma porciones pequeñas de comida, no grandes ni pesadas.
+            </p>
+            <p>
+              Se recomienda la preparación de los siguientes jugos: J61– J30– J15– J01 Hágalos en licuadora o extractor, tómelos una o dos veces al día.
+            </p>
+
+          </div>
+        </div>
+      </div>     
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <div class="centrar">
+              Recomendaciones Ambientales
+            </div>
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+
+            <p>
+              Dése tiempo para ir al gimnasio; consideramos que el ejercicio regular tiende a combatir el estreñimiento porque mueve el alimento más rápido por el intestino.
+            </p>
+            <p>
+              Salga a caminar, es particularmente útil para las mujeres embarazadas, pues muchas de ellas padecen de estreñimiento cuando sus vientres se alteran para acomodar al feto que está creciendo. Todo el mundo incluso las futuras madres, deben de dar una buena y saludable caminata de 20 a 30 minutos cada día.
+            </p>
+
+            <p>
+              Adiestre su intestino. Durante toda nuestra vida, muchos nos acondicionamos a ir al baño no cuando lo requiere nuestro intestino sino cuando lo creemos conveniente. No obstante si se evita la necesidad de defecar, puede llegarse progresivamente al estreñimiento, pero nunca es demasiado tarde para mejorar los hábitos intestinales.
+            </p>
+            <p>
+              Cálmese y tome las cosas con calma; cuando siente temor o tensión, la boca se le seca y el corazón late con más rapidez, pero también sus intestinos se paralizan.
+            </p>
+            <p>
+              Ría con ganas; una buena risa desde el fondo de su vientre puede ayudarlo con el estreñimiento de dos maneras: Tiene un efecto masajeante sobre los intestinos, lo cual ayuda a estimular la digestión, y es un gran recurso para aliviar la tensión.
+            </p>
+            <p>
+              Unas sales de espuma para el baño son relajantes e incrementan la circulación. Las sales de espuma contienen sulfato de magnesio. Una hora o dos después del baño con estas sales podría empezar un movimiento intestinal frecuente.
+            </p>
+            <p>
+              Masajee la parte baja del abdomen es reconfortante y ayuda al movimiento intestinal. Masajee suavemente siguiendo el movimiento natural del intestino, comience en la esquina derecha, muévase hacia las costillas, luego hacia la esquina izquierda y baja hasta la pelvis.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <div class="centrar">
+              Cocina Saludable
+            </div>
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Aproveche nuestros consejos, preparando las siguientes recetas: R02– R05– R07– R10– R13– R18– R25– R30– R34– R39– R41– R47– R59– R63– R66– R70
+          </div>
+        </div>
+      </div>
+      
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <div class="centrar">
+              Baños y Aromaterapia
+            </div>
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Las esencias oleosas de basil, lavanda y rosa fortalecen al sistema digestivo y contrarresta el estreñimiento. Usted puede usar cualquiera de ellas o todas en un baño de aromaterapia o añada unas gotas al aceite de masaje y úselo en conjunto con el masaje.
+
+            </p>
+            <p>
+              Usualmente en sí el estreñimiento no es grave. Sin embargo, debe consultar a su médico cuando los síntomas sean severos, duren más de tres semanas, causen incapacidad, o encuentren sangre en sus heces fecales. Aunque no con frecuencia, el estreñimiento puede ser signo de una grave afección subyacente. Póngase en contacto con su doctor si además de su estreñimiento padece de distensión abdominal, lo cual puede indicar obstrucción.
+            </p>
+
+            
+          </div>
+        </div>
+      </div>     
+            
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            <div class="centrar">
+              Recomendaciones de Suplementos Nutricionales
+            </div>
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Easy Pass, Ultra Detox, Easy Digestion, Vesiculan, Texas Elixir, Dagold, Daninpien, Te Detox para estreñimiento.
+          </div>
+        </div>
+      </div>    
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            <div class="centrar">
+              Posibles Diagnosticos en Medicina Tradicional China
+            </div>
+          </button>
+        </h2>
+        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Muchísimo calor en el sistema especialmente en el abdomen bajo. Exceso de calor en el hígado. Estancamiento en el hígado. Deficiencia de líquidos en colon. Deficiencia en intestino delgado. Deficiencia de bazo. Estancamiento y deficiencia en vesícula con calor y flema. Deficiencia de energía en colon produciendo estancamiento de comida. Calor en colon. Deficiencia de riñón secando colon. Ver en casos por debilidad de pulmón afectando la energía descenderte del colon.
+
+ 	 
+ 	          <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+          </div>
+        </div>
+      </div>    
+      
+      
+
+            
+                  
+                        
+            
+            
+    
+    </div>
+  </div>
+ 
+  
+  
+
+    
+
+
+
+
+
+
+  <footer>
+
+    <div class="container-flex text-center bg-verde">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="p-4 col-md-4">
+            <a href="/index.html"><img class="mx-4" src="/img/logo3 1Logofooter.png" width="" alt="Logo"></a>
+          </div>
+          <div class="p-4 col-md-4 offset-md-4">
+            <a href="https://www.instagram.com/armozanatural1/"><img class="mx-2 img-fluid" src="/img/Component 1redes.png" width="30" alt="Instagram"></a>
+          <a href="https://www.facebook.com/armozanatural"><img class="mx-2 img-fluid" src="/img/Vectorredes-1.png" width="30" alt="Facebook"></a>
+          <a href=""><img class="mx-2 img-fluid" src="/img/Vectorredes-2.png" width="30" alt="TikTok"></a>
+          <a href="https://www.youtube.com/channel/UCGGaoxOt0dyOVFCRiqSrt4Q"><img class="mx-2 img-fluid" src="/img/Vectorredes.png" width="30" alt="YouTube"></a>
+          
+          </div>
+          <div>
+            <h6 class="disclaimerTitulo">
+              Disclaimer
+            </h6>
+            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
+              generales sugeridas, no intentan substituir los servicios
+              de un facultativo.<br>
+              Si sufre de alguna enfermedad consulte con su medico.
+              No pare de tomar ni cambie ningun medicamento o tratamiento
+              prescripto por su medico primario o el hospital.
+              Consulte con su medico primario antes de tomar vitaminas,
+              productos naturales, hacer ejercicios, o cualquier otra
+              sugerencia de esta pagina web.</p>
+          </div>
+        </div>
+  
+  
+  
+  
+  
+    
+  
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </body>
+</html>

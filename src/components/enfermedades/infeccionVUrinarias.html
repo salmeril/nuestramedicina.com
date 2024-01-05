@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="es">
+  
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medicina-Natural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="styles" href="/js/popper.min.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   
+    <link rel="icon" href="/img/favico.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/img/favico16.png" sizes="16x16" type="image/png">
+</head>
+
+
+
+
+   
+  <body>
+      <!-- Logo en la esquina izquierda -->
+    <div class="language-container bg-verde p-4">
+      <div class="float-end bg-verde">
+        <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
+      </div>
+    </div>
+
+
+    
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-md p-0">
+        <!-- Logo en la esquina izquierda -->
+        <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+          <img src="/img/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
+        </a>
+    
+        <!-- Botón para toggle de navegación en pantallas pequeñas -->
+        <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Enlaces centrados -->
+        <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="letraNav1 nav-link mis-colores-nav" href="/index.html">Home</a>
+            <a class="letraNav1 nav-link mis-colores-nav" href="/centroDeAyuda.html">Centro de ayuda</a>
+            <li class="nav-item dropdown">
+              <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              <ul class="dropdown-menu">
+                <div class="container-flex m-2 me-4 text-center">
+                  <div class="row">
+                    <div class="col-lg-2 "><img src="/img/Group 6Telefono contacto.png" alt="">
+                      
+                    </div>
+                    <div class="text-center col-lg-7">
+                      
+                      <h5>Llamar</h5>
+                      <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> 1-718-651-6677</p>
+                      <hr class="my-4 w-100">
+                    </div>
+
+                    <div class="container-flex  me-4 text-center">
+                      <div class="row">
+                        <div class="col-lg-2 "><img src="/img/Group 7mailcontacto.png" alt="">
+                          
+                        </div>
+                        <div class="text-center col-lg-6">
+                          
+                          <h5>Mail</h5>
+                          <p class=" text-center phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> 1-718-651-6677</p>
+                          <!--<hr class="my-4 w-100">-->
+                        </div>
+                    
+                    
+                  </div>
+
+                
+
+              </ul>
+            </li>
+
+
+            <a class="letraNav1 nav-link mis-colores-nav" href="/cesarArmoza.html">Cesar Armoza</a>
+            <li class="nav-item dropdown">
+              <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Enlaces de Interes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/nuestraClinica.html">Nuestra Clinica</a></li>
+                <li><a class="dropdown-item" href="/enfermedadesMenu.html">Emfermedades</a></li>
+                <li><a class="dropdown-item" href="/resetasCaseras.html">Recetas Caseras</a></li>
+                <li><a class="dropdown-item" href="/ejercicios/ejerciciosParaSuSalud.html">Preguntas Frecuentes</a></li>
+                <li><a class="dropdown-item" href="/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        </div>
+    
+
+    
+        <!-- Botón en la esquina derecha -->
+        <a href="/reserva.html" class="colorBotonesA mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img src="/img/calendar.png" alt=""> Reservar</a>
+        
+      </div>
+    </nav>
+    
+    
+
+
+<!-- Segunda barra de navegación -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-sm-block">
+  <div class="container">
+    <!-- Centra los enlaces en el medio de la pantalla -->
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item dropdown">
+        <a class="letraNav2 nav-link " href="/nuestraClinica.html" >
+          Nuestra Clinica
+        </a>
+        <div class="dropdown-menu center fade ">
+          <div class="d-flex ">
+            <div class="col vertical-bar">
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/acupuntura.html">Acupuntura</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/masajes.html">Masajes</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/parches.html">Parches</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/cupping.html">Cupping</a>
+              <a class="dropdown-item text-center letraNav2" href="/nuestrosServicios/ventosas.html">Ventosas</a>
+        
+
+          
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start" >
+              Enfermedades
+            </a>
+            <div class="dropdown-menu dropdown-menu1 center fade ">
+              <div class="d-flex ">
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center  textoNav ">A</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/alergias.html">Alergias</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/anemia.html">Anemia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/ansiedad.html">Ansiedad</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/arritmia.html">Arritmia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/artritis.html">Artritis</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/asma.html">Asma</a>
+                  <h5 class="dropdown-header text-center  textoNav">B</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/bronquitis.html">Bronquitis</a>
+                  <h5 class="dropdown-header text-center  textoNav">C</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/cancer.html">Cancer</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/colesterolAlto.html">Colesterol alto<br>(Hipercolesterolemia)</a>
+
+                </div>
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">D</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/desordenesGastricos.html">Desordenes Gastricos</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/diabetesMellitus.html">Diabetes Millitus</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/diarrea.html">Diarrea</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/dolorDeGarganta.html">Dolor de Garganta</a>
+                  <h5 class="dropdown-header text-center textoNav">E</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/enfermedadDeCrohn.html">Emfermedad de Crohn</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/ets.html">Enfermedad de<br>Transmision Sexual</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/epilepsia.html">Epilepsia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/estrenimiento.html">Estreñimiento</a>
+                </div>
+
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">H</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/halitosis.html">Halitosis (Mal Aliento)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hemorroides.html">Hemorroides</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hepatitis.html">Hepatitis</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  <h5 class="dropdown-header text-center textoNav">I</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/impotenciaSexual.html">Impotencia Sexual</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/incontinencia.html">Incontinencia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/infeccionVUrinarias.html">Infeccion de las vias Urinarias</a>
+
+                </div>
+                <div class="col vertical-bar">
+                  <h5 class="dropdown-header text-center textoNav">L</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/lupusEritematoso.html">Lupus Eritematoso</a>
+                  <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/menopausia.html">Menopausia</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/migranias.html">Migraña</a>
+                  <h5 class="dropdown-header text-center textoNav">P</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/perdidaDeCabello.html">Perdida de Cabello</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/hipertension.html">Presion Arterial Alta<br>Hipertension</a>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/psoriasis.html">Psoriasis</a>
+                </div>
+                <div class="col">
+                  <h5 class="dropdown-header text-center textoNav">S</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/sinusitis.html">Sinusitis</a>
+                  <h5 class="dropdown-header text-center textoNav">T</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/trastornoDeLaVesicula.html">Trastorno de la Vesicula </a>
+                  <h5 class="dropdown-header text-center textoNav">V</h5>
+                  <a class="dropdown-item text-center letraNav2" href="/enfermedades/vitiligo.html">Vitiligo</a>
+
+                </div>
+    
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link letraNav2" href="/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+              </li>
+
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Recetas caseras
+          </a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Preguntas frecuentes
+            </a>
+
+          
+          
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<!--ESTE ES EL CONTENIDO DE LA PAG-->
+
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="m-5 enferTitulo">
+        Infecciones Urinarias
+      </h1>
+      <p class="enferTexto m-5">
+        Es una infección bacteriana de la uretra, uréteres, riñones y vejiga. Una infección de la vejiga llamada cistitis, es la más común del tracto urinario. <br>
+
+        Uretritis o infección de la uretra, es también muy común y puede ocurrir sola o en combinación con la cistitis.
+      </p>
+    </div>
+
+
+    <div class="p-4 col-md-6">
+      <img class="img-fluid my-sm-5" src="/enfermedades/img/Rectangle 52infeccionu.png" alt="">
+    </div>
+
+  </div>
+
+
+ <!--Acordeon-->
+  <div class="container-flex">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div class="centrar">
+              Signos y Sintomas 
+            </div>
+          
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            
+
+          <ul class="">
+            <li>Ardor al orinar</li>
+            <li>Dolor después de orinar</li>
+            <li>Mal olor en la orina</li>
+            <li>Color de la orina más oscura de lo normal</li>
+            <li>Sangre microscópica en la orina</li>
+            <li>Aumento de la frecuencia urinaria pero disminución de la cantidad de orina</li>
+            <li>Dolor abdominal y lumbar</li>
+            <li>Fiebre, dolor de cabeza.</li>
+            <li>Nausea, vómito</li>
+            <li>Cansancio, fatiga, mareo</li>
+            <li>Irritabilidad, inapetencia</li>
+
+          </ul>
+
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <!-- Repite la estructura para más elementos según sea necesario -->
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <div class="centrar">
+              Causas
+            </div>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              <ul>
+                <li>Bacteriana</li>
+                <li>Viral</li>
+                <li>Fúngica</li>
+                <li>Parasitos</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+      
+      <!-- Repite la estructura para más elementos según sea necesario -->
+      <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <div class="centrar">
+              Recomendaciones Generales y Consejos Caseros
+            </div>
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              <ul>
+                <li> <strong>Beba muchos líquidos:</strong> A mayor cantidad de líquidos que beba, más pronto se detendrá el dolor. Y una sugerencia si su orina está clara, esta bebiendo suficiente; si tiene color, le faltan líquidos.</li>
+                <li><strong>Límpiese de adelante hacia atrás </strong>ayuda a impedir que la infección recurra. Hacerlo en sentido opuesto es una de las causas más frecuentes de infección y una buena manera de hacer que las infecciones se repitan</li>
+                <li> <strong>Vaya al baño antes del coito: </strong>esto ayuda a eliminar las bacterias que puedan estar presentes en la vagina; bacterias que de otro modo durante el coito podrían ser llevadas a la vejiga.</li>
+                <li><strong>Vaya al baño después del coito.</strong> El pene del hombre puede introducir por masaje las bacterias presentes en la abertura de la uretra hacia la vejiga. Vaciar la vejiga enjuaga la vejiga. “No cabe duda que las infecciones del conducto urinario es más frecuentes en las mujeres sexualmente activas.</li>
+                <li><strong>Reconsidere si el diafragma le conviene:</strong> Se ha demostrado que los diafragmas son los principales causantes de las infecciones persistentes en vejiga. Considere cambiar de método anticonceptivo.</li>
+                <li><strong>Utilice toallas sanitarias en vez de tampones durante el periodo menstrual.</strong></li>
+                <li><strong>Practique una buena higiene;</strong> manténgase sensatamente limpia.</li>
+                <li><strong>Use ropa interior de algodón que la mantenga seca;</strong>no use pantalones apretados que disminuyan la ventilación.</li>
+                <li><strong>Use solo papel higiénico blanco.</strong></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <div class="centrar">
+              Recomendaciones Alimenticias
+            </div>
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            
+              <ul>
+                <li>Tome jugos de cramberries y bluberries ya que ambos tienen propiedades antibióticas y diuréticas. Tome un vaso de jugo concentrado diariamente.
+                  <li>Coma sopas de perejil, apio, zanahorias y/o berros. Tienen alto contenido de minerales, particularmente potasio; son diuréticos y nutritivos al tracto urinario.</li>
+                </li>
+                <li>Evite las frutas cítricas y alimentos ácidos, los cuales pueden irritar al tracto urinario.</li>
+                <li>Evite las bebidas alcohólicas y todos los azúcares refinados.</li>
+                <li>Prepare los siguientes jugos: J30 – J61– J40– J29– J59 Hágalos en extractor o licuadora, se recomienda ingerirlos una o dos veces al día.</li>
+                
+              </ul>
+             <p>
+              <strong>FITOTERAPIA. </strong>Los antisépticos y antibióticos contenidos en las plantas medicinales tienen una acción menos intensa que los sintéticos, pero provocan menos fenómenos de resistencia en los gérmenes, no deprimen las defensas del organismo y desinflaman los órganos urinarios. Correctamente utilizados, pueden resolver infecciones urinarias de diversos tipos, especialmente en los casos crónicos y de repetición.
+
+             </p>
+             <ul>
+              <li><strong>Ajo</strong> Crudo, en extractos o en decocción de dientes de ajo, es un buen antibiótico frente a bacterias como la E. coli</li>
+              <li><strong>Arandanos </strong>El jugo fresco de los frutos o en extractos, es antiséptico urinario y evita la cistitis de repetición</li>
+              <li><strong>Arrayan </strong>La infusión de hojas y bayas actúa como antiséptico urinario.</li>
+              <li><strong>Brezo </strong> Decocción de sumidades floridas, es antiséptico urinario, calma el escozor al orinar.</li>
+              <li><strong>Cerezo</strong> La cura de cerezas, es diurético y desinflama las vías urinarias.</li>
+              <li><strong>Equinácea</strong> La decocción de su raíz triturada y extractos, aumenta las defensas orgánicas</li>
+              <li><strong>Tomillo</strong> Infusión, cataplasmas calientes en el bajo vientre, son diuréticas y antisépticas.</li>
+             </ul>
+          </div>
+        </div>
+      </div>     
+      
+ 
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <div class="centrar">
+              Cocina Saludable
+            </div>
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Aproveche nuestros consejos alimenticios preparando las siguientes recetas: R02 - R03 - R05 - R07 - R08 - R15 - R18 - R21 - R22 - R29 - R43</p>
+          </div>
+        </div>
+      </div>
+      
+
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <div class="centrar">
+              Baños y Aromaterapia
+            </div>
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           <p> Baños de asiento hechos con esencias oleosas de bergamota, té de árbol pueden ayudar contra la infección. Úselas varias veces al día.</p>
+          </div>
+        </div>
+      </div>     
+            
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            <div class="centrar">
+              Recomendaciones de Suplementos Nutricionales
+            </div>
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Naturobiotic, Iperoxo, JinQianChao, Rinofen,
+              Easy Pass, Ultra Detox, Te Detox limpieza vías urinarias.</p>
+          </div>
+        </div>
+      </div>    
+      
+      
+       <!-- Repite la estructura para más elementos según sea necesario -->
+       <div class="accordion-item m-2">
+        <h2 class="accordion-header accordionheaderStilo">
+          <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            <div class="centrar">
+              Posibles Diagnosticos en Medicina Tradicional China
+            </div>
+          </button>
+        </h2>
+        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Calor y humedad en vejiga; Invasión de calor y humedad en higado/vesicula; Estancamiento de calor y humedad en abdomen bajo; Calor del corazón (por deficiencia) invadiendo riñón.</p>
+            <p><strong> 	Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong></p>
+          </div>
+        </div>
+      </div>    
+      
+      
+
+            
+                  
+                        
+            
+            
+    
+    </div>
+  </div>
+ 
+  
+  
+
+    
+
+
+
+
+
+
+  <footer>
+
+    <div class="container-flex text-center bg-verde">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="p-4 col-md-4">
+            <a href="/index.html"><img class="mx-4" src="/img/logo3 1Logofooter.png" width="" alt="Logo"></a>
+          </div>
+          <div class="p-4 col-md-4 offset-md-4">
+            <a href="https://www.instagram.com/armozanatural1/"><img class="mx-2 img-fluid" src="/img/Component 1redes.png" width="30" alt="Instagram"></a>
+          <a href="https://www.facebook.com/armozanatural"><img class="mx-2 img-fluid" src="/img/Vectorredes-1.png" width="30" alt="Facebook"></a>
+          <a href=""><img class="mx-2 img-fluid" src="/img/Vectorredes-2.png" width="30" alt="TikTok"></a>
+          <a href="https://www.youtube.com/channel/UCGGaoxOt0dyOVFCRiqSrt4Q"><img class="mx-2 img-fluid" src="/img/Vectorredes.png" width="30" alt="YouTube"></a>
+          
+          </div>
+          <div>
+            <h6 class="disclaimerTitulo">
+              Disclaimer
+            </h6>
+            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
+              generales sugeridas, no intentan substituir los servicios
+              de un facultativo.<br>
+              Si sufre de alguna enfermedad consulte con su medico.
+              No pare de tomar ni cambie ningun medicamento o tratamiento
+              prescripto por su medico primario o el hospital.
+              Consulte con su medico primario antes de tomar vitaminas,
+              productos naturales, hacer ejercicios, o cualquier otra
+              sugerencia de esta pagina web.</p>
+          </div>
+        </div>
+  
+  
+  
+  
+  
+    
+  
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </body>
+</html>
