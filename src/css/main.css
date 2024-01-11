@@ -636,3 +636,31 @@ hr {
   align-items: center;
 
 }
+
+
+
+.boton-llamativo {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  animation: moveAnimation 2s infinite alternate;
+}
+
+.boton-llamativo:hover {
+  transform: scale(1.1);
+  animation-play-state: paused;
+}
+
+@keyframes moveAnimation {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(10px);
+  }
+}
