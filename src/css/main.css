@@ -648,7 +648,7 @@ hr {
   color: #fff;
   border-radius: 5px;
   transition: transform 0.3s ease-in-out;
-  animation: moveAnimation 2s infinite alternate;
+  animation: moveAnimation 1s infinite alternate;
 }
 
 .boton-llamativo:hover {
