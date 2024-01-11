@@ -584,7 +584,7 @@ hr {
   text-decoration: none;
   transition: all .2s ease-in-out;
   border-radius: 10px;
-  height: 155px;
+  height: 175px;
 
   @media screen and (max-width: 768px) {
     padding: 1rem;
@@ -610,21 +610,3 @@ hr {
   font-weight: 400;
   line-height: 1.4;
 }
-
-
-.reparacion-custom{
-  margin-top: -10%;
-}
-
-.reparacion-custom-titulo{
-  z-index: 100;
-}
-
-
-.tam{
-  width: 75%;
-  height: 50%px;
-  margin: auto;
-}
-
-
