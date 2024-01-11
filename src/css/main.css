@@ -584,7 +584,7 @@ hr {
   text-decoration: none;
   transition: all .2s ease-in-out;
   border-radius: 10px;
-  height: 150px;
+  height: 175px;
 
   @media screen and (max-width: 768px) {
     padding: 1rem;
