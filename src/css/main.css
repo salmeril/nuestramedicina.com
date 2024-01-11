@@ -615,14 +615,24 @@ hr {
 
 .textVirtual1{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #282E42;
-  font-size:Large;
+  font-size:large;
+  text-align: center;
 }
 
 
 .textVirtual2{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #282E42;
+  
+  /* Cambia #00FF00 por el color de fondo que desees */
+  font-size: large;
+
+  text-align: center;
+  /* Alinea el texto al centro */
+  justify-content: center;
+  align-items: center;
+
 }
