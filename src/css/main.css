@@ -709,6 +709,7 @@ hr {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: white;
+  
 }
 
 
@@ -716,11 +717,16 @@ hr {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: large;
+  color: #282E42;
+  color: #282E42;
 }
 
 
-.acomodeCall1{
+.titulocall2{
   margin-top: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #282E42;
 }
 
 
