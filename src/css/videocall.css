@@ -9,6 +9,13 @@
     font-weight: 400;
     color: white;
     font-size: large;
+    
+    @media screen and (max-width: 1360px) {
+        font-size: medium;
+        margin-bottom: 0;
+        margin-top: 5px;
+        
+    }
   }
   
   
@@ -16,6 +23,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: white;
+    @media screen and (max-width: 1360px) {
+        font-size: xx-large;
+        
+        
+    }
     
   }
   
@@ -39,10 +51,16 @@
   
   
   .titulocallacomode{
+
+@media screen and (max-width: 1360px) {
+  margin-top: 35px;
+  
+  
+}
     @media screen and (max-width: 375px) {
         padding-top: 0px;
 
-      } 
+    }
   }
 
   .titulocallacomode2{
@@ -108,7 +126,11 @@
     flex-direction: column;
     z-index: 1;
     border-radius: 25px;
-
+    @media screen and (max-width: 1360px) {
+        height: 300px;
+        
+        
+    }
     @media screen and (max-width: 1200px) {
         width: 100%;
         height: 100%;
@@ -122,6 +144,8 @@
         
         
     }
+
+   
 }
 
   .imgCall {
