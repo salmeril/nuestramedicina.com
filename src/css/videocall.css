@@ -39,14 +39,14 @@
   
   
   .titulocallacomode{
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
         padding-top: 0px;
 
       } 
   }
 
   .titulocallacomode2{
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
         padding-top: 400px;
         margin: 0;
 
@@ -60,7 +60,7 @@
     height: 550px;
     grid-auto-columns: minmax(auto, 1fr);
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
       font-size:medium ;
       margin-bottom: 50%;
       
@@ -117,7 +117,7 @@
         
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
         height: 500px;
         
         
@@ -159,7 +159,7 @@
     text-align: center;
     margin-bottom: 5%;
 
-      @media screen and (max-width: 360px){
+      @media screen and (max-width: 375px){
         margin-bottom: 375px;
     }
   }
@@ -171,7 +171,7 @@
     text-align: center;
     margin-bottom: 5%;
 
-      @media screen and (max-width: 360px){
+      @media screen and (max-width: 375px){
         margin-bottom: 100px;
         margin-top: 300px;
     }
@@ -208,7 +208,7 @@
       
   
     }
-    @media screen and (max-width: 360px){
+    @media screen and (max-width: 375px){
         display : none !important;
         width : 0%;
         margin-bottom: 50px;
@@ -231,7 +231,7 @@
       
   
     }
-    @media screen and (max-width: 360px){
+    @media screen and (max-width: 375px){
         display : none !important;
         width : 0%;
         margin-bottom: 50px;
@@ -265,13 +265,13 @@
 
 
 .container-global{
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
         margin-top: 30%;
     }
 }
 
 .container-wap{
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
         margin-top: 1%;
     }
 }
