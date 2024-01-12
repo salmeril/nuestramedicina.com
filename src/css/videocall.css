@@ -47,7 +47,7 @@
 
   .titulocallacomode2{
     @media screen and (max-width: 375px) {
-        padding-top: 400px;
+        padding-top: 475px;
         margin: 0;
 
       } 
@@ -160,7 +160,7 @@
     margin-bottom: 5%;
 
       @media screen and (max-width: 375px){
-        margin-bottom: 375px;
+        margin-bottom: 475px;
     }
   }
   
