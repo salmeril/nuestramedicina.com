@@ -675,18 +675,19 @@ hr {
 
 .imgCall {
   width: 100%;
-  height: auto;
+  height: 5;
   display: block;
 }
 
 .cuadrado-con-texto {
   position: absolute;
+  height: 75%;
   top: 20px; /* Puedes ajustar la posición vertical según tus necesidades */
   left: 20px; /* Puedes ajustar la posición horizontal según tus necesidades */
   background-color: rgba(99, 114, 103, 0.7); /* Fondo blanco semitransparente */
   padding: 20px;
   border-radius: 5px;
-  margin-top: 5%;
+  margin-top: 2.5%;
 }
 
 .cuadrado-con-texto p {
@@ -723,3 +724,6 @@ hr {
 }
 
 
+.acomodeCallText{
+
+}
