@@ -664,3 +664,60 @@ hr {
       transform: translateX(10px);
   }
 }
+
+
+
+
+.contenedor-imagen {
+  position: relative;
+  width: 100%;
+}
+
+.imgCall {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cuadrado-con-texto {
+  position: absolute;
+  top: 20px; /* Puedes ajustar la posición vertical según tus necesidades */
+  left: 20px; /* Puedes ajustar la posición horizontal según tus necesidades */
+  background-color: rgba(99, 114, 103, 0.7); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.cuadrado-con-texto p {
+  margin: 0;
+  color: #333; /* Color del texto */
+  font-size: 16px;
+}
+
+
+.textcall{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: x-large;
+}
+
+
+.tituloCall{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+
+.conteTextocall{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: large;
+}
+
+
+.acomodeCall1{
+  margin-top: 10%;
+}
