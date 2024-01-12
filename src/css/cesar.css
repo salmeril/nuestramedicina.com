@@ -123,3 +123,15 @@ ul {
         left: 0;
     }
 }
+
+
+
+
+/* Agrega esta regla a tu hoja de estilos */
+.animacion-divertida {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animacion-divertida:hover {
+    transform: scale(1.1); /* Puedes ajustar el factor de escala según tus preferencias */
+}
