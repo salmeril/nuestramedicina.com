@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+.desaparecer{
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+} 
 
 .bg-verde {
   background-color: #F4F4F4;
