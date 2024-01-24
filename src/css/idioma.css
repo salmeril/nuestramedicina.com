@@ -1,0 +1,43 @@
+.en{
+    color: #333;
+  }
+  
+.es{
+    color: #333;
+}
+
+.check{
+    position: relative;
+    width: 40px;
+}
+
+.check:before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background: #6B9365;
+    border-radius: 25px;
+}
+
+.check:after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.25s;
+    border: 2px solid #6B9365;
+    box-sizing: border-box;
+}
+
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #333;
+
+}
+
+.check:checked:before{
+    background: #2e59d1;
+}
