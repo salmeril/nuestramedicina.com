@@ -40,38 +40,7 @@
 <body>
   
 
-<!-- Language Selector -->
-  <div id="languageSelector" class="bg-light">
-  
-    <div class="language-option" onclick="selectLanguage('es')">
-        <img src="/src/img/icons/espaicon.png" alt="Español">
 
-    </div>
-    <div class="language-option m-1" onclick="selectLanguage('en')">
-        <img src="/src/img/icons/icon.png" alt="English">
-
-    </div>
-    <!-- Agrega más opciones según los idiomas que necesites -->
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Puedes agregar aquí la lógica para mostrar o no el selector según ciertas condiciones
-    });
-
-    function selectLanguage(language) {
-        // Guardar el idioma seleccionado en el almacenamiento local
-        localStorage.setItem('selectedLanguage', language);
-    
-        // Redirigir según el idioma seleccionado
-        if (language === 'en') {
-            location.href = "eng/index.html";
-        } else {
-            location.href = "../index.html";
-        }
-    }
-    </script>
   
 
 
@@ -179,7 +148,7 @@
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
           <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
-            Consulta Virtual
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">

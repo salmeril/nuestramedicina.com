@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -11,8 +11,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
-  <link rel="stylesheet" href="/src/css/cesar.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -65,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -77,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -89,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -105,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -127,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -146,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -256,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -300,64 +302,64 @@
         <div class="row">
             <div class="col-4 mb-3 mover scrollspy-example p-1">
               <div id="list-example" class="list-group">
-                <a class="list-group-item list-group-item-action" href="#list-item-1">Acne</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-2">Alergias</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-3">Alergias, Asmas, Ronquidos (Sistema Inmunologico)</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-4">Arrugas</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-5">Asma</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-6">Bazo</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-7">Cabello #1 (Para dar Brillo)</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-8">Cabello #2 (Para dar Brillo)</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-9">Caida de cabello y para devolverle el color</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-10">Caspa y comezon en cuero cabelludo </a>
-                <a class="list-group-item list-group-item-action" href="#list-item-11">Colesterol</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-12">Diabetes</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-13">Diarrea</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-14">Digestión</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-15">Dolor muscular</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-16">Dolor de muelas</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-17">Encias inflamadas (Gengivitis), Mal aliento</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-18">Encias inflamadas, sangre y mal aliento</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-19">Energia e Insomnio</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-20">Estreñimiento</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-21">Estrias</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-22">Fertilidad</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-23">Flujo vaginal</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-24">Fumadores</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-26">Gastritis</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-27">Gota, Acido Urico</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-28">Hemorroides</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-29">Higado, Vesicula y Estreñimiento</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-30">Hongos de las Uñas #1</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-31">Hongos de las Uñas #2</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-32">Impotencia - Frigidez</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-33">Infección de Garganta</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-34">Infeccion en la piel</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-35">Remedios caseros para el Insomnio</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-36">Menopausia y desequilibrio Hormonal</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-37">Nauseas</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-38">Parasitos</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-39">Piedras en el riñon, quemazon de Estomago y en el Esofago</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-40">inflamación de la vesicula, piedra en el riñon, gases y obstruccion de trompas</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-41">Piel Manchada</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-42">Piel Normal</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-43">Piel Seca</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-44">Ponche Anti-Celulitis</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-45">Problemas de Intestinos</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-46">Prostata</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-47">Recomendaciones para evitar Parasitos y Hongos</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-48">Retención de Liquidos</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-49">Riñon #1</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-50">Riñon #2</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-51">Sinusitis</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-52">Sistema Inmunologico</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-53">Sobrepeso, Colesterol y Diabetes</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-54">Tenia o Solitaria</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-55">Tonico Capilar</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-56">Tos</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-57">Ulcera y Acidez</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-58">Ulcera Estomacal</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-59">Infeccion en los oidos</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-1">acne</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Allergies </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">ALLERGIAS, ASMAS, RONQUIDS (IMMUNOLOGICAL SYSTEM) </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Wrinkles </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Asthma </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">Bazo </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-7">#1 hair (to shine) </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-8">HAIR #2 (to shine) </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-9">Hair loss and to return the color </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-10">Caspa and eat in leather Cabelldo </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-11"> Cholesterol </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-12">diabetes</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-13"> Diarrhea </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-14"> Digestion </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-15">dolorMuscular</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-16"> Molas pain </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-17"> Inflamed gums (Gengivitis), bad breath </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-18"> Inflamed gums, blood and bad breath </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-19"> Energy and insomnio </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-20"> Constipation </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-21"> Stretch marks </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-22"> Fertility </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-23"> Vaginal flow </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-24"> Smokers </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-26"> Gastritis </i>
+                <a class="list-group-item list-group-item-action" href="#list-item-27"> Gota, uric acid </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-28"> Hemorroids </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-29"> Liver, vesicula and constipation </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-30"> Nail fungi #1 </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-31"> Nail fungi #2 </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-32"> Impotence - Frigidity </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-33"> Throat infection </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-34"> Skin infection </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-35"> Homemade remedies for insomnia </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-36"> Menopause and hormonal imbalance </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-37"> Nausea </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-38"> Parasites </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-39"> Name stones, stomach burning and esophagus </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-40">inflammation of the vesicular, stone in the kidney, gases and tubal obstruction</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-41">Stained skin </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-42">Normal skin </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-43">Dry skin </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-44">Anti-celulitis punch </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-45">Intestine problems </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-46">The prostate </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-47">Recommendations to avoid parasites and fungi </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-48">Liquid retention </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-49">Kidney #1 </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-50">Kidney #2 </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-51">Sinusitis </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-52">Inmunological system </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-53">Overweight, cholesterol and diabetes </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-54">Had or lonely </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-55">Capillary Tonico </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-56">tos</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-57">Ulcer and acidity </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-58">Stomach ulcer </a>
+                <a class="list-group-item list-group-item-action" href="#list-item-59">Infection in the ears </a>
                 
 
                 
