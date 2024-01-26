@@ -40,38 +40,7 @@
 <body>
   
 
-<!-- Language Selector -->
-  <div id="languageSelector" class="bg-light">
-  
-    <div class="language-option" onclick="selectLanguage('es')">
-        <img src="/src/img/icons/espaicon.png" alt="Español">
 
-    </div>
-    <div class="language-option m-1" onclick="selectLanguage('en')">
-        <img src="/src/img/icons/icon.png" alt="English">
-
-    </div>
-    <!-- Agrega más opciones según los idiomas que necesites -->
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Puedes agregar aquí la lógica para mostrar o no el selector según ciertas condiciones
-    });
-
-    function selectLanguage(language) {
-        // Guardar el idioma seleccionado en el almacenamiento local
-        localStorage.setItem('selectedLanguage', language);
-    
-        // Redirigir según el idioma seleccionado
-        if (language === 'en') {
-            location.href = "eng/index.html";
-        } else {
-            location.href = "../index.html";
-        }
-    }
-    </script>
   
 
 
@@ -320,247 +289,84 @@
 
 
 
+    
+    
 
-  <!--seccion carrousel-->
-  <div class="header mt-2 my-2 mb-5 container-fluid text-center">
-    <div class="row justify-content-center">
-      <!-- Contenido en la primera columna -->
-      <div class="col-md-4 mt-1 col-12 container-flex text-center align-items-center mb-4">
-
-        <img class="mt-5" src="/src/img/imagenes/hojas.png" width="100" alt="">
-        <h1 class="d-flex mt-4 justify-content-center titulo1">Natural Medicine</h1>
-        <h3 class="d-flex justify-content-center subtitulo1">Committed to Your Well-being,<BR> Embracing the Natural
-        </h3>
-        <a href="/eng/components/nav/cesarArmoza.html" class="colorBotonesA p-3 mt-5 btn btn-primary btn-lg colorBotonesA animacion-divertida">Get to Know Us</a>
-
-      </div>
-
-      <!-- Contenido en la segunda columna (Carousel) -->
-      <div class="m-4 col-md-5 col-12">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <div class="carousel-indicators">
-            <!--<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>-->
-            <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="/src/img/imagenes/imagen-index-prueba.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-
-              </div>
+    <!-- Contenedor principal -->
+    <div class="container-flex p-4 m-2">
+        <!-- Fila con dos columnas -->
+        <div class="  row">
+            <!-- Primera columna -->
+            <div class=" servis align-items-center  enferTexto col-md-7  text-center">
+                <h1 class="titulo1 m-2 my-3">Acupuncture</h1>
+                <p>
+                  Discover balance and harmony in your body through acupuncture, an ancient practice of Chinese medicine. By inserting needles into specific points on the body, we aim to unlock the flow of energy, relieve tension, and promote natural healing. Experience ancestral wisdom to enhance your physical and emotional well-being.
+                </p>
             </div>
-
-          </div>
+            
+            <!-- Segunda columna -->
+            <div class="text-center my-4 col-md-5">
+                <img class=" img-fluid" src="/src/img/imagenes/Rectangle 59Acupunture1.png" alt="acupuntura">
+            </div>
         </div>
-       <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>-->
-      </div>
     </div>
-  </div>
-  </div>
-
-  <!--quizas remplazas el container mid buton-->
-  <div class="container container-especialidades col-12 text-center">
-    <h2 class="circles-heading-center anima mt-3">
-        Our Services
-    </h2>
-    <div class="especialidades-wrapper">
-      <div class="row cont-productos pl-3 pr-3">
-        <div class="servicio col-6 col-md-4 mb-md-4">
-          <a href="/eng/components/nav/virtualConsultation.html" class="border border-gray-semilight border-radius-box-m text-center d-block p-4 box-servicios">
-            <img src="/src/img/icons/llamada.png" alt="">
-
-            <h3 class="color-gray-semidark h6 h5-md">
-                Virtual Consultations
-            </h3>
-          </a>
-        </div>
-        <div class="servicio col-6 col-md-4 mb-md-4">
-          <a href="/eng/components/servicios/traditionalMedicine.html" class="border border-gray-semilight border-radius-box-m text-center d-block p-4 box-servicios">
-            <img src="/src/img/icons/medicamento.png" alt="">
-
-            <h3 class="color-gray-semidark h6 h5-md">
-                Traditional Medicine</h3>
-          </a>
-        </div>
-        <div class=" servicio col-6 col-md-4 mb-md-4">
-          <a href="/eng/components/servicios/massages.html" class="border border-gray-semilight border-radius-box-m text-center d-block p-4 box-servicios">
-            <img src="/src/img/icons/masaje-facial.png" alt="">
-            <h3 class="color-gray-semidark h6 h5-md">
-              Massages
-            </h3>
-          </a>
-        </div>
-        <div class="servicio col-6 col-md-4 mb-md-4">
-          <a href="/eng/components/servicios/cupping.htm" class="border border-gray-semilight border-radius-box-m text-center d-block p-4 box-servicios">
-            <img src="/src/img/icons/cupping.png" alt="">
-            <h3 class="color-gray-semidark h6 h5-md">
-              Cupping
-            </h3>
-          </a>
-        </div>
-        <div class="servicio col-6 col-md-4 mb-md-4">
-          <a href="/eng/components/servicios/acupunture.html" class="border border-gray-semilight border-radius-box-m text-center d-block p-4 box-servicios">
-            <img src="/src/img/icons/acupuntura.png" alt="">
-            <h3 class="color-gray-semidark h6 h5-md">
-                Acupuncture
-            </h3>
-          </a>
-        </div>
-        <div class="servicio col-6 col-md-4 mb-md-4">
-          <a href="/eng/components/servicios/personalizedNutrition.html" class="border border-gray-semilight border-radius-box-m text-center d-block p-4 box-servicios">
-            <img src="/src/img/icons/alimentacion-saludable.png" alt="">
-            <h3 class="color-gray-semidark h6 h5-md">
-                Personalized Nutrition</h3>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <!--midButons-->
-
-  <!-- <div class="btns-container bg-light">
-    <div class="mt-2 col-sm-8 botonesMedio container-fluid text-center align-items-center ">
-      <div class="container-fluid align-items-center text-center">
-        <!-- Subtítulo a la izquierda -->
-  <!-- <div class="row container py-5">
-    <div class="col-sm-4 mt-5">
-      <h2 class="my-5">¿Qué necesitas?</h2>
+    
+    <div class="align-items-center  text-center m-5">
+        <a class="colorBotonesA mx-3 btn btn-primary btn-lg order-4 letraBotonNav p-4 "  href="/src/components/nav/reserva.html"> Consult Now <img src="/src/img/imagenes/calendar.png"> </a>
+        
     </div>
 
-    <!-- Grilla de botones en 3 filas de 2 botones cada una -->
-  <!-- <div class=" achiqueacomode container col-6 col-sm-8 order-1">
-    <div class="row">
-      <div class="col-12  col-sm-4 ">
-        <a href="/acupuntura.html"
-          class="btnMedioCustom btn btn-custom btn-lg btn-block botonesVerdes align-items-center">
-          ACUPUNTURA</a>
-        <a href="/medicinaTradicionalChina.html"
-          class="my-2 my-sm-5 btnMedioCustom btn btn-custom btn-lg btn-block botonesVerdes text-center">MEDICINA
-          TRADICIONAL<br>NATURAL</a>
-      </div>
-      <div class="col-12  col-sm-4 ">
-        <a href="/masajes.html" class="btnMedioCustom btn btn-custom btn-lg btn-block botonesVerdes">MASAJES</a>
-        <a href="/cupping.htm"
-          class="my-2 my-sm-5 btnMedioCustom btn btn-custom btn-lg btn-block botonesVerdes text-center">CUPPING</a>
-      </div>
-      <div class="col-12  col-md-4 ">
-        <a href="/criotherapy.html"
-          class="btnMedioCustom btn btn-custom btn-lg btn-block botonesVerdes text-center">CRYOTERAPY</a>
-        <a href="/alimentacionPersonalizada.html"
-          class="my-2 my-sm-5 btnMedioCustom btn btn-custom btn-lg btn-block botonesVerdes text-center">ALIMENTACION
-          PERSONALIZADA</a>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div> -->
 
 
 
 
 
+<footer>
 
-  <!--Cards-->
-  <div class="container_div-cards ">
+  <div class="container-flex text-center bg-verde">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="p-4 col-md-4">
+          <a href="/index.html"><img class="mx-4 img-fluid" src="/src/img/imagenes/logo3 1Logofooter.png" width="" alt="Logo"></a>
+        </div>
+        <div class="p-4 col-md-4 offset-md-4">
+          <a href="https://www.instagram.com/armozanatural1/"><img class="mx-2 img-fluid"
+              src="/src/img/imagenes/Component 1redes.png" width="30" alt="Instagram"></a>
+          <a href="https://www.facebook.com/armozanatural"><img class="mx-2 img-fluid" src="/src/img/imagenes/Vectorredes-1.png"
+              width="30" alt="Facebook"></a>
+          <a href=""><img class="mx-2 img-fluid" src="/src/img/imagenes/Vectorredes-2.png" width="30" alt="TikTok"></a>
+          <a href="https://www.youtube.com/channel/UCGGaoxOt0dyOVFCRiqSrt4Q"><img class="mx-2 img-fluid"
+              src="/src/img/imagenes/Vectorredes.png" width="30" alt="YouTube"></a>
 
-    <h2 class="circles-heading-center mt-3">
-        Our Multimedia Content
-    </h2>
-    <div class="wrapper-cards">
-      <div class="card1" >
-
-        <img src="/src/img/imagenes/Bookshop-amico 1card 1.png" class="" alt="...">
-        <div class="">
-          <h3 class="">WebStore</h3>
-          <p>Store</p>
-          <a href="/eng/components/cards/webStore.html" class="btn-card">Go</a>
+        </div>
+        <div>
+          <h6 class="disclaimerTitulo">
+            Disclaimer
+          </h6>
+          <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+            Suggested generals, they don't try to replace services
+            of a doctor. <br>
+            If you suffer from any disease, consult your doctor.
+            Do not stop taking or change any medication or treatment
+            prescribed by your primary doctor or the hospital.
+            Consult your primary doctor before taking vitamins,
+            natural products, exercise, or any other
+            suggestion of this website.</p>
         </div>
       </div>
 
-      <div class="card1" >
-        <img src="/src/img/imagenes/Broadcast-cuate 1card 2.png" class="" alt="...">
-        <div class="">
-          <h3 class="">Videos</h3>
-          <p>Latest videos<p>
-            <a href="/eng/components/cards/videos.html" class="btn-card">Go</a>
-        </div>
-      </div>
 
-      <div class="card1" >
-        <img src="/src/img/imagenes/freepik--Newspaper--inject-60cards 3.png" class="" alt="...">
-        <div class="">
-          <h3 class="">Last News</h3>
-          <p>Last News<p>
-            <a href="/eng/components/cards/news.html" class="btn-card">Go</a>
-        </div>
 
-      </div>
+
+
+
 
     </div>
-  </div>
+</footer>
+  
 
-  <footer>
-
-    <div class="container-flex text-center bg-verde">
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="p-4 col-md-4">
-            <a href="/index.html"><img class="mx-4 img-fluid" src="/src/img/imagenes/logo3 1Logofooter.png" width="" alt="Logo"></a>
-          </div>
-          <div class="p-4 col-md-4 offset-md-4">
-            <a href="https://www.instagram.com/armozanatural1/"><img class="mx-2 img-fluid"
-                src="/src/img/imagenes/Component 1redes.png" width="30" alt="Instagram"></a>
-            <a href="https://www.facebook.com/armozanatural"><img class="mx-2 img-fluid" src="/src/img/imagenes/Vectorredes-1.png"
-                width="30" alt="Facebook"></a>
-            <a href=""><img class="mx-2 img-fluid" src="/src/img/imagenes/Vectorredes-2.png" width="30" alt="TikTok"></a>
-            <a href="https://www.youtube.com/channel/UCGGaoxOt0dyOVFCRiqSrt4Q"><img class="mx-2 img-fluid"
-                src="/src/img/imagenes/Vectorredes.png" width="30" alt="YouTube"></a>
-  
-          </div>
-          <div>
-            <h6 class="disclaimerTitulo">
-              Disclaimer
-            </h6>
-            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
-                suggested general guidelines, they are not intended to substitute the services
-                of a doctor.<br>
-                If you suffer from any illness, consult your doctor.
-                Do not stop taking or change any medication or treatment
-                prescribed by your primary doctor or the hospital.
-                Consult your primary doctor before taking vitamins,
-                natural products, doing exercises, or any other
-                suggestion from this website.</p>
-          </div>
-        </div>
-  
-  
-  
-  
-  
-  
-  
-      </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </body>
 </html>
