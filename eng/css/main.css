@@ -1,0 +1,701 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.desaparecer{
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+} 
+
+.bg-verde {
+  background-color: #F4F4F4;
+
+}
+
+.mis-colores-nav {
+  color: #414141;
+}
+
+.customSerch {
+  max-width: 200px;
+}
+
+.btn-custom {
+  background-color: #6B9365;
+  /* Cambia este color a tu preferencia personalizada */
+  color: #ffffff;
+  /* Cambia este color al texto del botón según tu preferencia */
+  border-color: #6B9365;
+  /* Cambia este color al borde del botón según tu preferencia */
+  transition: background-color 0.3s ease, color 0.3s ease, border-width 0.3s ease;
+  border-width: 2px;
+  /* Transición suave */
+  width: 160px;
+  height: 82px;
+  font-size: 12px;
+  /* Ajusta este valor según tu preferencia de tamaño de texto */
+  padding: 8px 12px;
+
+
+}
+
+.btn-custom:hover {
+  background-color: #ffffff;
+  /* Cambia este color a tu preferencia personalizada */
+  color: #6B9365;
+  /* Cambia este color al texto del botón según tu preferencia */
+  border-color: #6B9365;
+
+}
+
+.section {
+  height: 100px;
+  /* Ajusta la altura según tus necesidades */
+  background-color: #3498db;
+  /* Color de fondo */
+}
+
+
+.carousel-container {
+  max-width: 700px;
+  /* Establece el ancho máximo según tus necesidades */
+  margin: 0 auto;
+  /* Centra el contenedor en la página */
+}
+
+.padigCustomIzquierda {
+  padding-right: 50px;
+}
+
+.accordion-header {
+  text-align: center !important;
+}
+
+
+.dropdown-menu-wide {
+  width: 100%;
+  padding: 1rem;
+}
+
+.dropdown-menu1.center {
+  right: auto !important;
+  left: auto !important;
+  transform: translateX(-25%) !important;
+}
+
+.vertical-bar {
+  border-right: 1px solid #ccc;
+  height: 100%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+
+
+
+
+}
+
+/* Cambiar el color de fondo y el color del texto al hacer clic en una opción del menú desplegable en Bootstrap */
+.navbar-nav .nav-item .nav-link.dropdown-toggle.active,
+.navbar-nav .nav-item .nav-link.dropdown-toggle:focus {
+  background-color: #ffffff;
+  /* Cambia a tu color de fondo deseado */
+  color: #6B9365;
+  /* Cambia a tu color de texto deseado */
+}
+
+/* Cambiar el color de fondo y el color del texto al hacer clic en una opción del menú desplegable en Bootstrap - Versión desplegada */
+.navbar-nav .nav-item .nav-link.dropdown-toggle.active+.dropdown-menu,
+.navbar-nav .nav-item .nav-link.dropdown-toggle:focus+.dropdown-menu {
+  background-color: #ffffff;
+  /* Cambia a tu color de fondo deseado */
+  color: #6B9365;
+  /* Cambia a tu color de texto deseado */
+}
+
+/* Cambiar el color de fondo y el color del texto al hacer clic en una opción del menú desplegable en Bootstrap - Opción del menú */
+.navbar-nav .nav-item .nav-link.dropdown-item.active,
+.navbar-nav .nav-item .nav-link.dropdown-item:focus {
+  background-color: #ffffff;
+  /* Cambia a tu color de fondo deseado */
+  color: #6B9365;
+  /* Cambia a tu color de texto deseado */
+}
+
+
+
+
+
+
+.btn-custom-nave:hover {
+  background-color: #ffffff;
+  /* Cambia este color a tu preferencia personalizada */
+  color: #6B9365;
+  /* Cambia este color al texto del botón según tu preferencia */
+  border-color: #6B9365;
+}
+
+.letraNav1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.letraNav2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.textoNav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #668861;
+}
+
+.letraBotonNav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.letra2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titulo1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #5D606A;
+}
+
+.subTitulo1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #282E42;
+}
+
+.subtitulo2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #282E42;
+}
+
+.botonesVerdes {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.cardsTitulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #282E42;
+}
+
+.colorBotonesA {
+
+  background-color: #6497E4;
+  /* Cambia este color a tu preferencia personalizada */
+  color: #ffffff;
+  /* Cambia este color al texto del botón según tu preferencia */
+  border-color: #6497E4;
+  /* Cambia este color al borde del botón según tu preferencia */
+
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 30
+}
+
+
+.disclaimerTitulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #282E42;
+  font-size: 10px;
+}
+
+.disclaimerTexto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #282E42;
+  font-size: 8px;
+}
+
+.btnMedioCustom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.enferTitulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #282E42;
+}
+
+.enferTexto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #282E42;
+  font-size: 18px;
+
+}
+
+
+ul {
+
+  list-style-position: inside;
+  /* Esto centra el texto en la lista si es necesario */
+}
+
+
+
+.accordion-body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #282E42;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  font-size: medium;
+
+}
+
+.accordion-body2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #282E42;
+
+  margin-left: 5%;
+  margin-right: 5%;
+
+  font-size: medium;
+
+}
+
+footer {
+  width: 100%;
+  position: bottom;
+  bottom: 0;
+
+}
+
+
+
+/*Acordion*/
+
+.accordionheaderStilo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #282E42;
+  background-color: #D0D4BB;
+  /* Cambia #00FF00 por el color de fondo que desees */
+  font-size: large;
+
+  text-align: center;
+  /* Alinea el texto al centro */
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.centrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #282E42;
+
+}
+
+
+
+
+/* Estilo para el botón del acordeón cuando está activo */
+.accordion-item.show .accordion-button {
+  background-color: #FFA500 !important;
+  /* Cambia por el color de fondo que desees */
+  color: #000000 !important;
+  /* Cambia por el color del texto que desees */
+}
+
+
+
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 150%;
+  /* Proporción del aspecto 3:2 para el contenedor del iframe */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-margin {
+  margin-top: 2%;
+  /* Ajusta el margen superior según tus necesidades */
+}
+
+.tituloayuda {
+  color: #ffffff;
+}
+
+
+.phone-numbers {
+  margin-top: -20px;
+  /* Ajusta el valor según tus necesidades para subir los números de teléfono */
+}
+
+.full-width-line {
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+
+.container-fluid {
+  padding: 0;
+  /* Elimina el relleno del contenedor */
+}
+
+
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-item img {
+
+  width: 100%;
+  max-height: 400px;
+  /* Ajusta la altura máxima según sea necesario */
+}
+
+.carro {
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .achiqueacomode .col-sm-4 {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+
+hr {
+  margin: 5%;
+}
+
+.mover {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  /* Puedes ajustar el color de fondo según tu diseño */
+  /* Asegura que el menú esté por encima del contenido */
+  height: 100vh;
+  /* Ajusta la altura según tus necesidades */
+  overflow-y: auto;
+  /* Permite el desplazamiento si el contenido es más largo */
+}
+
+/* Añade algún margen para separar el menú del contenido */
+.scrollspy-example {
+  margin-top: 20px;
+}
+
+
+.infocesar {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #282E42;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+}
+
+.slogan {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #282E42;
+
+}
+
+
+/*Estilos 3 div (cards)*/
+.container_div-cards {
+  margin: 0;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 1200px) {
+    height: 1100px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    height: 1700px;
+  }
+
+
+}
+
+.container_div-cards h2 {
+
+  color: #37474f;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.wrapper-cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+.card1 {
+  display: flex;
+  height: 55vh;
+  width: 320px;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 10px;
+  max-height: 450px;
+  padding: 20px;
+  box-shadow: 0px 10px 10px -6px rgb(179, 178, 178);
+  transition: all .2s ease-in-out;
+  position: relative;
+  text-align: center;
+
+}
+
+
+.card1:hover {
+  border: 1.5px solid #6B9365;
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+}
+
+.card1 img {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+
+.card1 .btn-card {
+  background: #6B9365;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+  margin: 15px;
+  transition: all .2s ease-in-out;
+
+}
+
+.card1 .btn-card:hover {
+  background: #82b17b;
+  transition: all .2s ease-in-out;
+}
+
+
+.btns-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+/* SERVICIOS */
+.container-especialidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+
+.container-especialidades h2 {
+  color: #37474f;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.container-especialidades .servicio a {
+  color: #546e7a;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  border-radius: 10px;
+  height: 175px;
+
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+    margin-top: 20px;
+    height: 200px;
+
+  }
+}
+
+.container-especialidades img {
+  height: 70px;
+
+  filter: hue-rotate(120deg)
+}
+
+.container-especialidades .servicio a:hover {
+  background: #6B9365;
+  color: white;
+}
+
+.container-especialidades .servicio a h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
+
+.textVirtual1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #282E42;
+  font-size:large;
+  text-align: center;
+}
+
+
+.textVirtual2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #282E42;
+  
+  /* Cambia #00FF00 por el color de fondo que desees */
+  font-size: large;
+
+  text-align: center;
+  /* Alinea el texto al centro */
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.boton-llamativo {
+  font-size: 16px;
+  padding: 15px 35px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  animation: moveAnimation 1s infinite alternate;
+}
+
+.boton-llamativo:hover {
+  transform: scale(1.3) translateX(10px);
+  
+}
+
+@keyframes moveAnimation {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(10px); /* Ajusta según sea necesario */
+  }
+}
+
+
+
+
+
+
+/* Animación de ondas de color */
+@keyframes ondasColor {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+  }
+  50% {
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.9);
+  }
+}
+
+/* Aplicar animación al botón */
+.animacion-divertida {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+   /*  Repetir la animación infinitamente */
+   /*  Repetir la animación infinitamente */
+}
+
+.animacion-divertida:hover {
+  transform: scale(1.2); /* Aumenta el factor de escala para un aumento más pronunciado */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Agrega una sombra al botón para destacar */
+  animation: none; /* Detener la animación durante el hover */
+}
