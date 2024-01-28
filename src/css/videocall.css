@@ -37,6 +37,8 @@
     font-weight: 400;
     font-size: large;
     color: #282E42;
+
+    
     
   }
   
@@ -57,19 +59,36 @@
   
   
 }
-    @media screen and (max-width: 375px) {
-        padding-top: 0px;
+@media screen and (max-width: 390px) {
+  display: flexbox;;
+  
 
-    }
-  }
+} 
+
+}
 
   .titulocallacomode2{
+    @media screen and (max-width: 390px) {
+      
+      padding-top: 470px;
+
+    } 
+
+   
+
     @media screen and (max-width: 375px) {
-        padding-top: 475px;
+        margin-top: 475px;
         margin: 0;
 
       } 
+
+      @media screen and (max-width: 360px) {
+      
+        padding-top: 800px;
+  
+      } 
   }
+
   
   
   .container-info{
@@ -138,6 +157,11 @@
         left: 0;
         
     }
+    @media screen and (max-width: 390px) {
+      height: 470px;
+      
+      
+  }
 
     @media screen and (max-width: 375px) {
         height: 500px;
@@ -184,7 +208,7 @@
     margin-bottom: 5%;
 
       @media screen and (max-width: 375px){
-        margin-bottom: 475px;
+        margin-bottom: 200px;
     }
   }
   
@@ -209,13 +233,20 @@
     justify-content : center;
     align-items: center;
     
-    margin: 2%;
-    padding: 2%;
+   
    
   
       @media screen and (max-width: 1200px){
         width : 100%;
     }
+    @media screen and (max-width: 390px){
+      padding-bottom: 700px;
+      margin-bottom: 150px;
+      
+      
+  
+    }
+    
   }
   
   .hijo2{
@@ -232,11 +263,14 @@
       
   
     }
-    @media screen and (max-width: 375px){
+    
+    
+
+    @media screen and (max-width: 390px){
         display : none !important;
         width : 0%;
         margin-bottom: 50px;
-        margin-top:500px;
+        
     
       }
   }
@@ -252,6 +286,13 @@
       display : none !important;
       width : 0%;
       margin: bottom 100px;;
+      
+  
+    }
+    @media screen and (max-width: 390px){
+      display : none !important;
+      width : 0%;
+      
       
   
     }
@@ -276,9 +317,20 @@
     margin: 2%;
     padding: 2%;
     
-  
+   
       @media screen and (max-width: 1200px){
         width : 100%;
+    }
+    @media screen and (max-width: 390px){
+      padding-top:175px;
+   
+  
+    }
+
+    @media screen and (max-width: 360px){
+      padding-top:350px;
+   
+  
     }
   }
   
@@ -295,7 +347,12 @@
 }
 
 .container-wap{
-    @media screen and (max-width: 375px) {
-        margin-top: 1%;
+    @media screen and (max-width: 390px) {
+        padding-top:150px;
     }
+
+    @media screen and (max-width: 360px) {
+      padding-top:250px;
+  }
 }
+

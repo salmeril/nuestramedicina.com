@@ -1,43 +1,24 @@
-.en{
-    color: #333;
-  }
-  
-.es{
-    color: #333;
-}
+    /* Agrega estilos personalizados según sea necesario */
+    #languageSelector {
+        position:static;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: flex;
+        justify-content:center;
+    }
 
-.check{
-    position: relative;
-    width: 40px;
-}
+    .language-option {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
 
-.check:before{
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 20px;
-    background: #6B9365;
-    border-radius: 25px;
-}
-
-.check:after{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #fff;
-    border-radius: 20px;
-    transition: 0.25s;
-    border: 2px solid #6B9365;
-    box-sizing: border-box;
-}
-
-.check:checked:after{
-    left: 25px;
-    border: 2px solid #333;
-
-}
-
-.check:checked:before{
-    background: #2e59d1;
-}
+    .language-option img {
+        width: 30px; /* Ajusta el tamaño según sea necesario */
+        margin-right: 10px;
+    }

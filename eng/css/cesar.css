@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+
+    list-style-position: inside;
+    /* Esto centra el texto en la lista si es necesario */
+  }
+  
+  
+  
+  .accordion-body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #282E42;
+  
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: medium;
+  
+  }
+  
+  .accordion-body2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #282E42;
+  
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    font-size: medium;
+  
+  }
+  
+  footer {
+    width: 100%;
+    position: bottom;
+    bottom: 0;
+  
+  }
+  
+  
+  
+  /*Acordion*/
+  
+  .accordionheaderStilo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #282E42;
+    background-color: #D0D4BB;
+    /* Cambia #00FF00 por el color de fondo que desees */
+    font-size: large;
+  
+    text-align: center;
+    /* Alinea el texto al centro */
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  .centrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #282E42;
+  
+  }
+  
+  
+  
+  
+  /* Estilo para el botón del acordeón cuando está activo */
+  .accordion-item.show .accordion-button {
+    background-color: #FFA500 !important;
+    /* Cambia por el color de fondo que desees */
+    color: #000000 !important;
+    /* Cambia por el color del texto que desees */
+  }
+  
+
+
+  .imagencesar {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.imagencesar img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.contenedor-info-cesar {
+    width: 55%;
+    height: 75%;
+    background-color: rgba(99, 114, 103, 0.7);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 65px;
+    padding: 2%;
+    left: 35px;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 25px;
+
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+
+
+
+
