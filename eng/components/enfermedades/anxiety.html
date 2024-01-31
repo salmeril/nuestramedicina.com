@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -296,10 +299,10 @@
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Ansiedad
+        Anxiety
       </h1>
       <p class="enferTexto m-5">
-        Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.
+        According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor.The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.
       </p>
     </div>
 
@@ -318,7 +321,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           
           </button>
@@ -326,21 +329,21 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul  class="text-start " >
-              <li >Tensión, irritabilidad, preocupación, desesperación</li> 
-              <li>Insomnio, sueño inquieto, despertar fácil</li> 
-              <li> Rechinamiento de los dientes, dolor mandibular</li> 
-              <li>Incapacidad de mantenerse quieto en un sitio</li> 
-              <li>Incapacidad de pensar con claridad</li> 
-              <li>Disminución de la libido</li> 
-              <li>Las mujeres pueden experimentar aumento de los síntomas premenstruales y cambios en el ciclo menstrual</li> 
-              <li>Respiración acortada</li> 
-              <li>Frecuencia respiratoria y cardiaca aumentada</li> 
-              <li>Palpitaciones fuertes</li>  
-              <li>Nudo en la garganta, boca seca</li> 
-              <li>Tensión en el pecho, calambres intestinales</li> 
-              <li>Mareos, temblor del cuerpo</li> 
-              <li>Sensación de entumecimiento u hormigueo de las extremidades, contracción muscular</li> <br>
-              <p> <strong> A veces las crisis son tan severas que llevan a un ataque de pánico, produciendo síntomas físicos que pueden confundirse con otra enfermedad.</strong></p>
+              <li>Tension, irritability, concern, despair </li>
+              <li> Insomnia, restless dream, awakening easy </li>
+              <li> During the teeth, mandibular pain </li>
+              <li> Inability to stay still in a place </li>
+              <li> Inability to think clearly </li>
+              <li> Decreased libido </li>
+              <li> Women can experience increased premenstrual symptoms and changes in the menstrual cycle </li>
+              <li> A short -comparison </li>
+              <li> Increased respiratory and heart rate </li>
+              <li> Strong palpitations </li>
+              <li> Throat knot, dry mouth </li>
+              <li> Chest tension, intestinal cramps </li>
+              <li> dizziness, body tremor </li>
+              <li> Numbness or tingling of the limbs, muscle contraction </li> <br>
+              <p> <strong> sometimes crises are so severe that they lead to a panic attack, producing physical symptoms that can be confused with another disease.</strong></p>
             </ul>
           </div>
         </div>
@@ -355,21 +358,21 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>La ansiedad puede ser aguda o crónica, afecta a la mayoría de la población joven; es más frecuente en mujeres que en varones. </p> 
+           <p>Anxiety can be acute or chronic, affects the majority of the young population;It is more frequent in women than in men.</p>
 
-           <p> Los desordenes de ansiedad pueden ser de orden fisiológico y/o psicológico; y puede tener una tendencia genética. Los factores psicológicos que lo envuelven corresponden al manejo del sistema nervioso autónomo. </p>
+           <p> Anxiety disorders can be physiological and/or psychological;And it can have a genetic tendency. The psychological factors that surround it correspond to the management of the autonomic nervous system.</p>
             
-           <p>Algunas situaciones de stress en un paciente con ansiedad como: asaltos, accidentes o desastres naturales pudieran acabar en un ataque de pánico.</p> 
+           <p> Some stress situations in a patient with anxiety such as: assaults, accidents or natural disasters could end up in a panic attack. </p>
             
-             <p> Una razón conocida o un trauma subconscientemente escondido; como experiencias de guerra o traumas personales de infancia, adolescencia, etc. pueden ser una causa de ansiedad.</p> 
+             <p> A known reason or a subconsciously hidden trauma;as experiences of war or personal traumas of childhood, adolescence, etc.They can be a cause of anxiety. </p>
             
-           <p>La ansiedad puede también ser un resultado de una reacción medicamentosa, abuso de sustancias, drogas, desordenes glandulares, hipoglucemia, enfermedades cardiovasculares y otras.</p> 
+           <p> Anxiety can also be a result of a medication reaction, substance abuse, drugs, glandular disorders, hypoglycemia, cardiovascular diseases and others.</p> 
           </div>
         </div>
       </div>
@@ -382,39 +385,39 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li> Mantenga un buen balance de su glicemia (azúcar en sangre)</li><br>
-              <li> Evite los azúcares refinados (dulces, pastas, pan blanco, tortillas, popusas, arepas) reemplácelas por carbohidratos compuestos como el pan integral o negro.</li><br>
-              <li> Evite las bebidas con cafeína (café, sodas, té negro), bebidas alcohólicas, chocolate.</li><br>
-              <li>Incluya preponderantemente en su dieta frutas frescas y vegetales como: melocotones, espárragos, bananos, brócoli, brown rice, frutas secas, ajo, vegetales de hojas verdes, legumbres, productos de soya, granos enteros y yogurt.</li><br>
-              <li>Haga cinco porciones de comida al día.</li><br>
-              <li> Limite la ingesta de proteína animal (carnes de res, cerdo y cordero)</li><br>
-              <li>Haga un diario sobre los alimentos que ingiere para determinar correlaciones entre sus ataques y las comidas ingeridas.</li><br>
-              <li>Coma pescado como el salmón</li>
+              <li> Keep a good balance of your glycemia (blood sugar) </li> <br>
+              <li> Avoid refined sugars (sweets, pasta, white bread, tortillas, popusas, arepas) replace them with compound carbohydrates such as whole wheat or black bread. </li> <br>
+              <li> Avoid caffeine drinks (coffee, sodas, black tea), alcoholic beverages, chocolate. </li> <br>
+              <li> Include preponderantly in your diet Fresh and vegetable fruits such as: peaches, asparagus, bananas, broccoli, brown rice, dry fruits, garlic, green leafy vegetables, legumes, soybeans, whole grains and yogurt. </li><br>
+              <li> Make five portions of food a day. </li> <br>
+              <li> Limit animal protein intake (beef, pork and lamb) </li> <br>
+              <li> Make a diary about the food you eat to determine correlations between your attacks and meals ingested. </li> <br>
+              <li> Coma fish like salmon.</li>
               
 
             </ul>
-            <p><strong>Las plantas medicinales pueden hacer mucho por aliviar el nerviosismo y la ansiedad, aportando sedación y equilibrio al sistema nervioso:</strong> 
+            <p><strong>Medicinal plants can do a lot to relieve nervousness and anxiety, providing sedation and balance to the nervous system:</strong> 
               <ul>
-                <li>La avena, úsela en infusión de salvado por vía oral o añádala al agua de baño, actúa como sedante del sistema nervioso</li> <br>
-                <li>La infusión de las hojas de naranjo, es un excelente sedante y somnífero suave.</li><br>
-                <li>Lechuga silvestre, en decocción de sus hojas o en jugo fresco, es sedante y calma la excitación nerviosa.</li><br>
-                <li>Tilo, en infusión de flores, decocción de corteza y extractos, actúa como sedante y relajante.</li><br>
-                <li>Valeriana, en infusión, es un buen sedante suave que disminuye la ansiedad.</li>
-                <li>Hierba Luisa, en infusión, alivia la ansiedad.</li><br>
+                <li>Oatmeal, use it in infusion of savior orally or add it to the bath water, act as a sedative of the nervous system </li> <br>
+                <li> The infusion of orange leaves is an excellent sedative and soft somniferous. </li> <br>
+                <li> Wild lettuce, in decoction of its leaves or in fresh juice, it is sedative and calm nerve excitement. </li> <br>
+                <li> Tilo, in infusion of flowers, decoction of bark and extracts, acts as sedative and relaxing. </li> <br>
+                <li> Valeriana, in infusion, is a good soft sedative that decreases anxiety. </li>
+                <li> LUISA grass, in infusion, relieve anxiety. </li> <br>
               </ul>
-              <strong> Se recomienda la preparación de los siguientes jugos que pueden ser elaborados en extractor o licuadora, puede tomarlos una o dos veces al día.</strong>
+              <strong> the preparation of the following juices that can be made in extractor or blender is recommended, it can take them once or twice a day. </strong>
               <br>
-              Prepare los siguientes numerales:
+              Prepare the following numerals:
               J60, J37, J30, J40, J15
             </p>
-            <a href="/src/components/enfermedades/recetas/recetaAnsiedad.html" class="btn btn-success">Recetas De Jugos</a>
+            <a href="/src/components/enfermedades/recetas/recetaAnsiedad.html" class="btn btn-success">Juice recipes</a>
           </div>
         </div>
       </div>     
@@ -424,18 +427,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Manténgase fuera de lugares ruidosos, contaminados o con exceso de personas. </p>
-            <p>Haga caminatas largas en áreas abiertas con una buena compañía, como parques, playas, campos, etc.</p> 
+            <p>Stay out of loud, contaminated or excessive places.</p>
+            <p> Make long walks in open areas with a good company, such as parks, beaches, fields, etc. </p>
 
-            <p>Aprenda técnicas de relajación y meditación.</p> 
-            <p>Haga ejercicios frecuentemente ya sea caminando, bicicleta, nadando o aeróbicos</p>
-            <p>Aprenda técnicas de respiración profunda: inhale suavemente y cuente hasta cuatro manteniendo la respiración, luego exhale suavemente contando hasta cuatro. Haga una pausa de cuatro segundos y repita esta secuencia hasta que el ataque cese</p>.
+            <p> Learn relaxation and meditation techniques. </p>
+            <p> do exercises frequently either walking, bicycle, swimming or aerobic </p>
+            <p> Learn deep breathing techniques: Inhale gently and count up to four keeping your breath, then exhale gently telling up to four.Pause four seconds and repeat this sequence until the attack cessation.</p>.
           </div>
         </div>
       </div>
@@ -446,13 +449,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Para aprovechar beneficiosamente las recomendaciones alimenticias arriba mencionadas, intente con las siguientes recetas: R08, R10, R25, R26, R29, R36, R38, R42
+            To benefit the aforementioned food recommendations, try the following recipes: R08, R10, R25, R26, R29, R36, R38, R42
           </div>
         </div>
       </div>
@@ -462,18 +465,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             <div class="centrar">
-              Consideraciones Geneticas
+              Genetic considerations
             </div>
           </button>
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Una predisposición a la ansiedad puede ser hereditaria, la serotonina y otros nurotransmisores cerebrales pueden estar afectados por nuestros genes, así también como nuestras actitudes, experiencias y espíritu. El riesgo de un ataque de pánico es ocho veces más alto en familiares cercanos que en el resto de la población. La vida está llena de stress y muchos de ellos pudieran no ser evitados, lo que aumenta la ansiedad en aquellos que son susceptibles. La ansiedad puede estar presente en la familia. Niños que reciben los genes afectados son más suceptibles a la ansiedad que los otros. </p>
+            <p>A predisposition to anxiety can be hereditary, serotonin and other cerebral nurotransmitters may be affected by our genes, as well as our attitudes, experiences and spirit. The risk of a panic attack is eight times higher in close relatives than in the rest of the population. Life is full of stress and many of them may not be avoided, which increases anxiety in those that are susceptible. Anxiety can be present in the family.Children who receive affected genes are more supportible to anxiety than others.</p>
 
-           <p> Estudios han identificado un gen localizado en el cromosoma 17 que contribuya al neurotismo, un gen del cromosoma 22 parece estar relacionado con el trastorno obsesivo-compulsivo. Cerca de un 40% de personas con agorafobia tienen un familiar con un trastorno de ansiedad.</p>
+           <p> Studies have identified a gene located on chromosome 17 that contributes to neurotism, a 22 chromosome gene seems to be related to obsessive-compulsive disorder. About 40% of people with agoraphobia have a relative with an anxiety disorder.
 
             
-            <p>Tener genes para la ansiedad no significa que es nuestro destino padecerla; factores ambientales y personalidad son importantes. Muchas personas con predisposición genética no desarrollan la enfermedad, mientras que otros que no la tienen la desarrollan. El abuso físico, emocional y sexual son factores predisponentes para la ansiedad; así como otros estudios indican que las personas con ansiedad son susceptibles a pensamientos negativos sobre emociones que expresan otros alrededor de ellos.</p>
+            <p> Having anxiety genes does not mean that it is our destiny to suffer from it;Environmental factors and personality are important. Many people with genetic predisposition do not develop the disease, while others who do not have it develop it.Physical, emotional and sexual abuse are predisposing factors for anxiety; as well as other studies indicate that people with anxiety are susceptible to negative thoughts about emotions that express others around them.</p>
           </div>
         </div>
       </div> 
@@ -484,16 +487,16 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Hay muchas esencias oleosas que tienen efecto calmante que reducen la ansiedad. Algunas de las mejor conocidas son: bergamota, frankincense, geranio, lavanda,myrta, neroli,vetiver e ylang ylang. Algunas de estas sustancias oleosas pueden ser usadas en una gran variedad de formas que ayudan a combatir la ansiedad; estas sustancias pueden ser inhaladas directamente de la botella, agregadas en el agua de la bañera, difundidas en el extractor de aire, o usarla para masajear el cuerpo. También pude colocar una o dos gotas en un paño limpio e inhalarlo cuando sea necesario.</p>
-            <p>Cuando le dé un sentimiento de ansiedad, intente fijar exactamente cual es la causa de esta sensación. Esto puede ser un poco difícil a veces, pero tenga en mente que es más fácil tratar con ideas concretas que con ideas vagas un sentimiento no definido de inquietud. Algunas veces, solo identificando la causa puede calmar la ansiedad.</p>
-            <p>Si usted necesita ayuda profesional, búsquela. Hable con un terapista que haya trabajado maravillosamente con algunas personas, incluso gente que alguna vez estuvo incapacitada por la ansiedad.</p>
-            <p> <strong> “Ni el ambiente, ni la herencia pueden afectar nuestra identidad”</strong></p>
+            <p>There are many oily essences that have a soothing effect that reduce anxiety. Some of the best known are: Bergamota, Frankincense, Geranio, Lavander, Myrta, Neroli, Vetive and Ylang Ylang. Some of these oily substances can be used in a wide variety of forms that help fight anxiety;These substances can be inhaled directly from the bottle, added in the bath water, spread in the air extractor, or use it to massage the body.I could also place one or two drops in a clean cloth and inhale it when necessary.
+            <p> When you give you a feeling of anxiety, try to fix exactly what the cause of this sensation is. This can be a bit difficult sometimes, but keep in mind that it is easier to deal with concrete ideas than with vague ideas an undefined feeling of concern.Sometimes, just identifying the cause can calm anxiety. </p>
+            <p> If you need professional help, look for it.Talk to a therapist who has worked wonderfully with some people, even people who were once incapacitated by anxiety.
+            <p> <strong> "Neither the environment, nor inheritance can affect our identity"</strong></p>
 
           </div>
         </div>
@@ -504,15 +507,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Pura Vida, Calming, Herbal Tension, Depremil,
-              Estaminax, Aquamarina, Flores de Bach Ansiedad, Super Potente, Té Detox
-              Ansiedad (sí es mujer con problemas menstruales Formula 12 y con menopausia Gene 15).</p>
+            <p>Pure life, Calming, Herbal Tension, Depremil,
+              Staminax, Aquamarina, bach flowers anxiety, super powerful, tea detox
+              Anxiety (yes she is a woman with menstrual problems formula 12 and with Menopause gene 15).</p>
           </div>
         </div>
       </div>    
@@ -523,16 +526,16 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Debilidad de corazón, Debilidad de sangre, Desbalance general del sistema del Yin (-) y Yang (+), Estancamiento o obstrucción de diferentes meridianos a diagnosticar. Excesos a diagnosticar. Mucha flema o mucosidad en el sistema por deficiencia del bazo, en algunos casos exceso del hígado produce desbalance en otros órganos produciendo tipo ansiedad o stress pero es enmascarado. En Medicina Tradicional China el "shen" es algo energético no material que puede llegar a producir ansiedad y stress en el paciente y que pudo venir de angustia o mucha tristeza.</p>
+            <p> Heart weakness, blood weakness, general unbalance of the Yin (-) and yang system, stagnation or obstruction of different meridians to diagnose. Excesses to diagnose.Much phlegm or mucus in the system for spleen deficiency, in some cases excess liver produces imbalance in other organs producing anxiety type or stress but is masked. In Traditional Chinese Medicine, "Shen" is a non-material energetic that can produce anxiety and stress in the patient and that could come from anguish or much sadness.
 
- 	 
-             <p> Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</p>
+ 
+             <p> According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined.The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</p>
           </div>
         </div>
       </div>    
