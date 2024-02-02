@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -297,14 +300,14 @@
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Arritmia
+        Arrhythmia
       </h1>
       <p class="enferTexto m-5">
-        Es la alteración del ritmo de los latidos cardiacos, ya sea por ser este irregular, demasiados lentos (bradicardia) o demasiados rápidos (taquicardia). 
+        It is the alteration of the rhythm of heartbeat, either because it is this irregular, too slow (bradycardia) or too fast (tachycardia).
 
-      <br>El ritmo sinusal normal se origina dentro del marcapaso de células del nodo sino-auricular (SA) en la unión de la vena cava superior y la aurícula derecha. Estas células representan el generador eléctrico primario (marcapaso) para el corazón humano normal. El impulso generado aquí viaja al nodo aurículo-ventricular (AV), luego va al resto del miocardio. 
+      <br> The normal sinus rhythm originates inside the cell pacemaker of the Sino-Auricular node (SA) in the union of the upper vein and the right atrium. These cells represent the primary electric generator (pacemaker) for the normal human heart. The impulse generated here travels to the atricle-ventricular node (AV), then goes to the rest of the myocardium.
 
-      <br> La conducción de impulsos es una serie de eventos complicados; todos los tejidos de conducción y nodos del corazón contienen células capaces de despolarizarse espontáneamente.
+      <br> impulse driving is a series of complicated events;All driving tissues and heart nodes contain cells capable of spontaneously depolarizing.
       </p>
     </div>
 
@@ -323,7 +326,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Tipos De Arritmia
+              Types of arrhythmia
             </div>
           
           </button>
@@ -333,15 +336,15 @@
             
 
           <ul class="text-start">
-            <li> Fibrilación auricular.</li>
-            <li>Flúter auricular.</li>
-            <li>Taquicardia paroxística supraventricula.</li>
-            <li>Taquicardia ventricular.</li>
-            <li>Fibrilación ventricular.</li>
-            <li>Enfermedad del nodo sinusal.</li>
-            <li>Síndrome de Wolff Parkinson White.</li>
-            <li>Bloqueos cardiacos.</li>
-            <li>Contracciones prematuras auriculares y ventriculares.</li>
+            <li> Atrial fibrillation. </li>
+            <li> Atrial fluter. </li>
+            <li> Supraventricula paroxysmal tachycardia. </li>
+            <li> Ventricular tachycardia. </li>
+            <li> Ventricular fibrillation. </li>
+            <li> Sinus node disease. </li>
+            <li> Wolff Parkinson White syndrome. </li>
+            <li> cardiac locks. </li>
+            <li> Premature atrial and ventricular contractions.</li>
             
 
           </ul>
@@ -356,17 +359,17 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
         <ul class="text-start" >
-          <li> Palpitaciones.</li>
-          <li>Desvanecimiento (síncope.)</li>
-          <li>Ansiedad.</li>
-          <li>Mareos.</li>
+          <li> Palpitations. </li>
+          <li> Disposal (syncope.) </li>
+          <li> Anxiety. </li>
+          <li> Dizziness.</li>
         </ul>  
           </div>
         </div>
@@ -377,29 +380,29 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>Las causas de arritmia son diversas e incluyen:
+           <p>The causes of arrhythmia are diverse and include:
             <ul class ="text-start">
-              <li>Enfermedades de las arterias coronarias.</li> 
-              <li>Hipertensión.</li>
-              <li>Reacciones a drogas.</li>
-              <li>Anormalidades endocrinas.</li>
-              <li>Enfermedad miocárdica.</li>
-              <li>Fiebre reumática.</li>
-              <li>Trastorno metabólico.</li>
-              <li>Anormalidades de la función valvular.</li>
-              <li>Insuficiencia cardiaca</li>
-              <li>Anemia</li> 
-              <li>Arritmias menores pueden ser: consumo excesivo de alcohol, cigarrillo, stress, ejercicios, ansiedad, emociones fuertes.</li>
+              <li>Diseases of coronary arteria. </li>
+              <li> Hypertension. </li>
+              <li> Drug reactions. </li>
+              <li> endocrine abnormalities. </li>
+              <li> Myocardial disease. </li>
+              <li> Rheumatic Fever. </li>
+              <li> Metabolic disorder. </li>
+              <li> Abnormalities of the valvular function. </li>
+              <li> heart failure </li>
+              <li> Anemia </li>
+              <li> Minor arrhythmias can be: excessive consumption of alcohol, cigarette, stress, exercises, anxiety, strong emotions.</li>
 
             </ul>
-            Algunas arritmias ocurren sin ninguna causa o enfermedad subyacente detectable. <br>
-            <strong>El tipo de arritmia puede indicar una causa en particular.</strong>
+            Some arrhythmias occur without any cause or underlying disease detectable.<br>
+            <strong> the type of arrhythmia may indicate a particular cause.</strong>
            </p>
           </div>
         </div>
@@ -410,33 +413,33 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Ponga atención a su dieta y mantenga un peso adecuado.
+            <p>Pay attention to your diet and maintain adequate weight.
 
-             <p> Manténgase delgado y con el cuerpo saludable. Las personas que tienen un 30% más de sobrepeso, esto aumenta en ellas el riesgo para muchas enfermedades, incluyendo las enfermedades vasculares. </p> 
+             <p> Stay thin and with a healthy body.People who have 30% more overweight, this increases in them the risk for many diseases, including vascular diseases.</p>
               
-              <p>Haga ejercicios regularmente. El ejercicio ha demostrado que aumenta los niveles de HDL y baja los niveles de LDL. Además unos estudios realizados demuestran que las personas que practican aeróbicos, tienen tanto como un 50% menos de riesgo de muerte por enfermedades cardiovasculares que otras que no lo hacen. </p>
+              <p> Exercise regularly.Exercise has shown that HDL levels increase and lower LDL levels.In addition, studies are demonstrated that people who practice aerobics have as much as 50% less risk of death due to cardiovascular diseases than others that do not.</p>
               
-             <p>Evite el stress tanto como le sea posible y aprenda técnicas para evitarlo. El stress es un factor de riesgo coronario.</p> 
+             <p> Avoid stress as much as possible and learn techniques to avoid it.Stress is a coronary risk factor.
               
-              <p>Si usted es un fumador deje de serlo. El fumar acelera el desarrollo de placas ateroescleróticas, especialmente en los vasos sanguíneos grandes.</p> 
+              <p> If you are a smoker, stop it.Smoking accelerates the development of atherosclerotic plaques, especially in large blood vessels.
               
-             <p>Algunos estudios han demostrado que el beber cantidades moderadas de bebidas alcohólicas (uno o dos copas por día) puede reducir el riesgo de ataque coronario en personas saludables.
-              En un estudio se demostró que el consumo moderado de alcohol después de un ataque cardiaco, redujo las células muertas a un 50% y casi dobló la recuperación de la función muscular del corazón.</p> 
+             <p> Some studies have shown that drinking moderate amounts of alcoholic beverages (one or two glasses per day) can reduce the risk of coronary attack in healthy people.
+              In a study it was shown that moderate alcohol consumption after a heart attack reduced dead cells to 50% and almost folded the recovery of the muscle function of the heart.
               
-              <p>Monitorice su presión arterial, manténgala en los rangos aceptables.</p> 
+              <p> Monitor your blood pressure, keep it in acceptable ranges.
               
-             <p> Si tiene taquicardia deje de hacer lo que está haciendo, el reposo es su mejor mecanismo para detener un ataque.</p> 
+             <p> If you have tachycardia, stop doing what you are doing, rest is your best mechanism to stop an attack.
               
-             <p> Si su corazón está latiendo muy aceleradamente, intente hacer una maniobra vagal, esto es:
-              Inhalando profundamente y pujar, como si estuviera defecando. Esto produce un efecto de freno.</p> 
+             <p> If your heart is beating very rapidly, try to make a vagal maneuver, that is:
+              Inhand deeply and bid, as if they were defining.This produces a brake effect. </p>
               
-             <p>Busque la arteria carótida derecha, dándole un masaje suave es otra maniobra vagal. Haga que su médico le indique el punto correcto y el grado apropiado de presión. Masajee su arteria donde se conecta con el cuello, lo más alejado posible bajo la mandíbula.</p> 
+             <p> Look for the right carotid artery, giving it a soft massage is another vagal maneuver.Have your doctor tell you the right point and the appropriate pressure degree.Massage your artery where you connect with your neck, as far as possible under the jaw.</p> 
             </p>
           </div>
         </div>
@@ -448,47 +451,47 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Haga una dieta bien balanceada, alta en fibras y baja en grasas. Por proteínas, coma pescado asado, pavo y pollo sin piel.</p>
+            <p>Make a well -balanced, fiber and low fat diet.By proteins, comma roasted fish, turkey and skinless chicken. </p>
 
-            <p>Incluya en su dieta ajo, cebollas. Reducen efectivamente los niveles de colesterol.</p>
+            <p> Include garlic diet, onions. Effectively reduce cholesterol levels.
 
-            <p>Consuma aceite de oliva, salmón Rosado, tuna, macarela.</p>
+            <p> Consume olive oil, pink salmon, tuna, macarela. </p>
 
-            <p>No consuma bebidas estimulantes que contengan cafeína, tales como: café, té negro, bebidas gaseosas..</p>
+            <p> Does not consume stimulating drinks containing caffeine, such as: coffee, black tea, soft drinks .. </p>
 
-            <p>Evite el chocolate, azúcar, mantequilla, carnes rojas (res, cerdo, cordero), alimentos fritos, alimentos procesados y azúcares refinados (pan blanco, tortillas, popusas, pastas, etc.)</p>
+            <p> Avoid chocolate, sugar, butter, red meat (beef, pork, lamb), fried foods, processed foods and refined sugars (white bread, tortillas, popusa, pasta, etc.) </p> </p> </p>
 
-            <p>Beba agua purificada destilada.</p>
+            <p> Drink distilled purified water. </p>
 
-            <p>Elimine todo producto de sodio de su dieta, la sal de mesa. Lea todas las etiquetas y evite todos los productos alimenticios que contengan soda y/o sodio (Na). <br>
-            Algunos alimentos contienen aditivos que podrían ser evitados:
+            <p> Eliminate all sodium product from your diet, table salt.Read all labels and avoid all food products containing soda and/or sodium (NA).<br>
+            Some foods contain additives that could be avoided:
             <ul class=" text-start">
-              <li>-Glutamato monosódico (GMS)</li>
-              <li>-Baking soda.</li>
-              <li>-Vegetales enlatados.</li>
-              <li>-Comidas comercialmente preparadas.</li>
-              <li>-Bebidas suaves de dieta.</li>
-              <li>-Alimentos con preservantes.</li>
-              <li>-Productos que contengan sacarina.</li>
+              <li>-Monosodium glutamate (GMS) </li>
+              <li> -BAKING SODA. </li>
+              <li>-canned vegetals. </li>
+              <li> -Comitarily prepared. </li>
+              <li> -Savate diet. </li>
+              <li> -Poods with preservatives. </li>
+              <li> -Products containing saccharin.</li>
             </ul>
           </p>
   <br>
-          <p>Si usted toma anticoagulantes, limite la ingesta de alimentos con alto contenido de vitamina K, tales como: alfalfa,   brócoli, coliflor, huevos, espinacas, y todos los vegetales de hojas verde oscuro.
+          <p>If you take anticoagulants, limit food intake high of vitamin K, such as: alfalfa, broccoli, cauliflower, eggs, spinach, and all dark green leaves.
           </p>
-          <p>Ponga en su dieta uvas, berenjenas, coles rojas.</p>
+          <p> put in your diet grapes, eggplants, red cabbages. </p>
   
-          <P>Si le gusta el vino, disfrute de un vaso de vino tinto con su cena.</P>
+          <p> If you like wine, enjoy a glass of red wine with your dinner. </p>
   
-          <p>Ingiera ¼ de mandarinas todos los días por una semana, luego intercale una semana si otra no por dos meses, luego  hágalo tres veces por semana.</p>
+          <p> I eat ¼ tangerines every day for a week, then interlect one week if another for two months, then do it three times a week. </p>
   
-          <p>Se recomienda la preparación de los siguientes jugos que pueden ser elaborados en extractor o licuadora. Los puede   ingerir una o dos veces por día.
-            Prepare los siguientes numerales:
+          <p> The preparation of the following juices that can be made in extractor or blender is recommended.You can ingest them once or twice per day.
+            Prepare the following numerals:
             J06– J02– J30
           </p>
           <a href="/src/components/enfermedades/recetas/recetaArritmia.html" class="btn btn-success">Recetas De Jugos</a>
@@ -502,20 +505,20 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul class="text-start">
-              <li>Haga caminatas largas de 15 a 20 min. Con ejercicios respiratorios en áreas abiertas.</li> 
+              <li>Make long walks from 15 to 20 min.With respiratory exercises in open areas. </li>
 
-                <li>Evite los ambientes con contaminantes químicos y vapores o gases tóxicos.</li> 
+                <li> Avoid environments with chemical pollutants and vapors or toxic gases. </li>
                 
-                <li>Trate de no llevar una vida sedentaria.</li> 
+                <li> Try not to lead a sedentary life. </li>
                 
-                <li>Se ha observado una relación entre los individuos perfeccionistas, con carreras ascendentes, orientados a los logros materiales, y la taquicardia paroxística auricular. Por lo tanto aprenda a visualizar la serenidad, la tranquilidad, la calma y la paz.</li> <br>
+                <li> A relationship between perfectionist individuals has been observed, with ascending careers, oriented to material achievements, and atrial paroxysmal tachycardia. Therefore learn to visualize serenity, tranquility, calm and peace.</li> <br>
             </ul>
           </div>
         </div>
@@ -527,13 +530,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>Aproveche nuestras recomendaciones alimenticias preparando las siguientes recetas: R10, R15,R17,R21, R25, R26, R30, R32, R34, R35, R39, R43, R49, R50, R51, RM53</p>
+           <p>Take advantage of our food recommendations by preparing the following recipes: R10, R15, R17, R21, R25, R26, R30, R32, R34, R35, R39, R43, R49, R50, R51, RM53</p>
           </div>
         </div>
       </div>
@@ -546,15 +549,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Las esencias de aceite de basil, geranio, lavanda, neroli, pino y vetiver, ayudan a la circulación. Use una o más de ellas como inhalación o difúndalas a través del aire o añada unas pocas gotas al aceite de masajes. <br>
+            <p>The essences of basil, geranium, lavender, neroli, pine and vetive oil, help circulation. Use one or more of them as inhalation or diffuse them through the air or add a few drops to massage oil.<br>
 
-              <br>Su corazón es el más importante músculo de su cuerpo. Un simple test de su pulso puede ayudarlo a determinar cuan bien está funcionando su corazón. El mejor tiempo para chequear su pulso es en las primeras horas de la mañana. Si su pulso es por debajo de 60, su corazón está funcionando bien. Si su pulso es por encima de 80, usted podría necesitar un cambio en su dieta o estilo de vida. Si su pulso es acelerado consulte a un especialista. Una frecuencia del pulso crónicamente alto es a menudo un precursor de hipertensión. Tómese diariamente su pulso, este test podría prevenirlo de algún problema de salud.
+              <br> Your heart is the most important muscle in your body.A simple pulse test can help you determine how well your heart is working. The best time to check your pulse is in the early hours of the morning.If your pulse is below 60, your heart is working well. If your pulse is above 80, you may need a change in your diet or lifestyle. If your pulse is accelerated, consult a specialist. A chronically high pulse frequency is often a precursor of hypertension. Take your pulse daily, this test could prevent it from a health problem.
               
                  </p>
           </div>
@@ -566,14 +569,14 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>CardioCircuPlus, Salvia, HW, Pura Vida,
-              L'Carnitine, HW, Herbal Tension, Calming, Hepato Formula, Té Detox Arritmia, Biototal, Biogenol, Water Retention (según el caso), Ginger (según el caso), Cholesto Plex (si tiene el colesterol alto), Easy Digestion/Dagold (con lengua blanca y flema), Pulmonal (si ronca o con dificultad respiratoria), Hepato Formula (con gusto amargo o muy enojoso o corajudo).</p>
+            <p>Cardiocircus, sage, hw, pure life,
+              L'Ernitine, HW, Herbal Tension, Calming, Hepato Formula, Detox Arrhythmia, Biototal, Biogenol, Water Retention (Depending on the case), Ginger (depending on the case), Cholesto Plex (if you have high cholesterol), Easy Digestion/Dagold (with white tongue and phlegm), pulmonal (whether snoring or with respiratory distress), hepato formula (with bitter or very angry or courageous taste).</p>
           </div>
         </div>
       </div>    
@@ -584,17 +587,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>Deficiencia de energía y/o sangre en el corazón. Parada la energía en el meridiano del corazón. Retención de líquidos o humedad en el pecho. Estancada o parada la energía del hígado produce debilidad en bazo produciendo mucha flema en pecho (a veces flema estancada en todo el sistema). Debilidad de pulmón (ronca o falta respiración al caminar o moverse). Estancamiento de sangre parcial o total (puede ocurrir por estancamiento del agua o frío acumulado). Debilidad general de sangre y energía en todo el sistema.
+           <p>Energy and/or blood deficiency in the heart.Stop the energy in the meridian of the heart. Fluid retention or chest moisture.Stagnant or stop the liver energy produces weakness in the spleen producing a lot of chest phlegm (sometimes stagnant phlegm throughout the system).Lung weakness (snoring or lacking when walking or moving). Partial or total blood stagnation can occur due to accumulated water or cold stagnation).General weakness of blood and energy throughout the system.
 
- 	 
+ 
            </p>
-           <p> <strong>  Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong></p>
+           <p> <strong> According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will be defined the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong></p>
           </div>
         </div>
       </div>    
@@ -641,15 +644,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

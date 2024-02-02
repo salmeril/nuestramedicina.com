@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -288,17 +291,16 @@
 
 
 
-
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Alergias
+       Allergies
       </h1>
       <p class="enferTexto m-5">
-        Las reacciones alérgicas también llamadas reacción de hipersensibilidad, es una respuesta inapropiada del sistema inmune a una sustancia que no es normalmente nociva. El sistema inmune es un mecanismo de defensa altamente complejo, que nos ayuda a combatir infecciones, esto es identificando invasores extraños y movilizando las células sanguíneas blancas para combatirlas. En algunas personas, el sistema inmune identifica erróneamente una sustancia no tóxica como un invasor, y las células blancas sobreactúan y hacen más daño al cuerpo que el invasor. Entonces, la respuesta alérgica en sí misma llega a ser una enfermedad
+        Allergic reactions also called hypersensitivity reaction, it is an inappropriate response of the immune system to a substance that is not normally harmful. The immune system is a highly complex defense mechanism, which helps us fight infections, this is identifying strange invaders and mobilizing white blood cells to combat them.In some people, the immune system erroneously identifies a non-toxic substance as an invader, and white cells overact and do more damage to the body than the invader. So, the allergic response itself becomes a disease
       </p>
     </div>
 
@@ -317,29 +319,29 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Tipos De Alergia
+              Types of allergy
             </div>
           
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body  ">
-            La alergia se puede evidenciar en varias partes del cuerpo y según esta pude tomar un nombre definido, así tenemos pues:
+            The allergy can be evidenced in various parts of the body and according to this I could take a defined name, so we have:
 
           <ul class="align-items-center">
-            <li class="text-start"> Rinitis alérgica.</li>
-            <li class="text-start">Rinitis alérgica.</li>
-            <li class="text-start">Dermatitis de contacto.</li>
-            <li class="text-start">Urticarias.</li>
-            <li class="text-start">Asma.</li>
-            <li class="text-start">Conjuntivitis alérgica.</li>
-            <li class="text-start">Colitis.</li>
-            <li class="text-start">Sinusitis alérgica.</li>
-            <li class="text-start">Rash alérgico.</li>
-            <li class="text-start">Acné</li>
-            <li class="text-start">Eczema</li>
-            <li class="text-start">Incontinencia</li>
-            <li class="text-start">Edema angioneurótico</li>
+            
+            <li class="text-start">Allergic rhinitis.</li>
+            <li class="text-start">Contact dermatitis.</li>
+            <li class="text-start">Urticarias</li>
+            <li class="text-start">Asthma</li>
+            <li class="text-start">Allergic conjunctivitis.</li>
+            <li class="text-start">colitis.</li>
+            <li class="text-start">sinusitisAlérgica.</li>
+            <li class="text-start">Allergic rash.</li>
+            <li class="text-start">Acne</li>
+            <li class="text-start">eczema</li>
+            <li class="text-start">Incontinence</li>
+            <li class="text-start">Angioneurotic edema</li>
 
           </ul>
 
@@ -353,21 +355,21 @@
         <h2 class="accordion-headerm accordionheaderStilo ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Las respuestas más comunes a un alergeno, dependen del lugar en donde este actúa ya sea por contacto, alimento o inhalación:
+            The most common responses to an allergen depend on the place where it acts either by contact, food or inhalation:
 
               <ul >
-                <li class="">Congestión nasal, tos, estornudo.</li>
-                <li class="">Prurito, ronchas, hinchazón,</li>
-                <li class="">Dolor de cabeza, fatiga,</li>
-                <li class="">Nausea, mareo, diarreas,</li>
-                <li class="">Enrojecimiento de los ojos, lagrimeos, ardor,</li>
-                <li class="">Dificultad respiratoria</li>
+                <li class="">Nasal congestion, cough, sneeze. </li>
+                <li class = ""> Pruritus, ranches, swelling, </li>
+                <li class = ""> Headache, fatigue, </li>
+                <li class = ""> Nausea, dizziness, diarrhea, </li>
+                <li class = ""> Redness of the eyes, tear, ardor, </li>
+                <li class = ""> Respiratory distress </li>
               </ul>
           </div>
         </div>
@@ -378,24 +380,24 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Las sustancias que provocan la respuesta alérgica son llamadas alergenos, los más conocidos son:
+            The substances that cause the allergic response are called allergens, the best known are:
       
             <ul >
-              <li class="">Polen, polvo,</li>
-              <li class="">Ciertos metales (especialmente níquel),</li>
-              <li class="">Algunos cosméticos,</li>
-              <li class="">Pelo de animales,</li>
-              <li class="">Drogas, químicos,</li>
-              <li class="">Algunos insectos,</li>
-              <li class="">Aditivos en las comidas preparadas comercialmente (sulfitos, GMS)</li>
-              <li class="">Ácaros del polvo, mohos, gases,</li>
-              <li class="">Algunos alimentos como: chocolates, mariscos, leche, quesos, huevos, embutidos, mayonesa, salsa de tomate, etc.</li>
+              <li class="">Pollen and dust</li>
+              <li class="">Certain metals (especially nickel)</li>
+              <li class="">Some cosmetics,</li>
+              <li class="">Animal hair,</li>
+              <li class="">Drugs and chemicals</li>
+              <li class="">Some insects</li>
+              <li class="">Commercially prepared additives (sulphites, GMS)</li>
+              <li class="">Dust mites, molds and gas</li>
+              <li class="">Some foods such as: chocolates, shellfish, milk, cheeses, eggs, sausages, mayonnaise, tomato sauce, etc..</li>
             </ul>
           </div>
         </div>
@@ -406,26 +408,26 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <P>Evite los siguientes alimentos hasta determinar si es alérgico o no a cualquiera de ellos:
-              bananas, carnes, cafeína, chocolate, frutas cítricas, maíz, huevos, maní, avena, productos procesados, salmón, fresas, tomates y gérmenes de trigo. Evite los productos que contengan colorantes artificiales.</P>
+            <P>Avoid the following food until it is allergic or not to any of them:
+              Bananas, meats, caffeine, chocolate, citrus fruits, corn, eggs, peanuts, oats, processed products, salmon, strawberries, tomatoes and wheat germs.Avoid products containing artificial dyes. </p>
             
-            <P>Infantes y niños a menudo padecen de alergias especialmente a la leche, maní, huevos y pescado. La alergia a estos alimentos puede desarrollarse en cualquier etapa de la vida sin embargo disminuye su incidencia con la edad y solo el 1 a 5% de las alergias persisten hasta la adultez.</P>
+            <p> Infants and children often suffer from allergies especially to milk, peanuts, eggs and fish.The allergy to these foods can be developed at any stage of life, however, its incidence decreases with age and only 1 to 5% of allergies persist to adulthood.
             
-            <p>Elimine de la dieta los alimentos que pudieran aumentar la producción de moco, tome abundante agua para fluidificar el moco y facilitar su expectoración, la leche de soya, tofu, y carne de soya, es lo mejor para los alérgicos a la leche, queso y carnes, tienen un alto contenido proteico.</p>
+            <p> Eliminate from the diet the food that could increase the production of mucus, drink plenty, cheese and meats, have a high protein content.
             
-            <p>Haga un diario de todo lo que ingiere para identificar el alergeno. Coma ajo, manzanilla y guayaba.</p>
+            <p> Do a diary of everything you eat to identify the allergen.Coma garlic, chamomile and guava. </p>
             
             
-            Ingiera los siguientes jugos: J61– J30 – J01 (Prepárelos en licuadora o extractor de jugo, se recomienda tomarlos una o dos veces al día).
+            I eat the following juices: J61– J30 - J01 (prepare them in blender or juice extractor, it is recommended to take them once or twice a day).
               <br>
               <br>
-            <a href="/src/components/enfermedades/recetas/recetasAlergia.html" class="btn btn-success">Recetas De Jugos</a>
+            <a href="/src/components/enfermedades/recetas/recetasAlergia.html" class="btn btn-success">Juice recipes</a>
             
             
                 
@@ -440,17 +442,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+             Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>Manténgase lejos de las habitaciones llenas de humo ya sea de cigarrillo o de otras sustancias.</p>
+           <p>Stay away from the rooms full of smoke either cigarette or other substances.
             
-           <p>Evite la exposición a sustancias químicas, use guantes.</p>
+           <p> Avoid exposure to chemical substances, wear gloves.
             
-           <p>Evite en lo posible salir al campo o parques durante la primavera, así evitará el polen.</p>
+           <p> Avoid as much as possible to the field or parks during spring, thus avoiding pollen.</p>
             
             
             
@@ -464,7 +466,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
@@ -480,15 +482,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             <div class="centrar">
-              Consideraciones Geneticas
+              Genetic considerations
             </div>
           </button>
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Las alergias son una gama muy amplia de alteraciones pato-anatómicas, y dependiendo muchas veces de las causas se clasifican en exógenos o endógenas.</p>
+            <p>Allergies are a very wide range of duck-anatomical alterations, and depending many times on the causes they are classified as exogens or endogenous. </p>
             
-           <p>No todas las alergias tienen un factor determinado que las provoca, muchas veces hay una interacción entre un factor externo como el polen y uno externo como la predisposición de desarrollar la reacción anafiláctica, que ya pude ser leve o severa hasta causar la muerte o incluso no manifestarse nunca si el causante de la reacción no entra en contacto con el cuerpo.</p>
+           <p> Not all allergies have a certain factor that causes them, many times there is an interaction between an external factor such as pollen and an external one such as the predisposition of developing the anaphylactic reaction, which could already be mild or severe to cause deathor even never manifest if the cause of the reaction does not come into contact with the body. </p>
             
           </div>
         </div>
@@ -500,20 +502,20 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+             Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <P>Es posible que algunas de las esencias puedan causarle alergia por lo que se le recomienda que empiece despacio con una gota de cada una de ellas.<br></P>
-            <p>Los aceites de basil, eucalipto, pepermint y pino; ayudan a mejorar la congestión, puede inhalarlo o difundirlo a través del aire.</p>
+            <P>It is possible that some of the essences can cause allergy, so it is recommended that you start slowly with a drop of each of them. <br> </p>
+            <p> Basil, Eucalyptus, Pepermint and Pino oils;They help improve congestion, you can inhale or spread it through air.</p>
             
-            <p>La relajación del sistema nervioso es muy importante para controlar la alergia. Tome un baño de tina preparado con 3 gotas de lavanda, más 3 gotas de manzanilla.</p>
+            <p>The relaxation of the nervous system is very important to control the allergy.Take a tub bath prepared with 3 drops of lavender, plus 3 drops of chamomile.
 
-            <p>Si su alergia es causada por algún resfriado intente un baño con dos gotas de aceite de rosemary, dos gotas de aceite de toronjas y dos gotas de aceite de juniper o aceite de té de árbol.</p>
+            <p> If your allergy is caused by a cold, try a bath with two drops of rosemary oil, two drops of grapefruit oil and two drops of juniper oil or tree tea oil.
 
-            <P><strong>Ocasionalmente, una reacción alérgica muy severa puede amenazar la vida. Si el desarrollo de sus ronchas se disemina rápidamente o tiene dificultad respiratoria, especialmente si usted tiene una historia de reacciones severas, vaya de inmediato al cuarto de emergencias del hospital más cercano, o llame al número de emergencia. Recuerde que los segundos cuentan.</strong></P>
+            <p> <strong> Occasionally, a very severe allergic reaction can threaten life.If the development of Sus Ronchas spreads rapidly or has respiratory distress, especially if you have a history of severe reactions, go immediately to the emergency room of the nearest hospital, or call the emergency number.Remember that the latter tell.</strong></P>
             
 
           </div>
@@ -525,7 +527,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
@@ -542,15 +544,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Deficiencia del Bazo, Deficiencia de Pulmón, dependiendo del paciente Hígado muy caliente. En muchos casos retención de humedad y calor en el sistema. En otros casos de alergia en piel mucho viento en el Hígado con calor. Muchos pacientes intoxicados con comida presentan mucho calor en la sangre.</p>
+            <p>Spleen deficiency, lung deficiency, depending on the very hot liver patient. In many cases, moisture and heat retention in the system. In other cases of skin allergy a lot of wind in the liver with heat. Many patients poisoned with food are very heat in the blood.
 
-            <p><strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong></p>
+            <p> <strong> according to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will be defined the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined.The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to heal.</strong></p>
 
 
  	 
@@ -601,15 +603,15 @@
           <h6 class="disclaimerTitulo">
             Disclaimer
           </h6>
-          <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-            generales sugeridas, no intentan substituir los servicios
-            de un facultativo.<br>
-            Si sufre de alguna enfermedad consulte con su medico.
-            No pare de tomar ni cambie ningun medicamento o tratamiento
-            prescripto por su medico primario o el hospital.
-            Consulte con su medico primario antes de tomar vitaminas,
-            productos naturales, hacer ejercicios, o cualquier otra
-            sugerencia de esta pagina web.</p>
+          <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+            Suggested generals, they don't try to replace services
+            of a doctor. <br>
+            If you suffer from any disease, consult your doctor.
+            Do not stop taking or change any medication or treatment
+            prescribed by your primary doctor or the hospital.
+            Consult your primary doctor before taking vitamins,
+            natural products, exercise, or any other
+            suggestion of this website.</p>
         </div>
       </div>
 
