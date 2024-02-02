@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -300,10 +303,10 @@
         Cancer
       </h1>
       <p class="enferTexto m-5">
-        El cáncer no es una simple enfermedad, es algo más extenso caracterizado por un crecimiento descontrolado de ciertas células en el cuerpo. Un tumor canceroso comienza con lo que es llamado un sitio primario. Las células cancerosas pueden invadir y dañar tejido circundante, y entonces el tumor primario se rompe y se extiende a través del sistema circulatorio y linfático a otras partes del cuerpo. Estos son los llamados tumores secundarios que también pueden ser dañinos. <br> 
+        Cancer is not a simple disease, it is somewhat more extensive characterized by an uncontrolled growth of certain cells in the body. A cancerous tumor begins with what is called a primary site.Cancer cells can invade and damage surrounding tissue, and then the primary tumor breaks and extends through the circulatory and lymphatic system to other parts of the body. These are the so-called secondary tumors that can also be harmful.<br>
 
-        <br> El cáncer puede desarrollarse en cualquier parte del cuerpo. Entre los hombres, el más común es el cáncer de próstata seguido por el cáncer de pulmón, el cual, si bien no ocurre
-        Frecuentemente, nunca es menos causa de más muertes que el cáncer de próstata. Entre las mujeres el cáncer de seno y el del pulmón son los más frecuentes. En ambos sexos el cáncer colorectal sigue al cáncer de pulmón en orden de frecuencia. Otros tipos prominentes de enfermedades incluyen cánceres del tracto urinario, del aparato reproductor femenino, el páncreas y la leucemia.
+        <br> cancer can develop anywhere in the body. Among men, the most common is prostate cancer followed by lung cancer, which, although it does not happen Frequently, it is never less cause of more deaths than prostate cancer. Among women, breast cancer and lung are the most frequent. In both sexes, colorectal cancer follows lung cancer in frequency order. 
+        Other prominent types of diseases include cancers of the urinary tract, of the female reproductive system, the pancreas and the leukemia.
       </p>
     </div>
 
@@ -322,22 +325,22 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Tipos De Cancer
+              Types of cancer
             </div>
           
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Son diferentes los términos médicos usados para describir los diferentes tipos de cáncer. La mayoría de los términos tienen en sus últimas letras la sílaba oma, la cual significa masa o tumor. Las categorías básicas de cáncer incluyen:</p>
+            <p>The medical terms used to describe the different types of cancer are different. Most of the terms have the OMA syllable in their last letters, which means mass or tumor.Basic cancer categories include: </p>
             
-            <p>Carcinoma: Cáncer de piel, membrana mucosa, glándulas y órganos internos son a menudo clasificados como carcinomas.</p>
+            <p> carcinoma: skin cancer, mucous membrane, internal glands and organs are often classified as carcinomas. </p>
             
-            <p>Leucemias: Son cánceres de los tejidos que producen células sanguíneas. Porque la leucemia resulta de la formación de células anormales, esto es a menudo referido como cáncer de la sangre.</p>
+            <p> Leukemias: They are tissue cancers that produce blood cells.Because leukemia results from abnormal cell formation, this is often referred to as blood cancer.
             
-            <p>Linfoma: Son cánceres de los nódulos linfáticos y de otros tejidos linfáticos.</p>
+            <p> Lymphoma: They are cancers of lymphatic nodules and other lymphatic tissues. </p>
             
-            <p>Sarcoma: Son primariamente cánceres de los huesos, músculos y tejido conectivo.</p>
+            <p> Sarcoma: They are primarily cancers of bones, muscles and connective tissue.</p>
             
           </div>
         </div>
@@ -349,26 +352,26 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Los signos y síntomas dependen de la localización, tipo y severidad de la enfermedad, cada cáncer tiene su conjunto de síntomas. Posible signo de cáncer incluye:
+            Signs and symptoms depend on the location, type and severity of the disease, each cancer has its set of symptoms. Possible cancer sign includes:
 
             <ul class="align-items-center">
-              <li class="text-start"> Cambios o aparición de verrugas y lunares de aspecto anómalo</li>
-              <li class="text-start">Tos persistente.</li>
-              <li class="text-start">Cambios obvios en los hábitos vesicales e intestinales.</li>
-              <li class="text-start">Engrosamiento o protuberancia en cualquier parte del cuerpo.</li>
-              <li class="text-start">Sangre en la orina sin dolor al orinar.</li>
-              <li class="text-start">Sangre en las heces.</li>
-              <li class="text-start">Fatiga exagerada.</li>
-              <li class="text-start">Febrícula persistente.</li>
-              <li class="text-start">Dolor abdominal pertinaz.</li>
-              <li class="text-start">Recurrentes sangrados nasales</li>
-              <li class="text-start">Aparición de muchas contusiones</li>
+              <li class="text-start"> Changes or appearance of anomalous-looking warts and lunar
+              <li class = "text-sart"> Persistent cough. </li>
+              <li class = "text-tart"> Obvious changes in vesical and intestinal habits. </li>
+              <li class = "text-tart"> Thickening or protuberance anywhere in the body. </li>
+              <li class = "text-tart"> Blood in painless urine when urinating. </li>
+              <li class = "text-tart"> Blood in feces. </li>
+              <li class = "text-sart"> exaggerated fatigue. </li>
+              <li class = "text-tart"> Persistent fever. </li>
+              <li class = "text-tart"> Abdominal pain.
+              <li class = "text-sart"> Nasal bleeding recurring. </li>
+              <li class = "text-tart"> Appearance of many bruises.</li>
               
   
             </ul>
@@ -382,43 +385,43 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            En realidad aún no se conoce exactamente la causa, pero existen factores de riesgo que podrían en determinado momento, junto a una predisposición familiar llegar a producir cáncer:
+            Actually, the cause is not yet known, but there are risk factors that could be at a certain time, together with a family predisposition to produce cancer:
             <ul class="align-items-center">
-              <li class="text-start">Exposición a ciertas sustancias químicas tales como benzidinas, anilinas, naftalinas</li>
-              <li class="text-start">Excesivo consumo de cafeína y/o sustancias edulcorantes.</li>
-              <li class="text-start">Infecciones frecuentes del tracto urinario.</li>
-              <li class="text-start">Nulípara (no embarazos) hasta los 35 años.</li>
-              <li class="text-start">Historia familiar de cáncer.</li>
-              <li class="text-start">Consumo de bebidas alcohólicas y cigarrillo.</li>
-              <li class="text-start">Dieta alta en grasas saturadas y baja en fibras.</li>
-              <li class="text-start">Hay una relación entre la diabetes, la mujer añosa y el cáncer de seno.</li>
-              <li class="text-start">Estrógenos y anticonceptivos orales han sido ligados al cáncer de seno.</li>
-              <li class="text-start">Embarazos múltiples, o embarazos antes de los 18 años.</li>
-              <li class="text-start">Historia de gonorrea o verrugas genitales.</li>
-              <li class="text-start">Múltiples compañeros sexuales.</li>
-              <li class="text-start">Infertilidad.</li>
-              <li class="text-start">Estreñimiento y/o diarreas continuas.</li>
-              <li class="text-start">Historia de pólipos intestinales.</li>
-              <li class="text-start">Obesidad, hipertensión.</li>
-              <li class="text-start">Infecciones virales crónicas.</li>
-              <li class="text-start">Exposición a radiaciones.</li>
-              <li class="text-start">Exposición a asbesto, níquel, cromo o materiales radioactivos.</li>
-              <li class="text-start">Bronquitis crónica, historia de tuberculosis.</li>
-              <li class="text-start">Exposición a pesticidas y herbicidas.</li>
-              <li class="text-start">Historia de infecciones venéreas, infecciones prostáticas recurrentes.</li>
-              <li class="text-start">Disfunción del sistema inmune.</li>
-              <li class="text-start">Uso de hormonas masculinas como la testosterona, para el tratamiento de la impotencia y la vasectomía.</li>
-              <li class="text-start">Sobre-exposición a los rayos ultravioleta.</li>
-              <li class="text-start">Historia de lunares en áreas en contacto de roce con la ropa.</li>
-              <li class="text-start">Escaras o lesiones que no cicatrizan.</li>
-              <li class="text-start">Anemia perniciosa.</li>
-              <li class="text-start">Gastritis crónica, hiperclorhidria.</li>
+              <li class="text-start">Exposure to certain chemical substances such as benzidines, anilines, naphthales </li>
+              <li class = "text-tart"> Excessive consumption of caffeine and/or sweetening substances. </li>
+              <li class = "text-tart"> Frequent infections of urinary tract. </li>
+              <li class = "text-sart"> Nulipara (no pregnancies) up to 35 years. </li>
+              <li Class = "Text-Start"> Family History of Cancer. </li>
+              <li class = "text-tart"> Consumption of alcoholic beverages and cigarette. </li>
+              <li class = "text-tart"> High diet in saturated fat and fibers. </li> </li>
+              <li Class = "Text-Start"> There is a relationship between diabetes, the old woman and breast cancer. </li>
+              <li class = "text-tart"> Oral estrogens and contraceptives have been linked to breast cancer. </li>
+              <li class = "text-tart"> Multiple pregnancies, or pregnancies before the age of 18. </li>
+              <li Class = "Text-Start"> Gonorrhea History or genital warts. </li>
+              <li class = "text-sart"> Multiple sexual partners. </li>
+              <li class = "text-sart"> Infertility. </li>
+              <li class = "text-sart"> Constipation and/or continuous diarrhea. </li>
+              <li class = "text-tart"> History of intestinal polyps. </li>
+              <li class = "text-tart"> Obesity, hypertension. </li>
+              <li class = "text-sart"> Chronic viral infections. </li>
+              <li class = "text-sart"> Exposure to radiation. </li>
+              <li class = "text-sart"> Asbestos, nickel, chromium or radioactive materials. </li>
+              <li class = "text-sart"> Chronic bronchitis, history of tuberculosis. </li>
+              <li class = "text-sart"> Exposure to pesticides and herbicides. </li>
+              <li class = "text-sart"> History of venereal infections, recurrent prostate infections. </li>
+              <li class = "text-sart"> Immune system dysfunction. </li>
+              <Li Class = "Text-Start"> Use of male hormones such as testosterone, for the treatment of impotence and vasectomy. </li>
+              <li class = "text-tart"> Over-exposition to ultraviolet rays. </li>
+              <li Class = "Text-Start"> History of moles in rubbing areas with clothes. </li>
+              <li Class = "text-tart"> Flesh or injuries that do not heal. </li>
+              <li class = "text-tart"> Pernicious anemia. </li>
+              <li class = "text-tart"> chronic gastritis, hyperchlorhydria.</li>
               
             </ul>
   
@@ -431,27 +434,27 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
 	
-            <li class="text-start">Coma una dieta rica en fibras, granos enteros, cereales, avena, trigo, brown rice.</li>
-            <li class="text-start">Ingiera abundantes vegetales crucíferos, tales como: brócoli, col de Bruselas, col, coliflor.</li>
-            <li class="text-start">También consuma vegetales amarillos; zanahorias, calabazas, etc.</li>
-            <li class="text-start">Coma abundantes frutas entre estas las que contienen sustancias anticancerígenas son: cerezas, toronjas, melocotones, manzanas, uvas, melones, fresas.</li>
-            <li class="text-start">Coma otros vegetales, espárragos, cebollas, ajo, pepino, zucchini, arvejas, tomates, patatas, ginger, hojas de dandelión, mushrooms, espinacas, acelgas, berros y otros vegetales de hojas verdes.</li>
-            <li class="text-start">Incluya en su dieta soya y todos sus derivados.</li>
-            <li class="text-start">Evite las grasas saturadas e hidrogenadas, azúcares procesados, café, bebidas alcohólicas.</li>
-            <li class="text-start">Evite el consumo de carnes rojas (res, cerdo, cordero).</li>
-            <li class="text-start">No consuma alimentos procesados, alimentos enlatados, minimice el consumo de sal.</li><br>
+            <li class="text-start">Eat a diet rich in fibers, whole grains, cereals, oats, wheat, brown rice. </li>
+            <li Class = "Text-Start"> Ingiera abundant cruciferous vegetables, such as: broccoli, col de Brussels, col, cauliflower. </li>
+            <li class = "text-tart"> Also consume yellow vegetables; Carrots, pumpkins, etc. </li>
+            <li Class = "Text-Start"> Eat abundant fruits between these containing anti-cancer substances are: cherries, grapefruits, peach, apples, grapes, melons, strawberries. </li>
+            <Li Class = "Text-Start"> Eat other vegetables, asparagus, onions, garlic, cucumber, zucchini, peas, tomatoes, potatoes, ginger, dandelion leaves, mushrooms, spinach, chard, watercress and other green leafy vegetables.</li>
+            <li Class = "Text-Start"> Include in your soy diet and all its derivatives. </li>
+            <li class = "text-tart"> Avoid saturated and hydrogenated fats, processed sugars, coffee, alcoholic beverages. </li>
+            <li class = "text-sart"> Avoid the consumption of red meat (beef, pork, lamb). </li>
+            <li class = "text-tart"> Does not consume processed foods, canned food, minimize salt consumption.</li><br>
 
             
-            <p>Prepare los siguientes jugos: J01– J60 Hágalos en licuadora o extractor de jugo, se recomienda tomarlos una o dos veces al día</p>
+            <p>Prepare the following juices: J01– J60 Hand them in blender or juice extractor, it is recommended to take them once or twice a day </p>
             
-            <p>Tome abundante agua pura o destilada para evitar ingerir minerales tóxicos que se encuentra en el agua potable.</p>
+            <p> Take abundant pure or distilled water to avoid ingesting toxic minerals found in drinking water.</p>
           </div>
         </div>
       </div>
@@ -463,23 +466,23 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>No fume y evite estar cerca de fumadores. Hay evidencia sugestiva que el humo de los fumadores puede ser aún más peligroso, que el inhalar el humo de su propio cigarrillo</p>
+            <p>Do not smoke and avoid being close to smokers. There is suggestive evidence that smoke from smoke can be even more dangerous, than inhaling the smoke of their own cigarette </p>
             
-            <p>No beba agua potable (del grifo). El cloro es el químico base para la purificación del agua potable, el cual esta implicado en el desarrollo de diferentes tipos de cáncer.</p>
+            <p> Do not drink drinking water (tap). Chlorine is the basic chemist for purification of drinking water, which is involved in the development of different types of cancer. </p>
             
-            <p>Si es posible compre alimentos orgánicamente cultivados, o cultívelos usted mismo. Los herbicidas y pesticidas usados en los productos comercialmente cultivados, pueden ser carcinogénicos. Siempre lave los productos esmeradamente antes de comerlos.</p>
+            <p> If it is possible to buy organically cultivated food, or cultivate them yourself. Herbicides and pesticides used in commercially cultivated products can be carcinogenic. Wash the products carefully before eating them. </p>
             
-            <p>Mantenga las recomendaciones de su doctor respecto a las medidas para la detección temprana del cáncer. Algunos de los exámenes más comunes incluye, para las mujeres, el auto-examen del seno, mamogramas, examen pélvico, y Pap test; para los hombres, el examen de próstata y PSA test; y para ambos sexos, sigmoidoscopia, examen rectal y test de sangre oculta en heces.</p>
+            <p> Maintain your doctor's recommendations regarding the measures for early cancer detection. Some of the most common exams include, for women, the self-examine of the breast, mamograms, pelvic exam, and pap test; For men, the prostate and PSA test exam; and for both sexes, sigmoidoscopy, rectal exam and hidden blood test.
             
-            <p>Guárdese contra las quemaduras del sol. Se ha establecido que los casos de quemaduras solares severas aumentan el riesgo de la persona a desarrollar melanoma maligno, una forma peligrosa de cáncer de piel.</p>
+            <p> Stand against the burns of the sun.It has been established that cases of severe solar burns increase the risk of the person to develop malignant melanoma, a dangerous form of skin cancer. </p>
             
-            <p>Evite la inhalación de humos o vapores de pinturas, solventes, gasolina, pesticidas, herbicidas, removedores de laca, limpiador de hornos, glues, y otros químicos del hogar.</p>
+            <p</p>
             
           </div>
         </div>
@@ -491,13 +494,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Aquí tiene algunas sugerencias de recetas para aprovechar mejor los consejos alimenticios arriba mencionados: R08– R09– R15– R26– R27– R30– R45– R48– R49– R53– R56– R69
+            Here you have some recipe suggestions to make better the aforementioned food councils: R08– R09– R15– R26– R27– R30– R45– R48– R49– R53– R56– R69
           </div>
         </div>
       </div>
@@ -507,33 +510,33 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             <div class="centrar">
-              Consideraciones Geneticas
+              Genetic considerations
             </div>
           </button>
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Las alteraciones ocurridas en el cáncer principalmente se dan cuando las células del cuerpo se inician a duplicar anormalmente y fuera de control entonces un tumor es formado, esto puede esparcirse e iniciar a ser canceroso o limitarse, o ser no canceroso.</p>
+            <p>The alterations that occur in cancer mainly occur when the body cells begin to duplicate abnormally and out of control then a tumor is formed, this can be spread and start being cancerous or limited, or being non-cancerous.
             
-            <p>El cáncer únicamente puede heredarse cuando la mutación se da en las líneas germinales del DNA, una mutación somática no tiene ningún riesgo, ni para el individuo, ni para la familia.</p>
+            <p> Cancer can only be inherited when the mutation occurs in the DNA germ lines, a somatic mutation has no risk, nor for the individual, nor for the family.
             
-            <p>Se piensa que la etiología del cáncer se debe a un polimorfismo es decir varios genes pueden estar involucrados en el desarrollo de un cáncer, aunque actualmente no se puede asegurar que pudiera tratarse solo de un gen expresado.</p>
+            <p> It is thought that the etiology of cancer is due to a polymorphism, that is, several genes can be involved in the development of cancer, although it cannot be assured that only a gene expressed could be treated.
             
-            <p>En la genética del cáncer con el proyecto del genoma humano, que trata de identificar cada uno de los genes en sus respectivos locus y determinar cuales de ellos son causantes o no de expresión ya sea para enfermedades o desarrollo de cáncer.</p>
+            <p> in cancer genetics with the human genome project, which tries to identify each of the genes in their respective locus and determine which of them are caused or not of expression either for diseases or cancer development.</p>
             
-            <p>Se han encontrado genes supresores de tumor, los llamados genes bloqueadores de oncogenes, es decir un oncogen es aquel gen que expresa en cáncer. Un ejemplo sencillo es el retinoblastoma: un tumor relativamente poco común en la niñez, que aparece en la retina. Incidencia es 1-15000 o 1-34000, un 80% aparece en edad preescolar hasta los 5 años. Puede ser unilateral en un 70% o bilateral en un 30%.</p>
+            <p> Tumor suppressor genes, so-called oncogenes blockers have been found, that is, a oncogen is that gene that expresses in cancer.A simple example is retinoblastoma: a relatively unusual tumor in childhood, which appears in the retina.Incidence is 1-15000 or 1-34000, 80% appears in preschool age to 5 years. It can be unilateral in 70% or bilateral in 30%.
             
-            <p>El retinoblastoma se limita al ojo y un 80 a 90% de niños afectados con esta enfermedad se ven libres después de ser tratados. Ellos son portadores sanos y lo expresan en 1 de 4 hijos. El retinoblastoma bilateral siempre es de origen hereditario.</p>
+            <p> Retinoblastoma is limited to the eye and 80 to 90% of children affected with this disease are free after being treated.They are healthy carriers and express it in 1 of 4 children. Bilateral retinoblastoma is always of hereditary origin. </p>
             
-            <p>Lo importante es que con el descubrimiento de las técnicas de identificación del DNA y la ingeniería genética hay muchas alternativas para controlar y luchar contra el cáncer:<br>
+            <p> The important thing is that with the discovery of DNA identification techniques and genetic engineering there are many alternatives to control and fight cancer:<br>
             
-              1) Expresión de genes suicidas<br>
-              2) Genes que se unen a células tumorales<br>
-              3) Inmunogenicidad<br>
-              4) Estímulo de células antitumorales a la respuesta inmune mediada por citokinas<br>
-              5) Introducción de genes supresores<br>
-              6) Bloqueadores oncogenes<br>
-              7) Inducción de quimioterapia resistencia en células de la médula ósea</p>
+              1) Suicide gene expression <br>
+              2) Genes that bind to tumor cells <br>
+              3) Immunogenicity <br>
+              4) Estimulus of antitumor cells to the immune response mediated by cytokines <br>
+              5) Introduction of suppressor genes <br>
+              6) Oncogenes <br> blockers
+              7) Chemotherapy induction resistance in bone marrow cells</p>
             
             <p>Gracias a una amplia gama de técnicas moleculares en genética existen prometedores y grandiosos estudios para erradicar este mal.</p>
             
@@ -547,17 +550,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Los aceites de basil, elemi, geranio, pachulí, pepermint y vivetier tienen propiedades energizantes, y son usados para combatir la fatiga. Úselos como inhalación o difúndalos dentro del aire.</p>
+            <p>Basil, Elemi, Geranium, Pachulí, Pepermint and Vivetier oils have energizing properties, and are used to combat fatigue.Use them as inhalation or diffuse them inside the air.</p>
             
-            <p>Los aceites de esencia de bergamota y pepermint ayuda a estimular un apetito inactivo el cual puede ser producido por el cáncer mismo o por el tratamiento de este o ambos. El aceite de bergamota también ayuda a combatir la depresión. Úselos en inhalación o difúndalos dentro del aire.</p>
+            <p> The essence oils of Bergamota and Pepermint helps stimulate an inactive appetite which can be produced by cancer itself or the treatment of this or both. Bergamota oil also helps fight depression.Use them in inhalation or diffuse them inside the air.</p>
             
-            <p>Edúquese usted mismo sobre su tipo de cáncer en particular y los últimos tratamientos que han sido encontrados. Esto lo ayudaría a trabajar con quien le provee cuidados de salud para conseguir los mejores resultados.</p>
+            <p> Edúque yourself about your particular cancer and the latest treatments that have been found. This would help you work with who provides health care to achieve the best results.</p>
             
           </div>
         </div>
@@ -568,13 +571,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Gene 15, Shark Cartilage, Cellular Bio Protector, Pura Vida, CardioCircu Plus, Naturobiotic, Iperoxo.
+            gene15,SharkCartilage,CellularBioProtector,PuraVida,CardioCircuPlus,Naturobiotic,Iperoxo
           </div>
         </div>
       </div>    
@@ -585,14 +588,14 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Trabajar en estancamiento de energía y sangre. Trabajar en estancamiento de los diferentes meridianos afectados. Trabajar en control del dolor para zonas afectadas y dolorosas. Ayudar al sistema inmunológico.</p>
-            <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+            <p>Work on energy and blood stagnation.Work in stagnation of the different meridians affected.Work in pain control for affected and painful areas.Help the immune system. </p>
+            <strong> according to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will be defined the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
           </div>
         </div>
       </div>    

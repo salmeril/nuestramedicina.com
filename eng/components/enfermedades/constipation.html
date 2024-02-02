@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -296,12 +299,12 @@
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        estreñimiento
+        Constipation
       </h1>
       <p class="enferTexto m-5">
-        El término estreñimiento se refiere a los cambios en los hábitos diarios intestinales, particularmente una disminución en el número o consistencia de movimientos intestinales, o dolor o dificultad para pasar las heces. Si usted va regularmente, pero pasa 2 o más días sin movimiento intestinal, y entonces tiene dolor o dificultad para pasar grandes y duras heces, usted está estreñido. Si tiene buen apetito y no está con molestias, no hay necesidad de preocuparse. Sin embargo, si usted pierde el apetito, está vomitando y tiene molestias, usted debería consultar a un médico sin demora. <br>
+        The term constipation refers to changes in intestinal daily habits, particularly a decrease in the number or consistency of intestinal movements, or pain or difficulty in passing feces.If you go regularly, but spend 2 or more days without intestinal movement, and then have pain or difficulty to pass great and hard feces, you are constipated. If you have a good appetite and you are not discomfort, there is no need to worry. However, if you lose your appetite, you are vomiting and you have discomfort, you should consult a doctor without delay.<br>
 
-        Es importante que los intestinos se muevan diariamente; el colon es un depósito de materia fecal que debe ser removida dentro de las 18 a 24 horas. Las toxinas dañinas podrían formarse dentro de este periodo. Los antígenos y toxinas de las bacterias intestinales y partículas de alimentos no digeridos podrían jugar un papel en el desarrollo de diabetes mellitus, meningitis, miastenia grave, enfermedades tiroideas, candidiasis, gases crónicos, migraña, fatiga y colitis ulcerativas de estreñimiento agudo
+        It is important that intestines move daily; The colon is a stool deposit that must be removed within 18 to 24 hours. The harmful toxins could be formed within this period. Antigens and toxins of intestinal bacteria and unione food particles could play a role in the development of diabetes mellitus, meningitis, myasthenia, thyroid diseases, candidiasis, chronic gases, migraine, fatigue and ulcerative colitis of acute constipation
       </p>
     </div>
 
@@ -320,7 +323,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           
           </button>
@@ -328,23 +331,23 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Defecación infrecuente y/o dolorosa</li>
-              <li>Heces duras y pequeñas</li>
-              <li>Sensación de pasaje incompleto de las heces (tenesmo)</li>
-              <li>Esfuerzo excesivo para defecar</li>
-              <li>Abotagamiento, gases, distensión abdominal</li>
-              <li>Mal aliento (halitosis)</li>
-              <li>Lengua seca y pegajosa</li>
-              <li>Dolor de cabeza</li>
-              <li>Calambres abdominales</li>
-              <li>Fatiga</li>
-              <li>Problemas de piel (acné vulgar)</li>
-              <li>Disminución del apetito</li>
-              <li>Sobre ansiedad y pobre función intestinal</li>
-              <li>Uso frecuente de laxantes</li>
-              <li>Abdomen en tabla a la palpación</li>
-              <li>Heces palpables en colon</li>
-              <li>Disminución de los ruidos intestinales</li>
+              <li>Infrequent and/or painful defecation </li>
+              <li> Hard and small stool </li>
+              <li> Incomplete passage sensation of feces (tenesmus) </li>
+              <li> Excessive effort to defecate </li>
+              <li> Abotagation, gases, abdominal distension </li>
+              <li> Bad breath (halitosis) </li>
+              <li> Dry and sticky tongue </li>
+              <li> Headache </li>
+              <li> Abdominal cramps </li>
+              <li> Fatigue </li>
+              <li> Skin problems (vulgar acne) </li>
+              <li> APETIT DECREASE </li>
+              <li> On anxiety and poor intestinal function </li>
+              <li> Frequent use of laxatives </li>
+              <li> ABDOMEN IN THE PALPATION </li>
+              <li> Palpable feces in colon </li>
+              <li> Decrease in intestinal noise</li>
             </ul>
 
           </div>
@@ -357,7 +360,7 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Causas de Estreñimiento Agudo
+              Causes of acute constipation
             </div>
           </button>
         </h2>
@@ -365,13 +368,13 @@
           <div class="accordion-body">
 
             <ul>
-              <li>Cambios en la dieta</li>
-              <li>Viajes</li>
-              <li>Íleo adinámico</li>
-              <li>Efecto colateral de algún fármaco</li>
-              <li>Tumores colónicos</li>
-              <li>Patologías anorectales</li>
-              <li>Stress</li>
+              <li>Diet changes </li>
+              <li> Travel </li>
+              <li> Adinamic ileus </li>
+              <li> Collateral effect of some drug </li>
+              <li> Colonic tumors </li>
+              <li> Anorectal pathologies </li>
+              <li> stress</li>
             </ul>
 
           </div>
@@ -383,7 +386,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas de Estreñimiento Cronico
+              Causes of chronic constipation
             </div>
           </button>
         </h2>
@@ -391,21 +394,21 @@
           <div class="accordion-body">
 
             <ul>
-              <li>Apendicitis</li>
-              <li>Mal aliento</li>
-              <li>Mal olor del cuerpo</li>
-              <li>Lengua saburra</li>
-              <li>Depresión</li>
-              <li>Diverticulitis</li>
-              <li>Fatiga</li>
-              <li>Gases, dolor de cabeza</li>
-              <li>Hemorroides, fisura anal</li>
-              <li>Hernia</li>
-              <li>Indigestión</li>
-              <li>Insomnio</li>
-              <li>Síndrome de mala absorción</li>
-              <li>Obesidad</li>
-              <li>Vena varicosa</li>
+              <li>Appendicitis </li>
+              <li> Bad breath </li>
+              <li> Bad body smell </li>
+              <li> Saburra language </li>
+              <li> Depression </li>
+              <li> Diverticulitis </li>
+              <li> Fatigue </li>
+              <li> Gases, headache </li>
+              <li> Hemorrhoids, anal fissure </li>
+              <li> Hernia </li>
+              <li> Indigestion </li>
+              <li> Insomnia </li>
+              <li> Bad absorption syndrome </li>
+              <li> Obesity </li>
+              <li> Varicosa vein</li>
               
             </ul>
 
@@ -418,53 +421,53 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              El proceso digestivo comienza en la boca. Las enzimas de la saliva degradan los alimentos antes de que usted trague. Recuerde que su estómago no tiene dientes, así que mastique bien sus alimentos y no sobrecoma.
+             The digestive process begins in the mouth.The enzymes of saliva degrade food before you swallow.Remember that your stomach has no teeth, so chew your food well and not overwhelm.
             </p>
             <p>
-              Todos los días ponga dos cucharadas de jugo de limón en 8 onz. De agua tibia y bébalo.
+              Every day put two tablespoons of lemon juice in 8 onz. Of warm water and bébalo.
             </p>
             <p>
-              Debido a que la deshidratación puede conducir al estreñimiento, aumente la cantidad de fluidos en su dieta. Beba por lo menos 8 vasos de agua al día de preferencia spring water
+              Because dehydration can lead to constipation, increase the amount of fluids in your diet.Drink at least 8 glasses of water a day of preference Spring Water.
             </p>
             <p>
-              Para un rápido alivio de la constipación, beba grandes vasos de agua de calidad cada diez minutos por media hora. Esto puede trabajar maravillosamente a evacuar las toxinas y alivia el estreñimiento.
+              For rapid relief of constipation, drink large vessels of quality water every ten minutes for half an hour.This can work wonderfully to evacuate toxins and relieve constipation.
             </p>
             <p>
-              Vaya al toilet todos los días a la misma hora, aunque no exista la urgencia, y relájese. Mucha gente encuentra ayuda en la lectura como una manera de relajarse. Nunca reprima los deseos de defecar.
+              Go to the toilet every day at the same time, although there is no urgency, and relax.Many people find help in reading as a way to relax.Never repress the desires to defecate.
             </p>
             <p>
-              Mantenga limpio su intestino. Si el estreñimiento es persistente, haga enemas de limpieza.
+              Keep your intestine clean.If constipation is persistent, make cleaning enemas.
             </p>
             <p>
-              Revise sus medicamentos y suplementos. Hay muchos medicamentos que pueden producir o exacerbar el estreñimiento.
+              Check your medications and supplements.There are many medications that can produce or exacerbate constipation.
             </p>
             <p>
-              Cuídese de determinados alimentos; algunos alimentos pueden estreñir a una persona y a otras no.
+              Take care of certain foods;Some foods can stop one person and others do not.
             </p>
             <p>
-              No se esfuerce; por más que tenga la tentación de pujar para salir de su estreñimiento, no es prudente hacerlo, pues corre el riesgo de producir hemorroides y fisura anal, que no solo resultan dolorosas, sino que también pueden empeorar el estreñimiento al reducir la abertura anal. Además, pujar también puede elevar su presión sanguínea y disminuir la frecuencia cardiaca.
+              It does not strive, As much as I have the temptation to bid to get out of its constipation, it is not prudent to do so, because it runs the risk of producing hemorrhoids and anal fissure, which are not only painful, but also the constipation can worsen by reducing the anal opening. In addition, bidding can also raise your blood pressure and reduce heart rate.
             </p>
             <p>
-              Evite cocinar en utensilios de cocina de aluminio. Es posible que las trazas de aluminio puedan exacerbar el estreñimiento.
+              Avoid cooking in aluminum kitchen utensils. It is possible that aluminum traces can exacerbate constipation.
             </p>
             <p>
-              FITOTERAPIA: La mayor parte de los casos de estreñimiento son de causa funcional, es decir que no se deben a ninguna lesión orgánica del intestino. Las plantas que se indican están especialmente recomendadas para el estreñimiento funcional por su acción laxante suave y fisiológica.
+              Phytotherapy: most of the cases of constipation are of functional cause, that is to say that they are not due to any organic lesion of the intestine.The plants indicated are especially recommended for functional constipation due to their soft and physiological action.
             </p>
             <p>
               <ul>
-                <li>Boldo: La infusión de sus hojas, normaliza el funcionamiento de la vesícula biliar y es un laxante suave.</li>
-                <li>Diente de león: Un té de infusión de sus hojas o raíz por la mañana, es un laxante suave y depurativo.</li>
-                <li>Sen: La infusión de sus hojas y extractos en dosis bajas, actúa como laxante facilitando la emisión de heces blandas sin cólico.</li>
-                <li>Cáscara sagrada: El polvo o infusión de la corteza es un purgante enérgico aunque bien tolerado.</li>
-                <li>Cerezo: Una cura de cerezas es un laxante suave y tonificante del conducto digestivo</li>
-                <li>Manzanilla: La infusión de sus semillas o esencias, facilita la expulsión de gases intestinales.</li>
+                <li>Boldo: The infusion of its leaves, normalizes the operation of the gallbladder and is a soft laxative. </li>
+                <li> León tooth: an infusion tea of its leaves or root in the morning, is a soft and purifying laxative. </li>
+                <li> Sen: the infusion of its leaves and extracts in low doses, acts as laxative facilitating the emission of soft stool without colic. </li>
+                <li> Sacred shell: the dust or infusion of the cortex is an energetic purgative although well tolerated. </li>
+                <li> Cerezo: A cherry cure is a soft and toning the digestive duct </li>
+                <li> Chamomile: the infusion of its seeds or essences, facilitates the expulsion of intestinal gases.</li>
 
               </ul>
               
@@ -482,41 +485,41 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Incremente la cantidad de fibras en su dieta: Frutas, vegetales y granos enteros son ricos en fibra. Simplemente coma una pieza de fruta, tal como una manzana o piña, puede ayudar a resolver el estreñimiento; cómalas especialmente media hora o una hora después de las comida
+              Increase the amount of fibers in your diet: fruits, vegetables and whole grains are rich in fiber. Simply eat a piece of fruit, such as an apple or pineapple, it can help solve constipation;Comala them especially half an hour or an hour after food.
             </p>
             
             <p>
-              Las prunas son ahora honradas como el mejor remedio para el estreñimiento, si prefiere póngalas a remojo en agua durante toda la noche, podría ser más fácil digerirlas que la variedad seca, tome agua tibia o cereales calientes tales como la avena, cada mañana, actúa estimulando suavemente el tracto gastrointestinal, además provee fibra.
+              Prunas are now honest as the best remedy for constipation, if you prefer to soak them in water throughout the night, it could be easier to digest them than the dry variety, take warm water or hot cereals such as oatmeal, every morning, actsGently stimulating the gastrointestinal tract, it also provides fiber.
             </p>
             <p>
-              Los alimentos con alto contenido de magnesio, tales como los vegetales de hojas verdes.
+              Foods with high magnesium content, such as green leafy vegetables.
             </p>
             <p>
-              Para aliviar el estreñimiento durante la noche, mezcle media taza de jugo de pruna, una cucharada de jugo de limón y una taza de spring water. Beba esto antes de ir a dormir.
+              To relieve constipation during the night, mix half a cup of pruna juice, a tablespoon of lemon juice and a spring water cup.Drink this before going to sleep.
             </p>
             <p>
-              Sea consciente de que estimulantes como el café y bebidas alcohólicas deshidratan el sistema con el riesgo de estreñimiento.
+              Be aware that stimulants such as coffee and alcoholic beverages dehydrate the system with the risk of constipation.
             </p>
             <p>
-              Consuma alimentos ricos en pectina tales como: manzanas, zanahorias, coles, bananas, frutas cítricas, arvejas secas, etc.
+              Consume foods rich in pectin such as: apples, carrots, cabbage, bananas, citrus fruits, dried peas, etc.
             </p>
             <p>
-              Siga una dieta muy baja en grasas, evite las frituras.<br>
-              Evite los alimentos que estimulan la secreción de las membranas mucosas, tales como productos diarios, grasas y especias para las comidas.
+              Follow a very low fat diet, avoid friedness. <br>
+              Avoid foods that stimulate the secretion of mucous membranes, such as daily products, fats and spices for meals.
             </p>
             <p>
-              No consuma productos diarios, bebidas suaves (sodas, refrescos), carnes rojas, harinas blancas, alimentos altamente procesados, sal, café, o azúcares. Estos productos son de difícil digestión y no contienen fibras.<br>
-              Coma porciones pequeñas de comida, no grandes ni pesadas.
+              It does not consume daily products, soft drinks (sodas, soft drinks), red meat, white flours, highly processed foods, salt, coffee, or sugars.These products are difficult to digest and do not contain fibers. <br>
+              Eat small food portions, not large or heavy.
             </p>
             <p>
-              Se recomienda la preparación de los siguientes jugos: J61– J30– J15– J01 Hágalos en licuadora o extractor, tómelos una o dos veces al día.
+             The preparation of the following juices is recommended: J61– J30– J15– J01 Hágalos in blender or extractor, take them once or twice a day.
             </p>
 
           </div>
@@ -528,7 +531,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
@@ -536,26 +539,26 @@
           <div class="accordion-body">
 
             <p>
-              Dése tiempo para ir al gimnasio; consideramos que el ejercicio regular tiende a combatir el estreñimiento porque mueve el alimento más rápido por el intestino.
+              Give time to go to the gym; We consider that regular exercise tends to combat constipation because it moves food faster by the intestine.
             </p>
             <p>
-              Salga a caminar, es particularmente útil para las mujeres embarazadas, pues muchas de ellas padecen de estreñimiento cuando sus vientres se alteran para acomodar al feto que está creciendo. Todo el mundo incluso las futuras madres, deben de dar una buena y saludable caminata de 20 a 30 minutos cada día.
+              Walk, it is particularly useful for pregnant women, as many of them suffer from constipation when their bellies are altered to accommodate the fetus that is growing. Everyone even future mothers must give a good and healthy walk of 20 to 30 minutes every day.
             </p>
 
             <p>
-              Adiestre su intestino. Durante toda nuestra vida, muchos nos acondicionamos a ir al baño no cuando lo requiere nuestro intestino sino cuando lo creemos conveniente. No obstante si se evita la necesidad de defecar, puede llegarse progresivamente al estreñimiento, pero nunca es demasiado tarde para mejorar los hábitos intestinales.
+              Adiestre his intestine.Throughout our life, many of us condition ourselves to go to the bathroom not when our intestine requires it but when we believe it convenient.However, the need to defecate is avoided, it can be progressively reached to constipation, but it is never too late to improve intestinal habits.
             </p>
             <p>
-              Cálmese y tome las cosas con calma; cuando siente temor o tensión, la boca se le seca y el corazón late con más rapidez, pero también sus intestinos se paralizan.
+              Calm down and take things easy; When he feels fear or tension, his mouth dries and his heart beats faster, but also his intestines are paralyzed.
             </p>
             <p>
-              Ría con ganas; una buena risa desde el fondo de su vientre puede ayudarlo con el estreñimiento de dos maneras: Tiene un efecto masajeante sobre los intestinos, lo cual ayuda a estimular la digestión, y es un gran recurso para aliviar la tensión.
+              I laugh with desire;A good laugh from the bottom of your belly can help you with constipation in two ways: it has a massage effect on the intestines, which helps stimulate digestion, and is a great resource to relieve tension.
             </p>
             <p>
-              Unas sales de espuma para el baño son relajantes e incrementan la circulación. Las sales de espuma contienen sulfato de magnesio. Una hora o dos después del baño con estas sales podría empezar un movimiento intestinal frecuente.
+              Foam salts for the bathroom are relaxing and increase circulation. Foam salts contain magnesium sulfate.An hour or two after the bathroom with these salts could start a frequent intestinal movement.
             </p>
             <p>
-              Masajee la parte baja del abdomen es reconfortante y ayuda al movimiento intestinal. Masajee suavemente siguiendo el movimiento natural del intestino, comience en la esquina derecha, muévase hacia las costillas, luego hacia la esquina izquierda y baja hasta la pelvis.
+              Massage the lower part of the abdomen is comforting and helps the intestinal movement. Massage gently following the natural movement of the intestine, start in the right corner, move towards the ribs, then towards the left corner and go down to the pelvis.
             </p>
 
           </div>
@@ -568,13 +571,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Aproveche nuestros consejos, preparando las siguientes recetas: R02– R05– R07– R10– R13– R18– R25– R30– R34– R39– R41– R47– R59– R63– R66– R70
+            Take advantage of our advice, preparing the following recipes: R02– R05– R07– R10– R13– R18– R25– R30– R34– R39– R41– R47– R59– R63– R66– R70
           </div>
         </div>
       </div>
@@ -586,18 +589,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Las esencias oleosas de basil, lavanda y rosa fortalecen al sistema digestivo y contrarresta el estreñimiento. Usted puede usar cualquiera de ellas o todas en un baño de aromaterapia o añada unas gotas al aceite de masaje y úselo en conjunto con el masaje.
+              The olive essences of basil, lavender and pink strengthen the digestive system and counteract constipation.You can use any of them or all in an aromatherapy bath or add a few drops to massage oil and use it together with massage.
 
             </p>
             <p>
-              Usualmente en sí el estreñimiento no es grave. Sin embargo, debe consultar a su médico cuando los síntomas sean severos, duren más de tres semanas, causen incapacidad, o encuentren sangre en sus heces fecales. Aunque no con frecuencia, el estreñimiento puede ser signo de una grave afección subyacente. Póngase en contacto con su doctor si además de su estreñimiento padece de distensión abdominal, lo cual puede indicar obstrucción.
+              Usually constipation is not serious.However, you should consult your doctor when the symptoms are severe, they last more than three weeks, they cause disability, or find blood in their feces.Although not often, constipation can be a sign of a serious underlying condition.Contact your doctor if in addition to its constipation suffers from abdominal distension, which can indicate obstruction.
             </p>
 
             
@@ -610,13 +613,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Easy Pass, Ultra Detox, Easy Digestion, Vesiculan, Texas Elixir, Dagold, Daninpien, Te Detox para estreñimiento.
+            Easy Pass, Ultra Detox, Easy Digestion, Vesiculan, Texas Elixir, Dagold, Daninpien, te detox for constipation.
           </div>
         </div>
       </div>    
@@ -627,16 +630,16 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Muchísimo calor en el sistema especialmente en el abdomen bajo. Exceso de calor en el hígado. Estancamiento en el hígado. Deficiencia de líquidos en colon. Deficiencia en intestino delgado. Deficiencia de bazo. Estancamiento y deficiencia en vesícula con calor y flema. Deficiencia de energía en colon produciendo estancamiento de comida. Calor en colon. Deficiencia de riñón secando colon. Ver en casos por debilidad de pulmón afectando la energía descenderte del colon.
+            A lot of heat in the system especially in the low abdomen.Excess heat in the liver.Stagnation in the liver. Liquid deficiency in colon. Deficiency in small intestine. Spleen deficiency. Stagnation and gallbladder deficiency with heat and phlegm. Energy deficiency in colon producing food stagnation. Heat in colon. Kidney deficiency drying colon. See in cases due to lung weakness affecting the energy descend from the colon.
 
  	 
- 	          <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+ 	          <strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
           </div>
         </div>
       </div>    
