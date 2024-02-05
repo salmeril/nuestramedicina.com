@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -289,18 +292,19 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Trastorno de la Vesicula
+        Tarrow the vesicle
       </h1>
       <p class="enferTexto m-5">
-        La vesícula es un pequeño órgano localizado directamente debajo del hígado. Esta actúa como un reservorio, en donde se concentra la bilis, la cual es secretada por el hígado y es usado por el cuerpo para digerir las grasas. La bilis contiene colesterol, sales biliares, lecitina y otras sustancias. Algunas veces los cristales de colesterol se mezclan con la bilis en la vesícula y forman piedras vesiculares.
+        The gallbladder is a small organ located directly under the liver. This acts as a reservoir, where bile is concentrated, which is secreted by the liver and is used by the body to digest fats.Bile contains cholesterol, bile salts, lecithin and other substances.Sometimes cholesterol crystals are mixed with the gallbladder bile and form vesicular stones.
         <br>
-        Es más común en mujeres, cuatro veces más que el hombre y en ciertos grupos de la población. Los problemas vesiculares ocurren por lo general a partir de los 40 años, por esto a esta enfermedad se la conoce como la enfermedad de las tres F: forty, fat, female (mujer, con problemas de obesidad de 40 años).
+        It is more common in women, four times more than man and in certain population groups. Vesicular problems usually occur after 40, this is why this disease is known as the disease of the three F: Forty, Fat, Female (woman, with 40-year-old obesity problems).
       </p>
     </div>
 
@@ -319,7 +323,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Clasificación
+              Classification
             </div>
           
           </button>
@@ -328,10 +332,10 @@
           <div class="accordion-body">
 
             <p>
-              Dependiendo de la localización de las piedras toma su nombre así:
+              Depending on the location of the stones, it takes its name like this:
               <ul>
-                <li><strong>Colelitiasis:</strong> Dentro de la vesícula</li>
-                <li><strong>Coledocolitiasis:</strong>Dentro del colédoco</li>
+                <li><strong>Colelitiasis: </strong> inside the gallbladder </li>
+                <li> <strong> coledocolithiasis: </strong> inside the bilestones</li>
               </ul>
             </p>
 
@@ -345,7 +349,7 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           </button>
         </h2>
@@ -354,11 +358,11 @@
 
             <p>
               <ul>
-                <li>Fiebre</li>
-                <li>Nausea</li>
-                <li>Vómito</li>
-                <li>Dolor en región abdominal derecha (cuadrante superior)</li>
-                <li>Algunas veces ictericia</li>
+                <li>Fever</li>
+                <li> Nausea </li>
+                <li> Vomit </li>
+                <li> Pain in the right abdominal region (upper quadrant) </li>
+                <li> Sometimes jaundice</li>
               </ul>
             </p>
 
@@ -371,7 +375,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
@@ -379,8 +383,8 @@
           <div class="accordion-body">
             
             <ul>
-              <li>Dieta rica en grasas saturadas e hidrogenadas</li>
-              <li>Predisposición genética familiar</li>
+              <li>Diet rich in saturated and hydrogenated fats </li>
+              <li> Family genetic predisposition</li>
             </ul>
 
           </div>
@@ -392,7 +396,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Factores de Riesgo
+              Risk factor's
             </div>
           </button>
         </h2>
@@ -400,10 +404,10 @@
           <div class="accordion-body">
             
             <ul>
-              <li>Colecistitis</li>
-              <li>Empiema vesicular</li>
-              <li>Pancreatitis</li>
-              <li>Colangitis</li>
+              <li>Colecistitis </li>
+              <Li> Empiema vesicularia </li>
+              <Li> Pancreatitis </li>
+              <li> alleged</li>
             </ul>
 
           </div>
@@ -416,27 +420,27 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Consejos Generales y Consejos Caseros
+              General tips and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Intente eliminar las piedras tomando tres cucharadas de aceite de oliva con el jugo de un limón antes de dormir y antes del desayuno. Las piedras a menudo pasan y son eliminadas a través de las heces.
+              Try to eliminate the stones taking three tablespoons of olive oil with the juice of a lemon before bedtime and before breakfast. The stones often pass and are eliminated through feces.
             </p>
 
             <p>
-              Para aliviar el dolor intente usar aceite de castor caliente empapado en una compresa colocándola sobre el área de la vesícula, cúbralo con una pieza de plástico tan grande como la compresa, de esta manera ayuda a conservar el calor de la compresa. Mantenga la compresa en el área por media hora o dos horas tanto como sea necesario.
+              To relieve pain, try to use hot castor oil soaked in a compress by placing it on the vesicle area, cover it with a piece of plastic as large as the compress, thus helps keep the heat of the compress. Keep the compress in the area for half an hour or two hours as much as necessary.
             </p>
             <p>
-              Mientras usted tenga dolor, nausea y vómito, siga un programa rápido, use enema de café por pocos días.
+              As long as you have pain, nausea and vomiting, follow a fast program, use coffee enema for a few days.
             </p>
             <p>
-              Realice un programa de desintoxicación para el hígado y colon, es importante para mejorar la función de la vesícula. Use enemas de limpieza, si tiene problemas crónicos.
+              Make a detoxification program for the liver and colon, it is important to improve the function of the gallbladder.Use cleaning enemas, if you have chronic problems.
             </p>
             <p>
-              Si usted tiene sobrepeso, pierda las libras demás. La obesidad incrementa el riesgo de problemas vesiculares.
+              If you have overweight, lose others.Obesity increases the risk of vesicular problems.
             </p>
 
           </div>
@@ -448,7 +452,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
@@ -456,24 +460,24 @@
           <div class="accordion-body">
 
             <p>
-              Si tiene la vesícula inflamada, no coma alimentos sólidos por unos días. Consuma solo agua destilada o spring water, Coma una dieta baja en grasas y alta en fibras.
+              If you have an inflamed gallbladder, do not eat solid foods for a few days.Consume only distilled water or spring water, eat a low fat and fiber diet.
             </p>
             <p>
-              Descanse la vesícula, coma solo cantidades pequeñas de alimentos, cinco o seis veces al día, mejor que comer dos o tres grandes comidas. Evite comer grandes cantidades de alimentos a cualquier hora especialmente a la hora de dormir.
+              Rest the gallbladder, eat only small amounts of food, five or six times a day, better than eating two or three large meals. Avoid eating large amounts of food at any time especially when sleeping.
             </p>
             <p>
-              Beba jugos de pera o manzana por tres días, aderece los vegetales crudos con dos cucharadas de aceite de oliva con jugo de limón fresco.
+              Drink pear or apple juices for three days, go raw vegetables with two tablespoons of olive oil with fresh lemon juice.
             </p>
             <p>
-              Coma un 75% de alimentos crudos, incluya en la dieta: compota de manzanas, huevos, yogurt, cottage cheese, pescado al vapor manzanas frescas
+              Eat 75% raw food, include in the diet: apple compote, eggs, yogurt, cottage cheese, steamed fish fresh apples
             </p>
             <p>
-              Limpie el intestino, consuma tanto puré de manzana como jugo sea posible por cinco días. Añada jugo de pera ocasionalmente. El jugo de remolacha también limpia el hígado
+              Clean the intestine, consume both apple puree and juice is possible for five days. Add pear juice occasionally. Beet juice also cleanses the liver
             </p>
-            <p>Evite el azúcar y productos que la contengan.</p>
-            <p>Evite toda grasa animal, carne roja, alimentos fritos, especias, condimentos preparados de tipo comercial, margarinas, bebidas suaves, aceites comerciales, café, chocolate y carbohidratos refinados.</p>
+            <p> Avoid sugar and products that contain it. </p>
+            <p> Avoid all animal fat, red meat, fried foods, spices, commercial condiments of commercial type, margarines, soft drinks, commercial oils, coffee, chocolate and refined carbohydrates.
             <p>
-              Prepare los siguientes jugos: J03 – J61– J01– J29– J40– J46 Hágalos en extractor o licuadora, se recomienda beberlos una o dos veces al día
+              Prepare the following juices: J03 - J61– J01– J29– J40– J46 Hágalos in extractor or blender, it is recommended to drink them once or twice a day.
             </p>
 
           </div>
@@ -486,7 +490,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
@@ -494,10 +498,10 @@
           <div class="accordion-body">
 
             <p>
-              Evite el stress y los ratos de mal humor. Estos distresan la vesícula.
+              Avoid stress and times in a bad mood.These distress the gallbladder.
             </p>
             <p>
-              El ejercicio regular ayuda a tonificar el cuerpo incluyendo la vesícula en un 20 a 40%, posiblemente porque reduce el colesterol y niveles de triglicéridos, los cuales han sido ligados a los cálculos vesicales.
+              Regular exercise helps tone the body including the gallbladder by 20 to 40%, possibly because it reduces cholesterol and triglycerid levels, which have been linked to vesical calculations.
             </p>
             
 
@@ -511,7 +515,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
@@ -519,16 +523,16 @@
           <div class="accordion-body">
 
             <p>
-              Aproveche nuestras recomendaciones alimenticias preparando las siguientes recetas de ensalada: R03 - R04 - R08 - R09 - R14 - R15 - R16 - R17 - R21 - R25 - R26 - R33 - R35 - R37- R38 - R40 - R45 - R47 -R49
+              Take advantage of our food recommendations by preparing the following salad recipes: R03 - R04 - R08 - R09 - R14 - R15 - R16 - R17 - R21 - R25 - R26 - R33 - R35 - R37 -R38 - R40 - R45 - R47 -R49
             </p>
             <p>
-              <strong>Fitoterapia:</strong> La fitoterapia aporta plantas capaces de regular el mecanismo de vaciamiento biliar y de fluidificar la bilis, con lo que se puede evitar la formación de nuevos cálculos:
+              <strong>Phytotherapy: </strong> Phytotherapy provides plants capable of regulating the biliary emptying mechanism and fluidating bile, which can avoid the formation of new calculations:
               <ul>
-                <li><strong>Tilo:</strong> La infusión de sus flores, actúa como antiespasmódico, mejora el funcionamiento de la vesícula biliar</li>
-                <li><strong>Olivo:</strong> El aceite de sus frutos, facilita el funcionamiento de la vesícula biliar</li>
-                <li><strong>Boldo:</strong> La infusión de sus hojas, normaliza el vaciamiento de la bilis</li>
-                <li><strong>Diente de León:</strong> En ensalada, jugo fresco o en infusión de sus hojas, aumenta la producción de bilis y facilita su vaciamiento</li>
-                <li><strong>Manzanilla:</strong> En infusión es un antiespasmódico y sedante (alivia el dolor abdominal)</li>
+                <li> <strong> linden: </strong> The infusion of its flowers, acts as an antispasmodic, improves the operation of the gallbladder </li>
+                <li> <strong> olive: </strong> the oil of its fruits, facilitates the operation of the gallbladder </li>
+                <li> <strong> boldo: </strong> the infusion of its leaves, normalizes the emptying of bile </li>
+                <li> <strong> lion tooth: </strong> in salad, fresh juice or in infusion of its leaves, increase bile production and facilitate its emptying </li>
+                <li> <strong> chamomile: </strong> In infusion it is an antispasmodic and sedative (relieves abdominal pain).</li>
               </ul>
             </p>
 
@@ -543,13 +547,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Daninpien, Lindan, Vesiculan, Hepato Formula; Lapon, Optimal, Easy Pass, Ultra Detox, Easy Digestion, Te Detox vesícula.
+            daninpien,Lindan,Vesiculan,HepatoFormula;Lapon,Optimal,EasyPass,UltraDetox,EasyDigestion,TeDetoxVesícula
           </div>
         </div>
       </div>    
@@ -560,7 +564,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
@@ -568,11 +572,11 @@
           <div class="accordion-body">
 
             <p>
-              Retención de Humedad y calor en vesícula; Exceso de calor en el hígado descendiendo a la vesícula; Estancamiento de la energía del hígado; Debilidad en el bazo invadiendo a la vesícula con humedad y flema.
+              Moisture retention and gallbladder heat;Excess heat in the liver descending to the gallbladder;Liver energy stagnation; Weakness in the spleen invading the gallbladder with moisture and phlegm.
             </p>
             
             <p>
-              <strong>	Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+              <strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined.The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
             </p>
 
  	 
@@ -619,15 +623,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -291,24 +294,25 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Presión Arterial Alta (Hipertension)
+        High blood pressure (Hypertension)
       </h1>
       <p class="enferTexto m-5">
-        La hipertensión arterial es conocida como “Muerte silenciosa”, debido a que no da síntomas hasta que se complica. Siendo la mayor causa de muerte relacionada con ataque cardiaco y derrame o accidente cerebro vascular.
+        Arterial hypertension is known as "silent death", because it does not give symptoms until it is complicated. Being the biggest cause of death related to heart attack and spill or vascular accident.
         <br>
-        Cuando el corazón envía sangre hacia las arterias, la presión de la sangre se expulsa en contra de la pared de los vasos en las personas que sufren de hipertensión la presión es anormalmente alta.
+        When the heart sends blood to the arteries, the blood pressure is expelled against the wall of the vessels in people who suffer from hypertension, the pressure is abnormally high.
         <br>
-        La presión arterial nos mide: la presión sistólica que es la presión ejercida cuando el corazón palpita, que fuerza la sangre dentro de los vasos, esta es la presión más alta.
+        Blood pressure measures us: the systolic pressure that is the pressure exerted when the heart throbs, which forces the blood inside the vessels, this is the highest pressure.
         <br>
-        La otra sería la presión diastólica que es la que se obtiene cuando el corazón descansa entre cada palpitación, esta es la presión más baja
+        The other would be the diastolic pressure that is obtained when the heart rests between each palpitation, this is the lowest pressure
         <br>
-        Las presiones se miden en milímetros de mercurio (mmHg); lo normal se encuentra entre 120/80. La lectura de la presión arterial normal en un adulto varía de 100/60 hasta 140/90, mientras una lectura de 140/90 a 160/95 indica presión arterial en el límite. Cualquier presión mayor de 180/115 es severa; la presión arterial puede ser normal, alta o baja.  
+        The pressures are measured in millimeters of mercury (mmhg); Normal is between 120/80. Reading normal blood pressure in an adult varies from 100/60 to 140/90, while a reading from 140/90 to 160/95 indicates blood pressure at the limit.Any pressure greater than 180/115 is severe; Blood pressure can be normal, high or low.
       </p>
     </div>
 
@@ -327,7 +331,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           
           </button>
@@ -336,15 +340,15 @@
           <div class="accordion-body">
 
             <ul>
-              <li>Dolor de cabeza</li>
-              <li>Sudoraciones</li>
-              <li>Pulso rápido</li>
-              <li>Respiración corta</li>
-              <li>Mareo</li>
-              <li>Alteraciones visuales</li>
-              <li>Sonido de zumbido en los oídos</li>
-              <li>Rubor facial</li>
-              <li>Manchas en los ojos como objetos oscuros volantes.</li>
+              <li>Headache </li>
+              <li> Sweats </li>
+              <li> Quick Pulse </li>
+              <li> Short breathing </li>
+              <li> Dizziness </li>
+              <li> Visual alterations </li>
+              <li> Zumbido sound in the ears </li>
+              <li> Facial blush </li>
+              <li> Eye stains as dark flying objects.</li>
             </ul>
            
           </div>
@@ -366,18 +370,18 @@
             
             <p>
               <ul>
-                <li> <strong>Primarias:</strong> Cuando la presión alta se desarrolla sin ninguna otra patología de base, es decir de causa desconocida.
+                <li> <strong>Primary: </strong> when the high pressure develops without any other basic pathology, that is, of unknown cause.
                 <ul>
-                  <li>Idiopática</li>
+                  <li> idiopathic </li>
                 </ul>
               </li>
-              <li><strong>Secundarias:</strong> Cuando la presión arterial se eleva debido a la existencia de otra enfermedad, tales como:
+              <li> <strong> secondary: </strong> when blood pressure rises due to the existence of another disease, such as:
                 <ul>
-                  <li>Anormalidades hormonales (feocromocitoma, hiperaldosteronismo, síndrome de Cushing)</li>
-                  <li>Enfermedades renales (pielonefritis, estenosis de la arteria renal, síndrome. Nefrítico)</li>
-                  <li>Enfermedades cardiovasculares (coartación de la aorta)</li>
-                  <li>Drogas (anticonceptivos orales, cocaína, alcoholismo)</li>
-                  <li>Pre-eclampsia</li>
+                  <li> Hormonal abnormalities (pheochromocytoma, hyperalosteronism, cushing syndrome) </li>
+                  <li> kidney diseases (pyelonephritis, renal artery stenosis, syndrome. nephritic) </li>
+                  <li> Cardiovascular diseases (Coartation of the aorta) </li>
+                  <li> Drugs (oral contraceptives, cocaine, alcoholism) </li>
+                  <li> Pre-eclampsia</li>
                 </ul>
               </li>
               </ul>
@@ -394,7 +398,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
@@ -403,12 +407,12 @@
 
             <p>
               <ul>
-                <li>Si usted tiene sobrepeso consulte con su doctor sobre un programa de dieta y ejercicios.</li>
-                <li>Evite el stress tanto como sea posible, considere aprender técnicas de manejo del stress</li>
-                <li>Asegúrese de dormir lo suficiente.</li>
-                <li>Haga un chequeo de su presión arterial cada cuatro o seis meses. La presión arterial a menudo no muestra síntomas; es importante el chequeo de la presión arterial por un profesional, especialmente sí usted esta en una categoría de alto riesgo.
+                <li>If you have overweight, consult with your doctor about a diet and exercise program. </li>
+                <li> Avoid stress as much as possible, consider learning stress management techniques </li>
+                <li> Be sure to sleep enough.
+                <li> Make a check of your blood pressure every four or six months. Blood pressure often does not show symptoms; It is important to check blood pressure by a professional, especially if you are in a high-risk category.
                 </li>
-                <li>Si usted esta embarazada, debe tener su presión arterial frecuentemente monitorizada. La hipertensión no tratada durante el embarazo puede progresar de repente y pasar a una seria amenaza para la madre y el niño.</li>
+                <li> If you are pregnant, you should have your blood pressure frequently monitored.The un treated hypertension during pregnancy can suddenly progress and move on to a serious threat to the mother and child.</li>
               </ul>
             </p>
 
@@ -422,42 +426,42 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Es importante una dieta saludable alta en fibra. Los alimentos altos en fibra incluyen granos enteros, habichuelas, frutas y vegetales.<br>
-              La cebolla y el ajo contienen componentes que ayudan a bajar la presión arterial, y bajar los niveles de colesterol. Disfrútelos a menudo.
+              A high fiber high diet is important.Fiber foods include whole grains, beans, fruits and vegetables. <br>
+              Onion and garlic contain components that help lower blood pressure, and lower cholesterol levels. Enjoy them often.
 
             </p>
             <p>
-              Evite las grasas saturadas e hidrogenadas; encuéntrelos en las margarinas y la mayoría de los alimentos procesados.
+              Avoid saturated and hydrogenated fats; Find them in margarines and most processed foods.
             </p>
             <p>
-              El consumo excesivo de sal ha sido por largo tiempo relacionado con la hipertensión, porque la sal contiene sodio, la cual causa retención de fluido en el cuerpo. Es sabido que los alimentos procesados para comida rápida contienen cantidades alarmantes de sodio.<br>
-              Use hierbas en vez de sal para sazonar sus alimentos; ajo cebolla y perejil son buenos.
+              Excessive salt consumption has been for a long time related to hypertension, because salt contains sodium, which causes fluid retention in the body. It is known that rapid food processed foods contain alarming sodium amounts. <br>
+              Use herbs instead of salt to season your food;Onion and parsley garlic are good.
             </p>
             <p>
-              El consumo de cafeína puede contribuir a una presión sanguínea elevada. Limite el consumo de bebidas que contengan cafeína estas incluyen café, té negro, colas y algunas sodas.
+              Caffeine consumption can contribute to high blood pressure.Limit the consumption of drinks containing caffeine these include coffee, black tea, tails and some sodas.
             </p>
             <p>
-              Si consume alcohol, hágalo con moderación, no más de una copa al día; o evítelo por completo. La presión arterial alta ha sido relacionada con el consumo excesivo de alcohol.
+              If you consume alcohol, do it in moderation, no more than a drink a day;Or avoid it completely.High blood pressure has been related to excessive alcohol consumption.
             </p>
             <p>
-              Coma a plenitud manzanas, apio, arvejas, espárragos, bananas, hongos, brócoli, col, melón, toronja, berenjena, ciruelas, pasas, papa dulce y todos los vegetales de hojas verdes.
+              Eat apples, celery, peas, asparagus, bananas, fungi, broccoli, col, melon, grapefruit, eggplant, plums, raisins, sweet potato and all green leafy vegetables.
             </p>
             <p>
-              Beba agua pura o destilada.
+              Drink pure or distilled water.
             </p>
             <p>
-              Evite la grasa animal. Tocino, carne de res, de cerdo, hígado de pollo, carnes ahumadas y procesadas son prohibidas. Solo es aceptable las carnes blancas a la parrilla, como el pollo, pavo y pescado sin piel, podrían ser consumidos con moderación. Obtenga mejor las proteínas de la soya, granos y legumbres.<br>
-              Evite los quesos añejados, así como los vinos y el yogurt. Evite también el chocolate, crema agria.
+              Avoid animal fat.Bacon, beef, pork, chicken liver, smoked and processed meats are prohibited. Only white grill meats, such as chicken, turkey and skin-free fish, could be consumed in moderation. Obtain better soy proteins, grains and legumes. <br>
+              Avoid aged cheeses, as well as wines and yogurt. Also avoid chocolate, sour cream.
             </p>
             <p>
-              Prepare los siguientes jugos: J61– J02– J30– J15 Prepárelos en extractor o licuadora, se recomienda ingerirlos una o dos veces al día
+              Prepare the following juices: J61– J02– J30– J15 Prepare them in extractor or blender, it is recommended to ingest them once or twice a day.
             </p>
             
           </div>
@@ -469,7 +473,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
@@ -477,19 +481,19 @@
           <div class="accordion-body">
 
             <p>
-              No fume y evite los fumadores. La nicotina causa constricción de los vasos sanguíneos, provocando un aumento de la presión arterial.
+              Do not smoke and avoid smokers. Nicotine causes constriction of blood vessels, causing an increase in blood pressure.
             </p>
             <p>
-              Haga regularmente ejercicios de suaves a moderados. Tenga cuidado en no excederse, especialmente en un clima caliente y húmedo.
+              Regularly make soft to moderate exercises. Be careful not to exceed, especially in a hot and humid climate.
             </p>
             <p>
-              Trate de hacer caminatas al aire libre, tómese unos 15 o 20 minutos todos los días para ello.
+              Try to make outdoor walks, take about 15 or 20 minutes every day for it.
             </p>
             <p>
-              Tómese unas merecidas vacaciones, prefiera lugares apartados de la ciudad como el campo o la playa.
+              Take a well -deserved vacation, prefer places away from the city such as the countryside or the beach.
             </p>
             <p>
-              Aléjese de los ambientes contaminados y/o con mucho ruido.
+              Get from contaminated environments and/or with a lot of noise.
             </p>
 
           </div>
@@ -502,13 +506,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Si desea aprovechar mejor los consejos arriba descritos, tome nota de las siguientes recetas: R01 - R04 - R08 - R29 - R35 - R40 - R43 - R44 - R48 - R50 - R53 - R60 - R70 - RM03 - RM12 - RM16 - RM18
+            If you want to take better advantage of the advice described above, take note of the following recipes: R01 - R04 - R08 - R29 - R35 - R40 - R43 - R44 - R48 - R50 - R53 - R60 - R70 - RM03 - RM12 - RM16 - RM18
 
  	 
           </div>
@@ -521,17 +525,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Las esencias oleosas de lavanda y neroli tienen propiedades calmantes que reducen el stress. Use cualquiera de ellas individual o combinadas, agréguelas al agua de baño o al aceite de masaje, o simplemente inhálelas de la botella.
+              The oily essences of Lavender and Neroli have soothing properties that reduce stress. Use any of them individual or combined, agréguelas to bath water or massage oil, or simply inhale them from the bottle.
             </p>
             <p>
-              Puede que no sea posible prevenir la presión arterial alta. Sin embargo usted puede minimizar sus riesgos, haga un estilo de vida inteligente que incluye una dieta saludable y nutricionalmente completa, ejercicios diarios; evitando el stress y el consumo excesivo de bebidas alcohólicas y tabaco. Monitorice su presión arterial periódicamente sobre todo si esta por encima de los 30 años, tanto así que si desarrolla hipertensión, usted pueda comenzar un tratamiento a tiempo.
+              It may not be possible to prevent high blood pressure. However, you can minimize your risks, make an intelligent lifestyle that includes a healthy and nutritionally complete diet, daily exercises; avoiding stress and excessive consumption of alcoholic beverages and tobacco.Monitor your blood pressure periodically especially if you are above 30 years, so much so that if you develop hypertension, you can start a time treatment.
             </p>
 
           </div>
@@ -543,13 +547,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Naturobiotic, HW 500, Rinofen, Herbal Tension, Suppress, Cardio CircuPlus, Alaska, Cellular, Te Detox CardioCircu.
+            naturobiotic, Hw500, Rinofen, HerbalTension, Suppress, CardioCircuPlus, Alaska, Cellular, TeDetoxCardioCircu
           </div>
         </div>
       </div>    
@@ -560,18 +564,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Exceso de calor del hígado y vesícula invadiendo para el corazón y tórax; Estancamiento de flema en vesícula; Estancamiento de sangre y estancamiento de energía del hígado; Deficiencia de energía del bazo; Excesiva flema obstruyendo el funcionamiento del sistema; Deficiencia de líquidos del hígado y riñón; Deficiencia de sangre.
+            Excess heat of the liver and gallbladder invading for the heart and thorax;Gallbladder phlegm stagnation;Blood stagnation and liver energy stagnation;Spleen energy deficiency;Excessive phlegm obstructing the operation of the system;Liquid deficiency of the liver and kidney;Blood deficiency.
 
             </p>
             <p>
-              <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+              <strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
             </p>
             
  	 
@@ -623,15 +627,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

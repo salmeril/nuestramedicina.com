@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -289,16 +292,17 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Hepatitis
+        hepatitis
       </h1>
       <p class="enferTexto m-5">
-        En términos generales significa inflamación del hígado. Localizado debajo del reborde costal del lado derecho, el hígado es uno de los órganos más grandes del cuerpo. Su función incluye la producción y metabolismo de la bilis, la cual es necesaria para metabolizar las grasas y la detoxificación de las sustancias dañinas que circulan por el cuerpo.
+        In general terms it means inflammation of the liver.Located under the costal flange of the right side, the liver is one of the largest organs in the body. Its function includes the production and metabolism of bile, which is necessary to metabolize fats and detoxification of harmful substances that circulate through the body.
       </p>
     </div>
 
@@ -317,7 +321,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           
           </button>
@@ -325,19 +329,19 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Ictericia (coloración amarilla de la piel)</li>
-              <li>Coluria (presencia de pigmento biliar en la orina)</li>
-              <li>Nausea, vómito</li>
-              <li>Pérdida del apetito</li>
-              <li>Fiebre, escalofríos</li>
-              <li>Malestar general</li>
-              <li>Heces con color de arcilla</li>
-              <li>Diarrea</li>
-              <li>Fatiga</li>
-              <li>Dolor de cabeza</li>
-              <li>Prurito</li>
-              <li>Hepatomegalia (agrandamiento del hígado)</li>
-              <li>Dolor abdominal</li>
+              <li>Jaundice (yellow skin coloration) </li>
+              <li> Coluria (presence of bile pigment in the urine) </li>
+              <li> Nausea, vomit </li>
+              <li> Loss of appetite </li>
+              <li> Fever, chills </li>
+              <li> General discomfort </li>
+              <li> Clay color feces </li>
+              <li> Diarrhea </li>
+              <li> Fatigue </li>
+              <li> Headache </li>
+              <li> Pruritus </li>
+              <li> Hepatomegaly (liver enlargement) </li>
+              <li> Abdominal pain</li>
 
 
             </ul>
@@ -352,28 +356,28 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Virales (virus A, B, C, citomegalovirus, herpes simple).</li>
-              <li>Medicamentosa</li>
-              <li>Bacteriana</li>
-              <li>Parasitaria</li>
+              <li>Viral (virus A, b, c, cytomegalovirus, herpes simple). </li>
+              <li> Medicamentosa </li>
+              <li> Bacterial </li>
+              <li> Parasitic</li>
 
             </ul>
             <p>
-              <strong>Hepatitis A:</strong> también llamada hepatitis infecciosa, pues es altamente contagiosa, y el contagio se hace a través de las heces de una persona infectada, los alimentos o el agua. La hepatitis A en general tiene un curso benigno hasta la recuperación completa.
+              <strong> Hepatitis A: </strong> also called infectious hepatitis, as it is highly contagious, and infection is done through the feces of an infected person, food or water.Hepatitis A in general has a benign course until complete recovery.
             </p>
             <p>
-              <strong>Hepatitis B:</strong> tiene de 2 a 4 meses de incubación; muchas personas no tienen síntomas o estos son muy leves. El curso de la enfermedad puede ser largo y llegar a complicarse con una enfermedad más seria.<br>
-              La hepatitis B no es altamente contagiosa y puede ser transmitida por transfusión de sangre infectada, por el uso de agujas o instrumentos no estériles, o a través del contacto sexual.
+              <strong> hepatitis B: </strong> has 2 to 4 months of incubation;Many people have no symptoms or these are very slight.The course of the disease can be long and get to complicate with a more serious disease. <br>
+              Hepatitis B is not highly contagious and can be transmitted by infected blood transfusion, by the use of non -sterile needles or instruments, or through sexual contact.
             </p>
             <p>
-             <strong>Hepatitis C:</strong>  es una de las responsables de la mayoría de casos de hepatitis relacionada a transfusiones sanguíneas, plasma agujas e instrumentos no esterilizados. El periodo de incubación va de 6 semanas a 6 meses.
+             <strong> hepatitis C: </strong> is one of those responsible for most cases of hepatitis related to blood transfusions, plasma needles and instruments not sterilized.The incubation period goes from 6 weeks to 6 months.
             </p>
 
           </div>
@@ -385,32 +389,32 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Complicaciones
+              Complications
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Haga reposo completo en cama. Esto es de importancia primaria en el tratamiento de la hepatitis.
+              Make full bed.This is of primary importance in the treatment of hepatitis.
             </p>
             <p>
-              Pregunte a su doctor si es necesario el aislamiento de los otros miembros de la casa. Algunos médicos recomiendan que un paciente con hepatitis no debe tener contacto con otros, durante las 3 semanas de haber comenzado la enfermedad.
+              Ask your doctor if the isolation of the other members of the house is necessary.Some doctors recommend that a patient with hepatitis should not have contact with others, during the 3 weeks of starting the disease.
             </p>
             <p>
-              Lave su vajilla, utensilios y arreglos de mesa con agua caliente y jabón antibacterial, separadamente de los usados por otros miembros de la familia.
+              Wash your dishes, utensils and table arrangements with hot water and antibacterial soap, separately from those used by other family members.
             </p>
             <p>
-              Lave la ropa de cama con agua caliente, usando desinfectantes como cloro u otros blanqueadores. No mezcle la ropa contaminada con la de los otros miembros del hogar.
+              Wash the bed with hot water, using disinfectants such as chlorine or other bleachers.Do not mix contaminated clothes with that of other household members.
             </p>
             <p>
-              Use condones al tener relaciones sexuales por la vagina, ano o boca. La mayor parte de las veces lo protegerán contra la hepatitis B y C. Tanto hombres como mujeres deberían llevar condones consigo.
+              Use condoms by having sex for the vagina, anus or mouth.Most of the time they will protect it against hepatitis B and C. both men and women should carry condoms with them.
             </p>
             <p>
-              Use enemas de clorofila manténgalos por 15 minutos, hágalo tres veces por semana.
+              Use chlorophyll enemas keep them for 15 minutes, do it three times a week.
             </p>
             <p>
-              Aplique compresas de aceite de castor caliente sobre el área hepática cubra con un pedazo grande de plástico de manera que cubra bien la compresa, manténgala por hora y media o dos horas.
+              Apply hot castor oil compresses on the liver area cover with a large plastic piece so that it covers the compress, keep it for an hour and a half or two hours.
             </p>
           </div>
         </div>
@@ -421,26 +425,26 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Haga reposo completo en cama. Esto es de importancia primaria en el tratamiento de la hepatitis.<br>
-              Pregunte a su doctor si es necesario el aislamiento de los otros miembros de la casa. Algunos médicos recomiendan que un paciente con hepatitis no debe tener contacto con otros, durante las 3 semanas de haber comenzado la enfermedad.
+              Make full bed.This is of primary importance in the treatment of hepatitis. <br>
+              Ask your doctor if the isolation of the other members of the house is necessary. Some doctors recommend that a patient with hepatitis should not have contact with others, during the 3 weeks of starting the disease.
             </p>
             <p>
-              Lave su vajilla, utensilios y arreglos de mesa con agua caliente y jabón antibacterial, separadamente de los usados por otros miembros de la familia.
+              Wash your dishes, utensils and table arrangements with hot water and antibacterial soap, separately from those used by other family members.
             </p>
             <p>
-              Lave la ropa de cama con agua caliente, usando desinfectantes como cloro u otros blanqueadores. No mezcle la ropa contaminada con la de los otros miembros del hogar.<br>
-              Use condones al tener relaciones sexuales por la vagina, ano o boca. La mayor parte de las veces lo protegerán contra la hepatitis B y C. Tanto hombres como mujeres deberían llevar condones consigo.
+              Wash the bed with hot water, using disinfectants such as chlorine or other bleachers. Do not mix contaminated clothes with that of other household members. <br>
+              Use condoms by having sex for the vagina, anus or mouth. Most of the time they will protect it against hepatitis B and C. both men and women should carry condoms with them.
             </p>
             <p>
-              Use enemas de clorofila manténgalos por 15 minutos, hágalo tres veces por semana.<br>
-              Aplique compresas de aceite de castor caliente sobre el área hepática cubra con un pedazo grande de plástico de manera que cubra bien la compresa, manténgala por hora y media o dos horas.
+              Use chlorophyll enemas keep them for 15 minutes, do it three times a week. <br>
+              Apply hot castor oil compresses on the liver area cover with a large plastic piece so that it covers the compress, keep it for an hour and a half or two hours.
             </p>
 
           </div>
@@ -453,7 +457,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
@@ -461,21 +465,21 @@
           <div class="accordion-body">
 
             <ul>
-              <li>Coma frutas y vegetales crudos por dos a cuatro semanas. Coma muchas uvas y manzanas.</li>
-              <li>Incluya alcachofas en la dieta. Las alcachofas protegen al hígado.</li>
-              <li>Tome solo agua destilada o purificada. De 6 a 8 vasos diarios, mantenerse bien hidratado es muy importante; mantenga un vaso con agua cerca de su cama y tome sorbos frecuentes.</li>
-              <li>No consuma ninguna bebida alcohólica.</li>
-              <li>Evite todas las grasas, azúcares y alimentos altamente procesados.</li>
-              <li>Evite el pescado crudo y la concha de mar.</li>
-              <li>No coma proteína animal, especialmente carnes de res, cerdo, cordero, chivo.</li>
-              <li>Evite los aditivos para alimentos y todo químico.</li>
+              <li>Coma raw fruits and vegetables for two to four weeks. Eat many grapes and apples. </li>
+              <li> Include artichokes in the diet.The artichokes protect the liver. </li>
+              <li> Take only distilled or purified water. 6 to 8 glasses a day, staying well hydrated is very important; Keep a glass with water near your bed and take frequent sorbos. </li>
+              <li> Does not consume any alcoholic beverage. </li>
+              <li> Avoid all highly processed fats, sugars and foods.
+              <li> Avoid raw fish and sea shell. </li>
+              <li> Does not eat animal protein, especially beef, pork, lamb, goat. </li>
+              <li> Avoid food additives and all chemical. </li>
               
             </ul>
             <p>
-              La mayoría de las personas con hepatitis tienen poco apetito, aún supliendo el cuerpo con nutrientes apropiados es esencial para el proceso de curación, coma múltiple pero pequeñas cantidades de comidas.
+              Most people with hepatitis have little appetite, even supplying the body with appropriate nutrients is essential for the healing process, multiple coma but small amounts of meals.
             </p>
             <p>
-              Prepare los siguientes jugos: J30 – J61– J01– J29– J40– J46 Hágalos en licuadora o extractor de jugo. Se recomienda beberlos una o dos veces al día.
+              Prepare the following juices: J30 - J61– J01– J29– J40– J46 Hágalos in blender or juice extractor. It is recommended to drink them once or twice a day.
             </p>
 
           </div>
@@ -487,20 +491,20 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Tenga relaciones sexuales solo con una persona que este sana y que a la vez tenga relaciones con usted solamente.
+              Have sex only with a person who is healthy and at the same time have relationships with you only.
             </p>
             <p>
-              Hable con su compañera/o acerca de su pasado sexual y el uso de drogas.
+              Talk to your partner about your sexual past and drug use.
             </p>
             <p>
-              Usted no considere un tiempo de contagio de 7 a 10 días después de las molestias. Asegúrese de chequearse primero con su doctor, pero si se siente bien, puede regresar al trabajo durante este tiempo.
+              You do not consider a spread time 7 to 10 days after the inconvenience. Be sure to check first with your doctor, but if you feel good, you can return to work during this time.
             </p>
 
 
@@ -515,20 +519,20 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Prepare las siguientes recetas de ensaladas: R04– R05– R09– R14– R16– R19– R24– R30– R31– R33– R35– R48
+              Prepare the following salad recipes: R04– R05– R09– R14– R16– R19– R24– R30– R31– R33– R35– R48
             </p>
             
             <p>
-              No hay cura para la hepatitis, pero la mayoría de las personas se recuperan por ellos mismos sin sufrir consecuencias permanentes.
-              Sin embargo la recuperación podría tomar de uno a tres meses. Un pequeño porcentaje de la población puede desarrollar hepatitis crónica. La buena noticia es que la hepatitis crónica también puede aclarar sin infiltración de daño permanente aún cuando lleve consigo el virus por años.
-              No obstante, la cirrosis y la hepatitis crónica son asociadas con un aumento del riesgo de desarrollar cáncer hepático.
+              There is no cure for hepatitis, but most people recover for themselves without suffering permanent consequences. <br>
+              However, recovery could take one to three months.A small percentage of the population can develop chronic hepatitis. The good news is that chronic hepatitis can also clarify without permanent damage infiltration even when the virus takes with years.
+              However, cirrhosis and chronic hepatitis are associated with an increase in the risk of developing liver cancer.
             </p>
 
             
@@ -545,13 +549,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Pricoritza, New Liver, Jiguado, Pura Vida, Ultra Detox, Detoxification, Cellular Bio Protectant, Easy Digestion, Dagold, Té Detox Hígado.
+            Pricoritza, New Liver, Jigade, Pure Life, Ultra Detox, Detoxification, Cellular Bio Protectant, Easy Digenon, Dagold, Hygado Téx.
           </div>
         </div>
       </div>    
@@ -562,18 +566,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Estancamiento de la energía en hígado, Exceso de calor hígado y vesícula, Calor y humedad en el sistema, Frío y Humedad en el sistema, Estancamiento de sangre y energía en el sistema, Debilidad del bazo invadiendo con humedad vesícula.
+             Stagnation of the energy in liver, excessive liver and gallbladder heat, heat and humidity in the system, cold and humidity in the system, blood and energy stagnation in the system, weakness of the spleen invading with gallbladder moisture.
 
             </p>
             <p>
-              <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+              <strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
             </p>
             
  	 
@@ -625,15 +629,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

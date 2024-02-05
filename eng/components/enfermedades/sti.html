@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -296,12 +299,12 @@
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Enfermedades de Transmision Sexual
+        Sexually transmitted diseases
       </h1>
       <p class="enferTexto m-5">
-        Las enfermedades de transmisión sexual (ETS) también llamadas enfermedades venéreas, son enfermedades infecto-contagiosas que se transmiten a través de las relaciones sexuales, son serias, algunas veces dolorosas y pueden causar mucho daño. Algunas pueden infectar los órganos sexuales y reproductores. Otras (VIH y hepatitis B) causan infecciones generales en el cuerpo.<br>
-        A veces puede tener una de estas enfermedades aunque no presente ningún síntoma. En otras ocasiones, los síntomas pueden desaparecer por sí mismos, pero la enfermedad no se cura si no se recibe tratamiento.<br>
-        Es necesario recordar que el contacto social, y no solo el sexual pueden permitir la diseminación de estas enfermedades; ya que no solo se transmiten a través de la vagina o por el ano, sino también por el sexo oral, así también a través de agujas infectadas o por transfusión sanguínea, estas últimas en el caso de la hepatitis y SIDA. Aunque algunas ETS son incurables, la mayoría se pueden curar. 
+        Sexually transmitted diseases (STDs) also called venereal diseases, are infectious-contagious diseases that are transmitted through sexual intercourse, are serious, sometimes painful and can cause a lot of damage.Some may infect sexual and reproductive organs. Others (HIV and hepatitis b) cause general infections in the body. <br>
+        Sometimes you can have one of these diseases even if you do not present any symptoms.On other occasions, symptoms may disappear for themselves, but the disease is not cured if treatment is not received. <br>
+        It is necessary to remember that social contact, and not only sexual can allow the dissemination of these diseases; since they are not only transmitted through the vagina or by the anus, but also by oral sex, so also through infected or blood transfusion, the latter in the case of hepatitis and AIDS. Although some STDs are incurable, most can be cured.
 
       </p>
     </div>
@@ -321,29 +324,29 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Tipos De Enfermedades de Tranmision Sexual
+              Types of sexual transmission diseases
             </div>
           
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            La alergia se puede evidenciar en varias partes del cuerpo y según esta pude tomar un nombre definido, así tenemos pues:
+            The allergy can be evidenced in various parts of the body and according to this I could take a defined name, so we have:
 
           <ul class="">
-            <li> Rinitis alérgica.</li>
-            <li>Rinitis alérgica.</li>
-            <li>Dermatitis de contacto.</li>
-            <li>Urticarias.</li>
-            <li>Asma.</li>
-            <li>Conjuntivitis alérgica.</li>
+            
+            <li>Allergic rhinitis.</li>
+            <li>Contact dermatitis.</li>
+            <li>Urticarias</li>
+            <li>Asthma</li>
+            <li>Allergic conjunctivitis.</li>
             <li>Colitis.</li>
-            <li>Sinusitis alérgica.</li>
-            <li>Rash alérgico.</li>
-            <li>Acné</li>
+            <li>Sinusitis Allergic.</li>
+            <li>Allergic rash.</li>
+            <li>Acne</li>
             <li>Eczema</li>
-            <li>Incontinencia</li>
-            <li>Edema angioneurótico</li>
+            <li>Incontinence</li>
+            <li>Angioneurotic edema</li>
 
           </ul>
 
@@ -357,7 +360,7 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           </button>
         </h2>
@@ -365,51 +368,51 @@
           <div class="accordion-body">
 
             <p>
-              Estos varían mucho, ya que cada enfermedad presenta un conjunto de síntomas y signos diferentes, así tenemos:
+              These vary greatly, since each disease has a set of different symptoms and signs, so we have:
             </p>
 
             <p>
-              <strong>Sífilis:</strong> Es una enfermedad infecciosa generalizada producida por el treponema pallidum, cuyo tiempo de incubación es de 10 a 12 días, desde el comienzo transmisible y de evolución eminentemente crónica que transcurre entre periodos de actividad y latencia con manifestaciones cutáneas, mucosas, y viscerales, alternando con largos intervalos asintomáticos.
+              <strong>Syphilis: </strong> It is a generalized infectious disease produced by the treponema pallidum, whose incubation time is 10 to 12 days, from the transmissible beginning and eminently chronic evolution that takes place between periods of activity and latency with skin manifestations, mucous membranes, and visceral, alternating with long asymptomatic intervals.
               <ul>
-                <li>En la primera etapa los síntomas aparecen entre tres y doce semanas después del contacto sexual, aparece una o más llagas de color rojizo-café en la boca, órganos sexuales, senos o dedos que no causa dolor; las llagas duran de 1 a 5 semanas, a pesar de que desaparecen el individuo sigue infectado con la sífilis</li>
-                <li>En la segunda etapa los síntomas aparecen de 1 semana a 6 meses después de que las llagas desaparecieron; aparece un salpullido en cualquier parte del cuerpo, sensación como de gripe. El salpullido y la sensación como de gripe desaparecen pero continua la sífilis.</li>
-                <li>Si no se trata a tiempo el individuo puede contagiar a su pareja, una madre que tiene sífilis puede contagiar al bebé durante el embarazo o perderlo, también puede causar daños en el corazón, cerebro y hasta la muerte.</li>
+                <li> In the first stage the symptoms appear between three and twelve weeks after sexual contact, one or more reddish-café sores appears in the mouth, sexual organs, breasts or fingers that do not cause pain;The sores last from 1 to 5 weeks, although they disappear the individual remains infected with the syphilis </li>
+                <li> In the second stage the symptoms appear 1 week to 6 months after the sores disappeared; A rashing appears anywhere in the body, feeling like flu.The salpt and the sensation as an flu disappear but the syphilis continues. </li>
+                <li> If the individual is not treated in time, he can infect his partner, a mother who has syphilis can infect the baby during pregnancy or lose it, can also cause damage to the heart, brain and even death.</li>
               </ul>
             </p>
            <p>
-            <strong>Gonorrea:</strong> Es una infección microbiana producida por la inoculación del gonococo, tarda de 2 a 21 días en aparecer los síntomas.,<br>
-            Las mujeres presentan secreción amarilla o blanca de la vagina, ardor o dolor al orinar o al defecar, sangrado vaginal entre menstruaciones, calambres y dolor en la parte baja del abdomen. Los hombres presentan líquido espeso amarillo o blanco que sale por el pene. Ardor o dolor al orinar o al mover el vientre, necesidad de orinar más frecuentemente. Si no se trata a tiempo pude contagiar a su pareja, causar infecciones más serias o dañar los órganos reproductores con la consecuente esterilidad; una madre infectada puede contagiar al bebé durante el parto, puede causar daño al corazón, la piel, artritis o ceguera.
+            <strong>Gonorrhea:</strong> Is a microbial infection produced by the inoculation of gonococcus, it takes 2 to 21 days to appear the symptoms. <br>
+            Women have yellow or white secretion of the vagina, burning or pain when urinating or defecating, vaginal bleeding between menstruations, cramps and pain in the lower abdomen. Men have yellow or white thick fluid that comes out of the penis.Burning or pain when urinating or moving the belly, need to urinate more frequently. If it is not treated in time I could infect your partner, cause more serious infections or damage the reproductive organs with the consequent sterility;An infected mother can spread the baby during childbirth, can cause damage to the heart, skin, arthritis or blindness.
            </p>
            <p>
-            <strong>Chancroide:</strong> Es producida por el estreptobacilo de Ducrey. Se inicia con una vesículo-pústula, que rápidamente se rompe, formándose una ulceración de fondo sucio, recubierta por una secreción amarillenta, borde cortado, dolorosa y de muy mal olor.
+            <strong>Chancroid:</strong> Is produced by Ducrey streptobacil.It starts with a vsulum-power, which quickly breaks, forming a dirty background ulceration, covered by a yellowish secretion, cut, painful edge and very bad smell.
             <ul>
-              <li>En el hombre se localiza en la piel del pene y del prepucio; en la mujer en la comisura posterior de la vulva. Entre las complicaciones más importantes de esta enfermedad son la fimosis, parafimosis y bubón inguinal (ganglio inflamado)
+              <li>In man it is located in the skin of the penis and the foreskin; in the woman in the subsequent commissure of the vulva. Among the most important complications of this disease are phimosis, paraphymosis and inguinal bubon (inflamed ganglion)
               </li>
             </ul>
            </p>
            <p>
-            <strong>Granuloma venéreo:</strong> Es una enfermedad crónica producida por el Granulomatis Donovanie. Después de una incubación de 15 días a 2 meses, aparece en los genitales, región perianal y en la región inguino-crural una pequeña pápula de consistencia blanda de color rojo que sangra fácilmente. En la mayoría de los casos la lesión se ulcera rápidamente. La ulceración es indolora y con poca tendencia a curar espontáneamente, no se acompaña de adenopatía regional (ganglios o secas) y existe poca afectación del estado general.
+            <strong>Venéreo Granuloma:</strong> Is a chronic disease produced by the Granulomatis Donovanie.After an incubation of 15 days to 2 months, it appears in the genitals, perianal region and in the inguino-chural region a small papule of soft red consistency that blews easily. In most cases the injury is quickly ulcerate. The ulceration is painless and with little tendency to cure spontaneously, it is not accompanied by regional adenopathy (nodes or dry) and there is little affectation of the general state.
            </p>
            <p>
-            <strong>Linfogranuloma:</strong> Es una enfermedad producida por clamidias, con varias manifestaciones que afectan al sistema linfático con manifestaciones de ganglios inflamados regionales, lesiones genitales, estrechez rectal.
+            <strong>Lymphogranuloma: </strong> is a disease produced by clamidias, with several manifestations that affect the lymphatic system with manifestations of regional inflamed ganglia, genital lesions, rectal narrowness.
            </p>
            <p>
-           <strong>Infección clamidial o uretritis no infecciosa:</strong>Los síntomas aparecen entre los 7 y 21 días después del contacto sexual. La mayoría de las mujeres y algunos hombres no presentan síntomas.
+           <strong>Clamidial infection or non-infectious urethritis:</strong> symptoms appear between 7 and 21 days after sexual contact.Most women and some men have no symptoms.
            <ul>
-            <li>Mujeres: desecho vaginal, sangrado vaginal entre menstruaciones, ardor o dolor al orinar, dolor en el abdomen a veces acompañado de fiebre y nausea.</li>
-            <li>Hombres: gotas de líquido blanco o amarillento que sale por el pene, ardor o dolor al orinar.
-              Si no se trataba a tiempo, usted puede transmitir la enfermedad a su pareja, puede causar infecciones más serias o dañar los órganos reproductores pudiendo causar esterilidad. Una madre que tiene la infección puede contagiar a su bebé durante el parto.</li>
+            <li>Women: vaginal waste, vaginal bleeding between menstruations, burning or pain when urinating, abdomen pain sometimes accompanied by fever and nausea. </li>
+            <li> Men: Drops of white or yellowish liquid that comes out of the penis, burning or pain when urinating.
+              If it was not in time, you can transmit the disease to your partner, it can cause more serious infections or damage the reproductive organs and can cause sterility. A mother who has the infection can infect her baby during childbirth.</li>
            </ul>
            </p>
            <p>
-            <strong>Verrugas genitales:</strong> Los síntomas aparecen entre 1 y 8 meses después de haber estado en contacto con el HPV, el virus que causa la verruga genital.
-            Se observan pequeñas verrugas en los órganos sexuales y el ano; se siente ardor y comezón alrededor de los órganos sexuales. Después que desaparecen las verrugas el virus permanece en el cuerpo; las verrugas pueden aparecer nuevamente.
+            <strong>Genital warts: </strong>The symptoms appear between 1 and 8 months after having been in contact with the HPV, the virus that causes the genital wart.
+            Small warts are observed in sexual organs and anus; It feels burning and itchy around the sexual organs. After the warts disappear the virus remains in the body; Warts may appear again.
            </p>
            <p>
-           <strong>Herpes:</strong> Los síntomas aparecen entre 1 y 30 días después del contacto sexual. Algunas personas no presentan síntomas, sensación como de gripe que no desaparece, pequeñas y dolorosas ampollas en los órganos sexuales y en la boca, comezón y ardor antes de que aparezcan las ampollas; las ampollas duran de 1 a 3 semanas, aunque desaparezcan el virus persiste y las ampollas pueden aparecer nuevamente. El herpes no se cura, una madre infectada puede transmitir a su niño durante el parto.
+           <strong>Herpes: </strong> The symptoms appear between 1 and 30 days after sexual contact. Some people do not present symptoms, feeling like flu that does not disappear, small and painful blisters in sexual organs and in the mouth, itching and ardor before the blisters appear; Ampoules last from 1 to 3 weeks, even if the virus disappears and blisters may appear again. The Herpes does not cure, an infected mother can transmit to her child during childbirth.
            </p>
            <p>
-            Las enfermedades arriba mencionadas fueron descritas por ser de mayor importancia social en cuanto a frecuencia de aparición dentro de nuestra sociedad, sin dejar de restarle importancia a las demás. El SIDA y la hepatitis viral B merecen mención aparte
+            The diseases mentioned above were described by being of greater social importance in terms of frequency of appearance within our society, while restricting importance to others. AIDS and viral hepatitis B deserve separate mention
            </p>
 
           </div>
@@ -422,23 +425,23 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Cumplir las instrucciones relacionadas con el tratamiento</li>
-              <li>Volver a las citas de seguimiento para las pruebas necesarias</li>
-              <li>Referir los contactos sexuales</li>
-              <li>Usar preservativos (condones)</li>
-              <li>Evite la promiscuidad</li>
-              <li>Evite las relaciones premaritales y extramaritales</li>
-              <li>Practique una escrupulosa higiene. Mantenga el área de los genitales limpia y seca</li>
-              <li>Si esta embarazada debe iniciar inmediatamente un tratamiento adecuado, probablemente, el niño deba ser traído por cesárea</li>
-              <li>Use ropa interior holgada de algodón</li>
-              <li>Evite la micción dolorosa, desviando el chorro de la orina de la lesión, utilizando un poco de papel higiénico enrollado, luego lávese con abundante agua.</li>
+              <li>Fulfill instructions related to treatment </li>
+              <li> Back to monitoring appointments for the necessary tests </li>
+              <li> Refer sexual contacts </li>
+              <li> Use condoms (condoms) </li>
+              <li> Avoid promiscuity </li>
+              <li> Avoid pre -Marital and extramarital relationships </li>
+              <li> Practice a scrupulous hygiene.Keep the area of the genitals clean and dry </li>
+              <li> If this pregnant must immediately start an adequate treatment, probably the child must be brought by caesarean section </li>
+              <li> Use baggy cotton underwear </li>
+              <li> Avoid painful urination, diverting the jet from the urine of the lesion, using some rolled hygienic paper, then wash with plenty of water.</li>
             </ul>
 
           </div>
@@ -453,7 +456,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Usted Puede Protegerse
+              You can protect yourself
             </div>
           </button>
         </h2>
@@ -461,32 +464,32 @@
           <div class="accordion-body">
 
             <p>
-              La mejor forma de protegerse es no tener relaciones sexuales.
+              The best way to protect is not having sex.
 
             </p>
             <p>
-              También es seguro tener relaciones sexuales solo con una persona que esté sana y que a la vez tenga relaciones con usted solamente.
+              It is also safe to have sex only with a person who is healthy and at the same time has relationships with you only.
             </p>
             <p>
-              Antes de tener relaciones observe cuidadosamente el cuerpo de la otra persona. Fíjese en indicios de una ETS: salpullido, llagas, irritación de la piel o secreción. Si ve algo que lo preocupa no tenga relaciones sexuales!
+              Before having relationships carefully observe the body of the other person.Notice in indications of an STD: salpt, sores, skin irritation or secretion.If you see something that worries it, do not have sex!
             </p>
             <p>
-              Use condones de goma al tener relaciones sexuales por la vagina, ano o boca. La mayor parte de las veces, los condones lo protegerán contra una ETS. Tanto hombre como mujeres deberían llevar condones consigo.
+              Use rubber condoms by having sex for the vagina, anus or mouth.Most of the time, the condoms will protect him against an STD.Both men and women should carry condoms with them.
             </p>
             <p>
-              Junto con los condones, utilice espuma, crema o jalea anticonceptiva. Estos matan muchos gérmenes que causan las ETS.
+              Together with the condoms, use foam, cream or contraceptive jelly.These kill many germs caused by STDs.
             </p>
             <p>
-              Hágase un análisis de ETS cada vez que tenga un examen de salud. Si usted tiene relaciones con más de una persona, hágase un análisis de ETS cada vez que crea estar en riesgo, aun cuando no tenga síntomas.<br>
-               Hay una línea gratuita en donde usted puede realizarse un examen gratis y confidencial: NATIONAL AIDS INFORMATION AND DRUGS 18004585231.
+              Make an ETS analysis every time you have a health exam.If you have relationships with more than one person, do an ETS analysis every time you think you are at risk, even if you have no symptoms. <br>
+               There is a free line where you can take a free and confidential exam: National Aids Information and Drugs 18004585231.
             </p>
             <p>
-              Aprenda a reconocer los indicios y síntomas de una ETS. Si nota un síntoma que le preocupa, vaya a examinarse!
+              Learn to recognize the signs and symptoms of an STD.If you notice a symptom that worries you, go examined!
             </p>
             <p>
-              Si tiene una ETS, la persona o personas que han tenido sexo con usted deben recibir tratamiento al mismo tiempo.
+              If you have an STD, the person or people who have had sex with you should receive treatment at the same time.
             </p>
-            <p>Si tiene una ETS, no tenga relaciones sexuales hasta que haya terminado el tratamiento.</p>
+            <p>If you have an STD, do not have sex until the treatment is over.</p>
 
           </div>
         </div>
@@ -504,8 +507,7 @@
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Las siguientes recetas pueden ayudar a aprovechar mejor los alimentos arriba descritos
-            R03– R04– R06– R10– R13– R14– R17- R26– R32– R56– R58– R68– R70
+            The following recipes can help make better food described above R03– R04– R06– R10– R13– R14– R17- R26– R32– R56– R58– R68– R70
           </div>
         </div>
       </div>
@@ -517,17 +519,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Las esencias de aceites de melisa en baños tienen acción antiséptica.
+              Melisa oil essences in bathrooms have antiseptic action.
             </p>
             <p>
-              La mejor manera de evitar estas enfermedades es mantener una relación monogámica con un compañero saludable. Si usted tiene múltiples compañeros sexuales y/o cita sexual con alguien, de quien su estado de salud usted desconoce, siempre use un condón. Aunque estamos conscientes de que el condón no es 100% garantía contra las enfermedades de transmisión sexual.
+             The best way to avoid these diseases is to maintain a monogamous relationship with a healthy partner. If you have multiple sexual classmates and/or sexual appointment with someone, from whom your health is unknown, always use a condom. Although we are aware that the condom is not 100% guarantee against sexually transmitted diseases.
             </p>
 
 
@@ -541,13 +543,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Naturobiotic, Iperoxo, Pura Vida, Inmunoflan, Cellular Bio Protectant, Super Acidophilus, Mega Zinc, Detoxification, Te Detox general.
+            Naturobiotic, Iperoxo, PuraVida, Inmunoflan, CellularBioProtectant, SuperAcidophilus, MegaZinc, Detoxification,Te Detox General
           </div>
         </div>
       </div>    
@@ -558,19 +560,19 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Calor en la sangre. Exceso de calor en el sistema. Humedad y calor invadiendo todo el sistema. Estancamiento de energía en el sistema.
+             Heat in the blood.Excess heat in the system.Humidity and heat invading the entire system.Energy stagnation in the system.
 
             </p>
             <p>
               <strong>
-                Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.
+               According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor.The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.
 
               </strong>
             </p>
