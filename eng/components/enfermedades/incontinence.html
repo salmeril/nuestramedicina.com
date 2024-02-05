@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -288,16 +291,17 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Incontinencia
+        Incontinence
       </h1>
       <p class="enferTexto m-5">
-        La incontinencia urinaria es la pérdida incontrolable de la orina, es un problema relativamente común en el grupo de los adultos de la tercera edad, pero este problema puede afectar personas de otro grupo de edad.
+        Urinary incontinence is the uncontrollable loss of urine, it is a relatively common problem in the group of adults of the elderly, but this problem can affect people from another age group.
       </p>
     </div>
 
@@ -316,7 +320,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Clasificacion
+              Classification
             </div>
           
           </button>
@@ -324,25 +328,25 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Hay cuatro tipos básicos de incontinencia:
+              There are four basic types of incontinence:
               <ul>
-                <li><strong>Incontinencia total:</strong> Esta condición es caracterizada por una pérdida más o menos constante de pequeñas cantidades de orina, sin hacer caso de la posición del cuerpo.</li>
+                <li> <strong> Total incontinence: </strong> This condition is characterized by a more or less constant loss of small amounts of urine, without paying attention to the position of the body. </li>
                 <ul>
-                  Las causas posibles incluyen:
-                  <li>Daño en el esfínter urinario (por una anormalidad anatómica o lesión)</li>
-                  <li>Daño en el nervio</li>
-                  <li>Tumores infiltrativos</li>
-                  <li>Presencia de fístulas o pasajes anormales a través de la cual sale la orina del cuerpo</li>
-                  <li>Bypass de la uretra</li>
+                  The possible causes include:
+                  <li> Damage to the urinary sphincter (due to an anatomical abnormality or injury) </li>
+                  <li> Nerve damage </li>
+                  <li> Infiltrative tumors </li>
+                  <li> Presence of abnormal fistulas or passages through which the urine of the body comes out </li>
+                  <li> Bypass of the urethra </li>
                 </ul>
-                <li><strong>Incontinencia por stress:</strong> En esta condición tosiendo, estornudando, levantando algún peso o cualquier otra cosa que incremente su presión dentro del abdomen forzando la orina a gotear. Esto es más común en la mujer que en el hombre, especialmente mujeres que han tenido niños, estrechez de los músculos del piso de la pelvis o quienes han tenido cirugía en la región pélvica.</li>
-                <li><strong>Incontinencia de urgencia:</strong> La urgencia urinaria envuelve la inflamación de la vejiga o problema neurológico que pueda causar de repente deseos incontrolables de evacuar; saliendo sin dar tiempo de hacerlo en el toilet</li>
-                <li><strong>Incontinencia por rebosamiento:</strong> En personas con orina por rebosamiento, la vejiga está distendida, entonces ninguna orina adicional puede entrar sin que gotee algo hacia afuera. La retención crónica de la orina puede conducir a este problema. Es más común en ancianos y en hombres con agrandamiento de la próstata, lo cual restringe la salida del flujo de orina.</li>
+                <li> <strong> Stress incontinence: </strong> in this condition, sneezing, raising some weight or anything else that increases its pressure within the abdomen forcing the urine to drip.This is more common in women than in men, especially women who have had children, narrowness of the pelvis's floor muscles or those who have had surgery in the pelvic region. </li>
+                <li> <strong> Emergency incontinence: </strong> urinary urgency surrounds the inflammation of the bladder or neurological problem that may suddenly cause uncontrollable desires to evacuate;leaving without giving time to do in the toilet </li>
+                <li> <strong> Swelling Incontinence: </strong> In people with urine by overflow, the bladder is relaxed, then no additional urine can enter without dripping something out.Chronic urine retention can lead to this problem.It is more common in the elderly and in men with the enlargement of the prostate, which restricts the output of urine flow. </li>
                 
               </ul>
             </p>
-            <p>La incontinencia urinaria no es necesariamente un problema permanente. El embarazo, delirio, infección, irritación vaginal, depresión y psicosis pueden causar alguna forma de incontinencia; Ciertas medicinas también pueden ser responsables de esto.</p>
-            <p>La causa más común de incontinencia en gente muy mayor, es una condición llamada sobre actividad del músculo detrusor.</p>
+            <p> Urinary incontinence is not necessarily a permanent problem.Pregnancy, delirium, infection, vaginal irritation, depression and psychosis can cause some form of incontinence;Certain medicines can also be responsible for this. </p>
+            <p> The most common cause of incontinence in very old people is a condition called detrusor muscle activity.</p>
 
           </div>
         </div>
@@ -354,23 +358,23 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Recomendaciones Generales y Consejos caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <li>Lleve un diario de su vejiga; durante una semana escriba que comí, que bebí, cuando fui al baño y con que frecuencia oriné. El diario ayudará a usted y a su médico a encontrar la causa.</li>
-            <li>No tome demasiado líquido. Usualmente se debe a que la persona está sometida a una dieta que requiere beber grandes cantidades de líquido. Si bebe un poco menos, su problema de incontinencia puede aliviarse. Un buen momento para disminuir la cantidad de líquidos bebidos es antes de ir a dormir.</li>
-            <li>Reducir su consumo de líquidos por debajo de los niveles normales sin la aprobación de su médico puede traducirse en deshidratación, lo cual empeora los problemas urinarios y quizás incluso causar enfermedades graves</li>
-            <li>El estreñimiento puede contribuir a la incontinencia, de modo que debe preferir una dieta alta en fibras, acompañada de cantidades adecuadas de líquidos</li>
-            <li>Pierda peso, hay gente que perdiendo unos cuantos kilos puede reducir su incontinencia</li>
-            <li>Intente vaciar doblemente, al orinar permanezca en el inodoro hasta que sienta que su vejiga está vacía. Luego levántese y siéntese de nuevo, agáchese ligeramente hacia adelante doblándose por las rodillas e intente orinar de nuevo.</li>
-            <li>Acuda al baño cuando tiene que hacerlo; es bueno vaciar la vejiga con regularidad, la retención prolongada puede producir infección de la vejiga y estirarla exageradamente. Además si su vejiga está demasiado llena y tiene débil el músculo del esfínter, muy probable que empiece a salir orina solo por toser, estornudar o reír. Lo mejor que pude hacer: vacíe su vejiga antes y después de sus alimentos y a la hora de ir a dormir</li>
-            <li>Prepárese para las emergencias, conserve una bacinilla cerca de su cama</li>
-            <li>Si sabe que va a estornudar, toser o levantar peso, apriete el esfínter antes y evite un accidente penoso.
+            <li>Take a newspaper from your bladder;For a week I written that I ate, that I drank, when I went to the bathroom and how often I urinated.The newspaper will help you and your doctor find the cause. </li>
+            <li> Do not take too much liquid.It is usually due to the fact that the person is subject to a diet that requires drinking large amounts of liquid.If you drink a little less, your incontinence problem can be relieved.A good time to reduce the amount of drunk liquids is before going to sleep. </li>
+            <li> Reduce their consumption of liquids below normal levels without the approval of your doctor can translate into dehydration, which worsens urinary problems and perhaps even cause serious diseases </li>
+            <li> Constipation can contribute to incontinence, so that a high fiber diet must prefer, accompanied by adequate amounts of liquids </li>
+            <li> Lose weight, there are people who losing a few kilos can reduce their incontinence </li>
+            <li> Try to empty doubly, when urinating stay in the toilet until you feel that your bladder is empty.Then get up and feel again, glow slightly forward bending down the knees and tried to urinate again. </li>
+            <li> Go to the bathroom when you have to do it;It is good to empty the bladder regularly, prolonged retention can cause bladder infection and stretch it exaggeratedly.In addition, if your bladder is too full and is weak the sphincter muscle, very likely to start urine just by coughing, sneezing or laughing.The best I could do: empty your bladder before and after your food and when going to sleep </li>
+            <li> Prepare for emergencies, keep a bacinilla near your bed </li>
+            <li> If you know that you are going to sneeze, cough or lift weight, tighten the sphincter before and avoid a painful accident.
             </li>
-            <li>Si tiene incontinencia de urgencia, entonces casi no tendrá advertencia de la necesidad de orinar. No se asuste. Mejor a la primera señal relájese, luego apriete el esfínter; después relaje sus músculos abdominales. Al cesar la sensación de urgencia camine lentamente, sin sentir pánico hasta el sanitario más próximo.</li>
+            <li> If you have emergency incontinence, then you will almost not have warning of the need to urinate.Do not panic.Better at the first signal, then tighten the sphincter;Then relax your abdominal muscles.When the emergency sensation ceases, without feeling panic to the nearest toilet.</li>
 
           </div>
         </div>
@@ -381,17 +385,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <li>No fume, la nicotina irrita la superficie de la vejiga, además si su incontinencia se debe a la tensión, la tos puede desencadenar escurrimiento de orina</li>
-            <li>Habitúese. Primero, vacíe la vejiga a intervalos cortos regulares (por ejemplo cada hora es un buen comienzo) y aumente gradualmente el intervalo. En determinados tipos de incontinencia, este método puede ser sumamente eficaz, aunque nadie sabe por que. No sabemos si en verdad readiestra a la vejiga para que funcione normalmente, o si readiestra el cerebro para que atienda una disfunción de la vejiga.</li>
-            <li>Prepóngase un intervalo promedio de 3 a 6 horas entre visitas al sanitario. Procure alcanzar este rango de intervalos en el transcurso de varias semanas.</li>
-            <li>Practique ejercicios especiales, son los de Kegel, desarrollados a fines de 1940, para ayudar a mujeres con incontinencia por tensión durante y después del embarazo. Según los expertos, pueden reducir y tal vez impedir algunas manifestaciones de incontinencia en ambos sexos y a todas las edades</li>
-            <li>Sin tensar los músculos de las piernas, nalgas o abdomen, imagine que intente impedir una defecación apretando el esfínter del ano. Este ejercicio identifica la parte trasera de los músculos pélvicos. Luego cuando esté orinando, trate de detener el flujo y luego reinícielo; esto identifica la parte delantera de los músculos pélvicos. Ahora ya puede realizar el ejercicio completo trabajando de atrás adelante, apriete los músculos mientras cuente lentamente hasta cuatro; luego aflójelos. Haga esto durante dos minutos, al menos tres veces al día lo cual significa al menos 100 repeticiones.</li>
+            <li>It does not smoke, the nicotine irritates the surface of the bladder, in addition if its incontinence is due to tension, the cough can trigger urine runoff </li>
+            <li> Usuit.First, empty the bladder at regular short intervals (for example every hour is a good start) and gradually increase the interval.In certain types of incontinence, this method can be extremely effective, although nobody knows why.We do not know if the bladder really readisted so that it works normally, or if readstate the brain to address a bladder dysfunction. </li>
+            <li> Prepare an average interval of 3 to 6 hours between sanitary visits. Try to reach this range of intervals over the course of several weeks. </li>
+            <li> Practice special exercises, they are those of Kegel, developed at the end of 1940, to help women with tension incontinence during and after pregnancy. According to experts, they can reduce and perhaps prevent some manifestations of incontinence in both sexes and at all ages </li>
+            <li> Without tensing the muscles of the legs, buttocks or abdomen, imagine that trying to prevent defecation by pressing the sphincter of the anus.This exercise identifies the rear of the pelvic muscles. Then when urinating, try to stop the flow and then reiníco; This identifies the front of the pelvic muscles.Now you can perform the full exercise working backwards, tighten your muscles while slowly counting up to four; Then clarify them. Do this for two minutes, at least three times a day which means at least 100 repetitions.</li>
 
           </div>
         </div>
@@ -407,7 +411,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
@@ -428,13 +432,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Incontinencia Spray, Rinofen, Marine Proteína, Complete, Ultra Detox, Alaska, Bladder Irritation, Pura Vida, Te Detox.
+            Incontinence spray, rhinofen, marine protein, complete, ultra detox, alaska, bladder irritation, pure life, te detox.
           </div>
         </div>
       </div>    
@@ -445,17 +449,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Deficiencia del abdomen medio; Deficiencia de energía de riñón; Retención en el abdomen bajo de calor y/o humedad; Deficiencia de corazón; Estancamiento de calor y/o humedad en colon; Deficiencia de pulmón, Colapso de la energía del colon; Calor en la vejiga.
+              Average abdomen deficiency; Kidney energy deficiency; Retention in the low heat and/or moisture abdomen; Heart deficiency;Heat and/or humidity stagnation in colon; Lung deficiency, colon energy collapse; Heat in the bladder.
             </p>
             <p>
-              <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+              <strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
             </p>
             
 

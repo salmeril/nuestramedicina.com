@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -289,28 +292,29 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Menopausia
+        Menopause
       </h1>
       <p class="enferTexto m-5">
-        El término menopausia se emplea para indicar la cesación permanente o final de la función menstrual, bien sea como un suceso fisiológico normal o como consecuencia de la cirugía o erradicación ovárica. <br>
+        The term menopause is used to indicate the permanent or final cessation of the menstrual function, either as a normal physiological event or as a consequence of ovarian surgery or eradication.<br>
 
-        El síndrome menopáusico abarca todas las secuelas de la interrupción definitiva de la función ovárica de las cuales la ausencia de la menstruación es solamente una parte. <br>
+        Menopausal syndrome covers all sequelae of the definitive interruption of the ovarian function of which the absence of menstruation is only part.<br>
         
-        La mayoría de las mujeres llegan a la menopausia fisiológica a la edad de 45 – 50 años, pero la insuficiencia prematura del ovario puede presentarse antes de los 30 años. La menopausia precoz es más común en las mujeres que han padecido de una infección o de una afección quirúrgica en el aparato genital. <br>
+        Most women reach physiological menopause at the age of 45 - 50 years, but the premature insufficiency of the ovary can occur before the age of 30.Early menopause is more common in women who have suffered from an infection or a surgical condition in the genital apparatus.<br>
         
-        La época en que se inicia la menopausia tiene a menudo un carácter familiar; en raras ocasiones la insuficiencia prematura del ovario forma parte de una insuficiencia poliendovárica generalizada, probablemente con una base autoinmunitaria. <br>
+        The time when menopause begins has a familiar character;Rarely, the premature insufficiency of the ovary is part of a generalized polyndony insufficiency, probably with an autoimmune base.<br>
         
-        El tiempo de la menopausia quirúrgica o la debida a rayos X, difiere de la menopausia natural en que es más rápido el comienzo y que son más graves las manifestaciones. <br>
+        The time of surgical menopause or that due to X-rays differs from natural menopause in which the beginning is faster and that manifestations are more serious.<br>
         
-        Mientras más precozmente se presenta la insuficiencia ovárica, tanto más graves son los efectos sobre ciertas estructuras, principalmente sobre el esqueleto. <br>
+        The more early ovarian insufficiency occurs, the more serious the effects on certain structures, mainly on the skeleton.<br>
         
-        Es también interesante hacer notar que hay mujeres que nunca presentan evidencias de menopausia, mientras otros padecen intensamente y pueden sufrir psicosis. Aunque la función reproductora cesa, la menopausia nunca debilita la actividad sexual, a no ser que los factores psíquicos y la ignorancia produzcan una inhibición afectiva.
+        It is also interesting to note that there are women who never have evidence of menopause, while others suffer intensely and can suffer psychosis. <br>Although the reproductive function ceases, menopause never weakens sexual activity, unless the psychic factors and ignorance produce an affective inhibition.
       </p>
     </div>
 
@@ -329,7 +333,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y Sintomas 
+              Signs and symptoms 
             </div>
           
           </button>
@@ -338,9 +342,9 @@
           <div class="accordion-body">
             
 
-          <p>La amenorrea es precedida por meno-metrorragias u oligomenorreas. Los bochornos son a veces intensos durando unos pocos minutos, pero se repiten frecuentemente. A veces los pacientes se quejan de estados de tensión, especialmente sensación de plenitud en la cabeza. Se presenta con frecuencia aumento de peso e inestabilidad nerviosa con depresión, alegría exagerada o lasitud.</p>
-            <p>Frecuentemente se presentan dolencias y dolores reumatoides. Los cambios sexuales incluyen dispareunia (dolor en el coito), pérdida de la líbido y, en algunos casos aumento del apetito sexual. Las mamas pueden ser dolorosas. Es común la irritación de la vejiga.</p>
-            <p>Existen muy pocos datos objetivos. Hipertensión moderada, hirsutismo moderado (vello facial), adormecimiento de la espina dorsal, piel seca y cabellos ásperos.</p>
+          <p>Amenorrhea is preceded by meno-metrorragia or oligomenorreas.The embarrassment are sometimes intense lasting a few minutes, but they are repeated frequently.Sometimes patients complain of states of voltage, especially a feeling of fullness in the head. Frequently increases weight and nerve instability with depression, exaggerated joy or lassitude. </p>
+            <p> Frequently there are rheumatoid ailments and pains. Sexual changes include trigger (pain in intercourse), loss of libido and, in some cases increase in sexual appetite. Breasts can be painful.The irritation of the bladder is common.
+            <p> There are very few objective data.Moderate hypertension, moderate hirsutism (facial hair), numbness of the spine, dry skin and rough hair.</p>
           </div>
         </div>
       </div>
@@ -351,13 +355,13 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Complicaciones 
+              Complications
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Las complicaciones graves de la menopausia son la osteoporosis y la psicosis. La diabetes mellitus puede aparecer con la menopausia. Puede también aparecer la vaginitis senil. La paciente posmenopáusica es más propensa a las enfermedades cardiovasculares degenerativas y a la Gota.</p>
+            <p>The serious complications of menopause are osteoporosis and psychosis. Diabetes mellitus can appear with menopause. Senile vaginitis may also appear. The postmenopausal patient is more prone to degenerative cardiovascular diseases and gout.</p>
           </div>
         </div>
       </div>
@@ -367,14 +371,14 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Pronostico
+              Prediction
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>La mayoría de las mujeres pasan por la menopausia sin necesidad de requerir una terapéutica externa, otras sin embargo necesitarán terapéutica intensiva y prolongada, especialmente cuando presenta una osteoporosis marcada.</p>
-           <p>Algunas pacientes presentan una grave depresión con tendencia al suicidio.</p>
+           <p>Most women go through menopause without requiring an external therapy, others will nevertheless need intensive and prolonged therapy, especially when it has marked osteoporosis.
+           <p> Some patients have a serious depression with a tendency to suicide.</p>
           </div>
         </div>
       </div>
@@ -384,25 +388,24 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
            <ul>
-            <li>La educación relativa a los cambios psicológicos y una gran perspectiva llena de posibilidades puede constituir una gran diferencia en el manejo de la tensión que trae consigo la menopausia, al igual que los cambios en la vida. La investigación ha demostrado que un tercio de la vida de la mujer contemporánea transcurre después de la menopausia. Así que debe considerarla como un paso adelante en la vida y debe cambiar positivamente. Vuelva a la escuela, encuentre una nueva afición; cámbiese de carrera. Hágase cargo de su propia salud.</li>
-            <li>Encuentre apoyo. Los grupos de apoyo ofrecen estímulo en el sentido que la menopausia es un ciclo natural. Las miembros de esos grupos pueden ofrecer técnicas prácticas que han descubierto por sí mismas para hacerle frente a la menopausia, así como brindar apoyo fraternal a las recién llegadas.</li>
-            <li>Haga ejercicios a diario. Caminar, trotar, andar en bicicleta, saltar la cuerda, bailar, nadar o cualquier otro ejercicio diario puede aliviar mucho los síntomas de la menopausia. El ejercicio puede ayudar a disminuir o impedir síntomas tales como: los accesos repentinos de calor (bochorno) y sudación nocturna, depresión y otros problemas emocionales, al igual que los problemas vaginales. Desde luego la mejor condición física es el más obvio resultado del ejercicio; pero éste también mejora la salud psicológica.</li>
-            <li>La actitud positiva puede ser una herramienta diaria eficaz para combatir los bochornos; cuando sienta que se aproxima uno, recuerde algunas cosas: una que los bochornos son normales, otra que no duran mucho, por último, que usted puede hacer algo al respecto.</li>
-            <li>Aprenda a relajarse, las mujeres que pueden hacerlo podrán lograr mejor control. Aprenda a meditar o hacer yoga; o simplemente siéntese tranquila con los ojos cerrados, diariamente durante un rato, para relajarse</li>
-            <li>Determine qué da lugar a los bochornos en usted, y luego evite dichos desencadenadores. En algunas mujeres son alteraciones emocionales; otras inician sus bochornos con algún alimento caliente o muy condimentado, una habitación caldeada o una cama caliente.</li>
-            <li>Consérvese sexy. Las mujeres que pasan por la menopausia y siguen practicando la unión sexual regularmente, tienen menos o ningún bochorno comparadas con las que tienen relaciones sexuales esporádicamente. Los altos niveles de estrógeno ayudan a mantener un interés sano en el sexo y la actividad sexual regular estimula indirectamente los ovarios que comienzan a menguar, lo que a su vez ayudan a moderar el sistema hormonal e impide variaciones extremas en el nivel de estrógeno.</li>
-            <li>Lubríquese. La resequedad vaginal por falta de estrógeno disminuye el interés en el coito durante la menopausia.</li>
-            <li>Hable con su compañero, parte del estímulo a la libido proviene de conversaciones honestas acerca de necesidades y sensaciones.</li>
-            <li>Las parejas pueden tratar de encontrar nuevas posiciones para la unión sexual buscando la que le sea más cómoda. Las caricias pueden ser especialmente importantes en estas ocasiones; más abrazos y masajes mutuos para lograr más proximidad y placer sensual.</li>
-            <li>Practique los ejercicios de Kegel. Usted puede fortalecer sus músculos anales, vaginales y urinarios con estos ejercicios. Los músculos más vigorosos pueden ayudarlo a relajarse y a emplearlos con menos dolor y más placer durante el coito. También son buenos para impedir la incontinencia urinaria. Imagine que quiere interrumpir su flujo de orina repentinamente. Oprima firmemente los músculos de su zona vaginal. Retenga la orina mientras cuenta hasta tres, luego relájese. Practique con rápida alternación entre aflojar y apretar. Usted puede practicar éste ejercicio en donde quiera, cuando quiera.</li>
-        
+            <li>Education related to psychological changes and a great perspective full of possibilities can constitute a big difference in the management of the tension that Menopause brings, as well as changes in life. Research has shown that a third of the life of contemporary women takes place after menopause. So you should consider it as a step forward in life and must change positively. Go back to school, find a new hobby; Flagged with a career. Take charge of your own health. </li>
+            <li> Find support. Support groups offer stimulus in the sense that menopause is a natural cycle.The members of these groups can offer practical techniques that have discovered for themselves to deal with menopause, as well as provide fraternal support to newcomers. </li>
+            <li> Exercise daily.Walking, jogging, riding, jumping rope, dancing, swimming or any other daily exercise can greatly relieve the symptoms of menopause.Exercise can help reduce or prevent symptoms such as: sudden heat access (embarrassment) and night sweating, depression and other emotional problems, as are vaginal problems.Of course the best physical condition is the most obvious result of exercise; But this also improves psychological health. </li>
+            <li> The positive attitude can be an effective daily tool to combat embarrassment;When you feel that one approaches, remember some things: one that the embarrassment are normal, another that do not last long, finally, that you can do something about it. </li>
+            <li> Learn to relax, the women who can do so can achieve better control. Learn to meditate or do yoga; Or simply feel calm with your eyes closed, daily for a while, to relax </li>
+            <li> Determine what gives rise to the embarrassment in you, and then avoid these triggers. In some women they are emotional alterations; Others begin their embarrassment with some hot or seasoned food, a warm room or a hot bed. </li>
+            <li> Keep sexy. Women who go through menopause and continue to practice sexual union regularly, have less or no embarrass compared to those who have sexual relations sporadically. High levels of estrogen help maintain a healthy interest in sex and regular sex/li>
+            <li> Lubricate. Vaginal dryness due to lack of estrogen decreases interest in intercourse during menopause.
+            <li> Talk to your partner, part of the stimulus to libido comes from honest conversations about needs and sensations. </li>
+            <li> Couples can try to find new positions for sexual union looking for the most comfortable.The caresses can be especially important on these occasions; More hugs and mutual massages to achieve more proximity and sensual pleasure. </li>
+            <li> Practice Kegel exercises.You can strengthen your anal, vaginal and urinary muscles with these exercises.The most vigorous muscles can help you relax and use them with less pain and more pleasure during intercourse. They are also good to prevent urinary incontinence. Imagine that you want to interrupt your urine flow suddenly. Firmly press the muscles of your vaginal zone.Take urine while counting up to three, then relax.Practice with rapid alternation between loosening and tightening. You can practice this exercise wherever, whenever you want. </li>
            </ul>
           </div>
         </div>
@@ -414,21 +417,21 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Coma Una dieta consistente en 50% de alimentos crudos.</li>
-              <li>Coma brócoli, diente de león, salmón con huesos, sardinas y pescado blanco en su dieta.</li>
-              <li>No consuma carnes rojas. Evite los productos diarios o limite su consumo a pequeñas cantidades, mientras sean bajos en grasas. Los productos diarios y la carne promueven los bochornos.</li>
-              <li>Evite el alcohol, café, azúcares, alimentos de especias y sopas o bebidas calientes que puedan desencadenar los bochornos o agravan la incontinencia urinaria.</li>
-              <li>Tome dos litros de agua al día para ayudar a prevenir la sequedad de piel y mucosas.</li>
+              <li>Eat a diet consisting of 50% raw foods. </li>
+              <li> Coma broccoli, dandelion, salmon with bones, sardines and white fish in his diet. </li>
+              <li> Do not consume red meat.Avoid daily products or limit their consumption to small amounts, while they are low in fat.Daily products and meat promote embarrassments. </li>
+              <li> Avoid alcohol, coffee, sugars, spices food and hot soups or drinks that can trigger embarrassment or aggravate urinary incontinence. </li>
+              <li> Take two liters of water a day to help prevent skin dryness and mucous membranes.
 
             </ul>
-            <p> <strong> Prepare los siguientes jugos: </strong>J61– J32– J73– J30– J02 Hágalos en extractor o licuadora, se recomienda beberlos una o dos veces al día.</p>
+            <p> <strong> Prepare the following juices: </strong> J61– J32– J73– J30– J02 Hand them in extractor or blender, it is recommended to drink them once or twice a day.</p>
           </div>
         </div>
       </div>     
@@ -441,13 +444,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>Aproveche nuestros consejos alimenticios preparando las siguientes recetas: R03– R05– R09– R11– R19– R26– R42– R58– R70</p>
+           <p>Take advantage of our food tips preparing the following recipes: R03– R05– R09– R11– R19– R26– R42– R58– R70</p>
           </div>
         </div>
       </div>
@@ -460,15 +463,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p>Los aceites esenciales de menta tienen propiedades frías, los aceites e geranios y lavanda son centradores, cada uno calma y energiza, dependiendo de su necesidad. Añada algunas gotas de una o de todas estas esencias a un baño tibio o frío para los bochornos o, si no les es posible añádalas al agua fría en una botella de spray y obtenga usted mismo un roseado frío. Usted puede también usar éstas esencias como inhalantes o difundirlas dentro del aire en su casa, o añada unas pocas gotas al aceite de masaje.</p>
-           <p>Los aceites de geranio, jazmín, mirra, neroli y vetiver son buenos para contrarrestar los visibles signos de la edad. Hágase una piel suave usando una o varias de éstas esencias, o añada unas cuantas gotas de éstas a su crema para la piel (no use más de 10 gotas por onza del producto)</p>
-           <p><strong>La menopausia es una parte natural de la vida y por lo tanto no se puede prevenir. Sin embargo puede ser una experiencia más placentera de lo que muchas personas creen. Considere aprender técnicas de manejo del stress o disfrute de la compañía de un grupo de soporte. Recuerde que no es una enfermedad, pero sí una transición, ofreciéndole así una buena oportunidad a identificar y explorar cambios que puedan ser necesarios hacer en su vida o estilo de vida.</strong></p>
+           <p>Mint essential oils have cold properties, oils and geraniums and lavender are centering, each calms and energizes, depending on their need. Add a few drops of one or all these essences to a warm or cold bath for embarrassment or, if it is not possible to add them to cold water in a spray bottle and obtain a cold rose. You can also use these essences such as inhalation or spread them inside the air at home, or add a few drops to massage oil.
+           <p> Geranium, Jasmine, Mirra, Neroli and Vetiver oils are good to counteract the visible signs of age. Make a soft skin using one or more of these essences, or add a few drops of these to your skin cream (do not use more than 10 drops per ounce of the product) </p> </p>
+           <p> <strong> Menopause is a natural part of life and therefore cannot be prevented. However, it can be a more pleasant experience than many people believe. Consider learning stress management techniques or enjoying the company of a support group. Remember that it is not a disease, but a transition, thus offering a good opportunity to identify and explore changes that may be necessary to do in your life or lifestyle.</strong></p>
           </div>
         </div>
       </div>     
@@ -510,15 +513,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

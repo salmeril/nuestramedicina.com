@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -292,20 +295,21 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Desordener Prostaticos
+        Prostatic Disorder
       </h1>
       <p class="enferTexto m-5">
-        La próstata es una glándula reproductora masculina que está situada por debajo de la vejiga urinaria, circundando la uretra, la cual sirve como vía de pasaje tanto para la orina como para el semen. <br>
+        The prostate is a male reproductive gland that is located below the urinary bladder, surrounding the urethra, which serves as a passage route for both urine and semen.<br>
 
-        La función de la próstata es de secretar el semen durante la eyaculación. El fluido prostático es blanco y ligeramente ácido; contiene calcio, sodio, potasio y zinc. <br>
+        The function of the prostate is to secrete semen during ejaculation.Prostate fluid is white and slightly acidic;It contains calcium, sodium, potassium and zinc.<br>
 
-        Hay un número de desórdenes que comúnmente afectan la próstata. Entre estas tenemos: agrandamiento de la próstata, prostatitis y cáncer prostático.
+        There are a number of disorders that commonly affect the prostate. Among these we have: enlargement of the prostate, prostatitis and prostate cancer.
       </p>
     </div>
 
@@ -324,7 +328,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Hiperplasia Prostatica
+             Prostate Hiperplasia
             </div>
           
           </button>
@@ -332,11 +336,11 @@
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Cuando un hombre bordea los 40 años, la próstata a menudo comienza una clase de crecimiento repentino. El mecanismo exacto por el cual esto sucede no está entendido completamente, pero se cree que está relacionado a cambios en los niveles hormonales; a este tiempo los niveles de testosterona en un hombre comienzan a declinar y hay un incremento en los niveles de productos de la degradación de la testosterona, llamada dihidrotestosterona.
+              When a man borders the 40 years, the prostate often begins a sudden growth class. The exact mechanism by which this happens is not completely understood, but it is believed that it is related to changes in hormonal levels; At this time, testosterone levels in a man begin to decline and there is an increase in the levels of testosterone degradation products, called dihydrotestosterone.
             </p>
             
             <p>
-              Los niveles altos de la hormona pituitaria (prolactina) podrían estar implicados. El alza o caída de niveles de otras hormonas también podrían ser la causa. El resultado es que el cuerpo sobre produce células prostáticas, lo cual ultimadamente conduce a un agrandamiento de la próstata, conocido médicamente como hiperplasia prostática benigna o hipertrofia prostática benigna.
+              High levels of the pituitary hormone (prolactin) could be involved.The rise or fall of levels of other hormones could also be the cause. The result is that the body on produces prostate cells, which lately leads to an enlargement of the prostate, medically known as benign prostatic hyperplasia or benign prostatic hypertrophy.
             </p>
             
 
@@ -350,19 +354,19 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Obstrucción del flujo urinario</li>
-              <li>Dificultad para orinar</li>
-              <li>Disminución de la fuerza del chorro de la orina</li>
-              <li>Goteo de orina después de terminar de orinar</li>
-              <li>Orina frecuente en pequeñas cantidades (polaquiuria).</li>
-              <li>Incapacidad de vaciar completamente la vejiga.</li>
+              <li>Urinary flow obstruction </li>
+              <li> Difficulty urinating </li>
+              <li> Decrease in the strength of the urine jet </li>
+              <li> urine drip after ending up urinating </li>
+              <li> Frequent urine in small quantities (Polaquiuria). </li>
+              <li> Inability to completely empty the bladder.</li>
 
 
             </ul>
@@ -376,13 +380,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Prostatitis
+              prostatitis
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Es común en hombres de todas las edades, es la inflamación de la glándula prostática. </p>
+            <p>It is common in men of all ages, it is the inflammation of the prostate gland.</p>
           </div>
         </div>
       </div>
@@ -392,15 +396,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Clasificación
+              Classification
             </div>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Prostatitis aguda</li>
-              <li>Prostatitis crónica</li>
+              <li>Prostatitis aguda </li>
+              <Li> Prostatitis Cronica</li>
             </ul>
            
           </div>
@@ -408,54 +412,25 @@
       </div>
 
 
-       <!-- Repite la estructura para más elementos según sea necesario -->
-       <div class="accordion-item m-2">
-        <h2 class="accordion-header accordionheaderStilo">
-          <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            <div class="centrar">
-              Signos y Sintomas
-            </div>
-          </button>
-        </h2>
-        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <ul>
-              <li>Retención urinaria.</li>
-              <li>Distensión vesical.</li>
-              <li>Debilidad.</li>
-              <li>Sensibilidad.</li>
-              <li>Dolor entre el escroto y el recto.</li>
-              <li>Fiebre.</li>
-              <li>Aumento de la frecuencia urinaria.</li>
-              <li>Ardor (disuria).</li>
-              <li>Pus o sangre en la orina</li>
-              <li>Dolor lumbar</li>
-              <li>Impotencia</li>
-              <li>Dificultad para orinar</li>
-              
-            </ul>
-
-          </div>
-        </div>
-      </div>     
+       
       
        <!-- Repite la estructura para más elementos según sea necesario -->
        <div class="accordion-item m-2">
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Evite como sea posible el stress, tanto físico como mental. El stress es un factor que produce cambios hormonales que conducen a un agrandamiento prostático.</p>
+            <p>Avoid as possible stress, both physical and mental. Stress is a factor that produces hormonal changes that lead to a prostate enlarging.
             
-            <p>Tome los pasos necesarios para reducir el colesterol en sangre. Estudios han demostrado que existe una relación entre colesterol alto y desorden prostático. El colesterol ha sido demostrado que cuando se acumula produce agrandamiento de la próstata o puede llevar al cáncer prostático.</p>
+            <p> Take the necessary steps to reduce blood cholesterol. Studies have shown that there is a relationship between high cholesterol and prostate disorder. Cholesterol has been shown that when accumulated produces enlargement of the prostate or can lead to prostate cancer.
 
             
-            <p>Use hidroterapia para incrementar la circulación en la próstata: Uno de los métodos es sentarse en una tina que contenga agua tolerablemente caliente por 15 a 30 minutos, una o dos veces al día. Otra forma de hidroterapia es irrigar en el área pélvica y abdomen bajo, con agua tibia y fría alternando tres minutos con la caliente y un minuto con la fría. Otra técnica es sentarse en agua caliente mientras sumerge los pies en agua fría por 3 minutos, y luego sentarse en agua fría y sumergir los pies en agua caliente por 1 minuto.</p>
+            <p> Use hydrotherapy to increase circulation in the prostate: one of the methods is to sit in a tub that contains tolerably hot water for 15 to 30 minutes, once or twice a day. Another form of hydrotherapy is to irrigate in the pelvic area and low abdomen, with warm and cold water alternating three minutes with the hot and a minute with the cold.Another technique is to sit in hot water while immersing your feet in cold water for 3 minutes, and then sitting in cold water and immersing feet in hot water for 1 minute.</p>
             
             
           </div>
@@ -468,7 +443,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
@@ -476,18 +451,18 @@
           <div class="accordion-body">
 
             <p>
-              Coma una dieta baja en grasas
+              Eat a low fat diet.
             </p>
             
-            <p>Evite las carnes rojas (cerdo, res, chivo) Los hombres que comen carne roja tienen un 80% de riesgo de desarrollar cáncer prostático.</p>
+            <p> Avoid red meat (pork, beef, goat) men who eat red meat have 80% risk of developing prostate cancer. </p>
             
-            <p>Disfrute de los tomates y coma a menudo alimentos a base de este fruto. Las fitoquímicas encontradas en el tomate reduce el riesgo de desarrollar cáncer de próstata</p>
+            <p> Enjoy tomatoes and often eat food based on this fruit.The phytochemicals found in the tomato reduces the risk of developing prostate cancer </p>
             
-            <p>Evite el alcohol y la cafeína.</p>
+            <p> Avoid alcohol and caffeine.
             
-            <p>Si usted tiene prostatitis, aumente la ingesta de líquidos. Tome de 2 a 3 litros de agua al día, prefiera agua destilada.</p>
+            <p> If you have prostatitis, increase fluid intake.Take 2 to 3 liters of water a day, prefer distilled water.
             
-            <p>Prepare los siguientes jugos: J23 – J30– J61– J01– J85 Hágalos en extractor o licuadora, se recomienda beberlos una o dos veces al día.</p>
+            <p> Prepare the following juices: J23 - J30– J61– J01– J85 Hágalos in extractor or blender, it is recommended to drink them once or twice a day.</p>
             
           </div>
         </div>
@@ -498,17 +473,17 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Evite el tabaco,<br>
-              Haga ejercicios regularmente.<br>
-               No-bicicleta, porque podría poner presión sobre su próstata. Caminar es un buen ejercicio.<br>
-              Evite exponerse a climas muy fríos
+              Avoid tobacco, <br>
+              Do regularly. <br>
+               Non-bicycle, because it could put pressure on your prostate.Walking is a good exercise. <br>
+              Avoid exposing very cold climates.
             </p>
 
           </div>
@@ -521,7 +496,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
@@ -529,7 +504,7 @@
           <div class="accordion-body">
            
            <p>
-            Prostaplex, Prostafen, ManPower, Saw Palmetto, Inmunoflan, Gene 15, Cellular Bio Protectant, Rinofen, Te Detox para próstata.
+            Prostaplex, Prostaphen, ManPower, SawPalmetto, Immunoflan, Gene15, Cellular Bio Protectant, Rhinophen, Detox For Prostate
            </p> 
 
  	 
@@ -542,14 +517,14 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Una aromaterapia con baños de asiento preparados con esencias oleosas de lavanda, rosemary y/o sándalo pude ser calmante mientras que al mismo tiempo aumenta la circulación del área y promueve la curación. Algunas personas recomiendan alternar baños de asiento de agua caliente y frías para mejores efectos.
+              An aromatherapy with seat baths prepared with oily lavender, rosemary and/or sandalo essences could be soothing while at the same time increases the circulation of the area and promotes healing. Some people recommend alternating hot and cold water seat baths for better effects.
             </p>
           </div>
         </div>
@@ -561,19 +536,19 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              dependiendo del paciente puede existir diferentes diagnósticos del riñón: deficiencia de energía, deficiencia de liquido que aumenta el calor. Hígado y vesícula con mucha humedad y calor invadiendo al abdomen bajo, llevando esa humedad y calor a la vejiga. Estancamiento de energía y sangre en diferentes meridianos a diagnosticar. Debilidad del bazo llenando el sistema de humedad y/o flema.
+              Depending on the patient, there may be different kidney diagnoses: energy deficiency, liquid deficiency that increases heat.Liver and gallbladder with a lot of moisture and heat invading the abdomen low, carrying that humidity and heat to the bladder. Energy and blood stagnation in different meridians to diagnose. Spleen weakness filling the humidity and/or phlegm system.
             </p>
            
 
             <p>
-              <strong> Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China. </strong>
+              <strong> According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis. Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined.The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
             </p>
  	 
            
@@ -613,15 +588,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

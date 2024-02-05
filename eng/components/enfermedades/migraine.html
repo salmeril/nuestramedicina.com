@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -290,25 +293,26 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
   <div class="row">
     <div class="col-md-6">
       <h1 class="m-5 enferTitulo">
-        Migrañas
+        Migraines
       </h1>
       <p class="enferTexto m-5">
-        Una migraña es un dolor de cabeza recurrente, un dolor pulsátil intenso que usualmente afecta a un lado de la cabeza pero a veces afecta a ambos lados; el dolor comienza de repente y puede ser precedido o acompañado por síntomas visuales, neurológicos o gastrointestinales.
+        A migraine is a recurring headache, an intense pulsatile pain that usually affects the side of the head but sometimes affects both sides; The pain begins suddenly and can be preceded or accompanied by visual, neurological or gastrointestinal symptoms.
         <br>
-        Aunque la migraña puede comenzar a cualquier edad, usualmente comienza en personas cuya edad está comprendida entre los 10 y 30 años. Algunas veces desaparece después de los 50.
+        Although migraine can start at any age, it usually begins in people whose age is between 10 and 30 years. Sometimes it disappears after 50.
         <br>
-        Las migrañas son más severas que la tensión muscular del dolor de cabeza. La migraña ocurre cuando se estrechan las arterias del cerebro y luego se dilatan lo cual activa los receptores del dolor, los niveles de serotonina en sangre disminuyen. Raramente la malformación de los vasos puede ser la causa subyacente del dolor de cabeza, en tales circunstancias, el dolor de cabeza casi siempre ocurre en el mismo lado. Sin embargo en la mayoría de las personas ocurre al azar en cualquier lado.
+        The migraines are more severe than the muscle tension of the headache. The migraine occurs when the brain arteries narrow and then dilate which activates pain receptors, blood serotonin levels decrease. Rarely the malformation of the vessels can be the underlying cause of the headache, in such circumstances, the headache almost always occurs on the same side. However, in most people they occur at anywhere.
         <br>
-        El 90% de los dolores de cabeza se clasifican como contracción muscular. Por lo general el dolor abarca toda la cabeza. Puede tratarse de un dolor sordo o tener una sensación de opresión y quizás experimentar una sensación de aturdimiento. Casi toda la gente describe como si tuviera una faja apretándole la cabeza.
+        90% of headaches are classified as muscle contraction. Usually pain covers the entire head.It can be a deaf pain or have a feeling of oppression and perhaps experience a feeling of stunning. Almost all people describe as if they had a girdle squeezing their heads.
         <br>
-        Algunas personas nacen con una biología que las hace propensas a los dolores de cabeza.
-        Lamentablemente no se puede determinar o asegurar un diagnóstico de que tipo de dolor de cabeza padece un paciente, no hay prueba específica que pueda determinar que un paciente tenga migraña y otro paciente tenga tensión.
+        Some people are born with a biology that makes them prone to headaches.
+        Unfortunately, a diagnosis of what type of headache suffers from a patient cannot be determined or ensured, there is no specific test that can determine that a patient has migraine and another patient has tension.
       </p>
     </div>
 
@@ -327,7 +331,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y sintomas 
+              Signs and symptoms
             </div>
           
           </button>
@@ -337,18 +341,18 @@
             
 
           <ul class="">
-            <li> 10 a 30 minutos antes puede aparecer un aura o pródromo</li>
-            <li>Depresión, ansiedad</li>
-            <li>Irritabilidad, inquietud</li>
-            <li>Nausea, vómito</li>
-            <li>Pérdida del apetito.</li>
-            <li>Visión borrosa, escotoma</li>
-            <li>Distorsión de la imagen que se observa</li>
-            <li>Algunas veces temblor fino</li>
-            <li>Debilidad en los brazos y en las piernas</li>
+            <li> 10 to 30 minutes before an aura or prodrome can appear </li>
+            <li> Depression, anxiety </li>
+            <li> Irritability, restlessness </li>
+            <li> Nausea, vomit </li>
+            <li> Loss of appetite. </li>
+            <li> Blurred vision, scotoma </li>
+            <li> Distortion of the image observed </li>
+            <li> Sometimes fine tremor </li>
+            <li> Weakness in the arms and legs </li>
             
           </ul>
-          <p>Usualmente estos síntomas desaparecen después de que empieza el dolor de cabeza pero también pueden proseguir o coexistir.</p>
+          <p> These symptoms disappear after headache begins but can also continue or coexist.</p>
 
           </div>
         </div>
@@ -361,29 +365,29 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Stress emocional</li>
-              <li>Hipoglucemia (azúcar baja en sangre)</li>
-              <li>Alergia a cierto tipo de alimentos</li>
-              <li>Lesiones craneales</li>
-              <li>Anticonceptivos orales</li>
-              <li>Cambios hormonales relacionados al ciclo menstrual</li>
-              <li>Infecciones (cabeza, oído, sinus)</li>
-              <li>Fiebre</li>
-              <li>Estreñimiento</li>
-              <li>Presión arterial alta</li>
-              <li>Epilepsia</li>
-              <li>Tumores cerebrales</li>
-              <li>Infecciones en cavidad oral</li>
-              <li>Síndrome de la articulación temporomandibular</li>
-              <li>Uso de ciertas drogas</li>
-              <li>Ciertos olores</li>
+              <li>Emotional stress </li>
+              <li> Hypoglycemia (low blood sugar) </li>
+              <li> Allergy to certain types of food </li>
+              <li> Cranial lesions </li>
+              <li> Oral contraceptives </li>
+              <li> Hormonal changes related to the menstrual cycle </li>
+              <li> Infections (head, ear, sinus) </li>
+              <li> Fever </li>
+              <li> Constipation </li>
+              <li> High blood pressure </li>
+              <li> Epilepsy </li>
+              <li> Brain tumors </li>
+              <li> Infections in oral cavity </li>
+              <li> Temporary articulation syndrome </li>
+              <li> Use of certain drugs </li>
+              <li> Certain odors</li>
       
             </ul>
           </div>
@@ -398,35 +402,35 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Coma una dieta balanceada.</li>
-              <li>Evite la ingesta de grasas saturadas e hidrogenadas (frituras)</li>
-              <li>Evite las carnes rojas (cerdo, res, chivo)</li>
-              <li>Evite el consumo de helados, goma de mascar, bebidas muy heladas, sal, café, licores, azúcares refinados.</li>
-              <li>Intente eliminar los alimentos que contienen tiramina: bebidas alcohólicas, bananas, queso, pollo, chocolate, frutas cítricas, arenque, cebollas, mantequilla de maní, cerdo, pescado ahumado, crema agria, vinagre, vino, etc. La tiramina eleva la presión sanguínea, resultando un fuerte dolor de cabeza.</li>
-              <li>Haga enemas de limpieza. Esto remueve las toxinas que causa muchos dolores de cabeza. Si no son eliminadas, las toxinas pueden ser absorbidas dentro del torrente sanguíneo y circulando a través del cuerpo</li>
-              <li>Para prevenir los dolores de cabeza coma pequeñas porciones de comida y coma entre comidas para ayudar a establecer el balance de la glucosa en sangre.</li>
-              <li>Incluya en la dieta almendras, leche de almendras, berros,, perejil, ajo, cerezas y piñas.</li>
-              <li>Evite los alimentos que contengan el aminoácido fenilalanina es encontrada en aspartato (NutraSweet), glutamato monosódico (comidas chinas), y nitritos (preservativos de los hot dogs y carnes embutidas.)</li>
+              <li>Eat a balanced diet. </li>
+              <li> Avoid intake of saturated and hydrogenated fats (frying) </li>
+              <li> Avoid red meat (pork, beef, goat) </li>
+              <li> Avoid the consumption of ice cream, chewing rubber, very frozen drinks, salt, coffee, liquors, refined sugars. </li>
+              <li> Try to eliminate foods that contain tiramine: alcoholic beverages, bananas, cheese, chicken, chocolate, citrus fruits, herring, onions, peanut butter, pork, smoked fish, sour cream, vinegar, wine, etc.Tiramine raises blood pressure, resulting in a strong headache. </li>
+              <li> Make cleaning enemas.This removes the toxins that causes many headaches.If they are not eliminated, toxins can be absorbed into the bloodstream and circulating through the body </li>
+              <li> To prevent headaches with small portions of food and coma between meals to help establish the balance of blood glucose. </li>
+              <li> Include almonds, almond milk, beros, parsley, garlic, cherries and pineapples. </li>
+              <li> Avoid foods containing the amino acid phenylalanine is found in aspartate (nutrasweet), monosodium glutamate (Chinese meals), and nitrites (preservatives of hot dogs and embedded meats.) </li>
 
               
             </ul>
-            <p>Prepare los siguientes jugos: J61– J02– J30– J15– J47– J37 Hágalos en extractor o licuadora se recomienda ingerirlos una o dos veces al día</p>
-            <p><strong>
-              FITOTERAPIA.
-            </strong>Las plantas que tienen propiedades antiespasmódicas pueden ayudar:</p>
+            <p> Prepare the following juices: J61– J02– J30– J15– J47– J37 Hand them in extractor or blender it is recommended to ingest them once or twice a day </p>
+            <p> <strong>
+              PHYTOTHERAPY.
+            </strong> Plants that have antispasmodic properties can help: </p>
             <ul>
-              <li><strong>Naranja</strong> En infusión de sus hojas, tiene efecto antiespasmódico y sedante</li>
-              <li><strong>Tilo</strong> La decocción de la corteza, previene la aparición de las crisis de migraña</li>
-              <li><strong>Limonero</strong> La infusión de sus hojas, actúa como sedante y antiespasmódico</li>
-              <li><strong>Violeta</strong>  La infusión de sus hojas y/o flores o en compresas sobre la frente, es anti-inflamatoria y calma el dolor de cabeza</li>
-              <li><strong>Albahaca</strong>La infusión o esencia, es antiespasmódica, calma las jaquecas asociadas a mala digestión</li>
+              <li> <strong> Orange:</strong> In infusion of its leaves, it has antispasmodic and sedative effect </li>
+              <li> <strong> Linden:</strong> the decoction of the cortex, prevents the appearance of migraine crises. </li>
+              <li> <strong> Lemon:</strong> the infusion of its leaves, acts as a sedative and antispasmodic. </li>
+              <li> <strong> Violet:</strong> the infusion of its leaves and/or flowers or in compresses on the forehead, is anti-inflammatory and calm the headache. </li>
+              <li> <strong> Basil:</strong> infusion or essence, is antispasmodic, calms the masters associated with poor digestion.</li>
             </ul>
           </div>
         </div>
@@ -437,18 +441,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <ul>
-              <li>Practique ejercicios de respiración profunda.</li>
-              <li>Evite los perfumes u otros olores fuertes que puedan desencadenar la migraña</li>
-              <li>Busque el silencio, el ruido excesivo es un desencadenador frecuente de los dolores de cabeza tensionales.</li>
-              <li>Proteja sus ojos de luces brillantes (solar, de alumbrado, fluorescente, televisión o pantallas de computadoras). Los anteojos para el sol son buena idea si va a salir; pero si está trabajando bajo techo, proporciónese descanso.</li>
-              <li>Tenga sentido del humor; si se toma la vida demasiado en serio, puede ver quienes son esas personas que van por la vida con la cara tensa, y tal vez se estén preguntando porque tienen de nuevo dolor de cabeza.</li>
+              <li>Practice deep breathing exercises. </li>
+              <li> Avoid perfumes or other strong odors that can trigger migraine </li>
+              <li> Look for silence, excessive noise is a frequent trigger for tension headaches. </li>
+              <li> Protect your bright lights (solar, lighting, fluorescent, television or computer screens). Sun glasses are a good idea if it will come out; But if you are working on a roof, provide rest. </li>
+              <li> Make a sense of humor;If you take life too seriously, you can see who those people who go for life are with a tense face, and maybe they are wondering because they have a new headache.</li>
             </ul>
           </div>
         </div>
@@ -460,13 +464,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Aproveche nuestras recomendaciones alimenticias preparando las siguientes recetas: R01 - R02 - R07 - R17 - R18 - R19 - R20 - R21 - R22 - R24 - R25 - R26 - R32 - R35 - RM43</p>
+            <p>Take advantage of our food recommendations preparing the following recipes: R01 - R02 - R07 - R17 - R18 - R19 - R20 - R21 - R22 - R24 - R25 - R26 - R32 - R35 - RM43</p>
           </div>
         </div>
       </div>
@@ -476,13 +480,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             <div class="centrar">
-              Consideraciones Geneticas
+              Genetic considerations
             </div>
           </button>
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Las migrañas son más comunes en mujeres que en varones. El hecho es que más de la mitad de las personas que sufren de migraña, tienen parientes cercanos quienes también tienen tendencia sugestiva que puede ser genéticamente transmitida.</p>
+            <p>Migraine are more common in women than in men. The fact is that more than half of the people suffering from migraine, have close relatives who also have suggestive tendency that can be genetically transmitted.</p>
           </div>
         </div>
       </div> 
@@ -493,13 +497,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>El aceite de pepermint puede ayudar a aliviar el dolor de cabeza. Añada unas pocas gotas de aceite de pepermint al aceite de masaje y masajee suavemente las sienes. Asegúrese de mantener el aceite alejado de sus ojos y no lo use si la piel presenta alguna laceración. También puede añadir gotas de aceite de pepermint al agua fría para compresas. Aplique las compresas en su frente (evitando los ojos) o en la nuca y relájese por unos 10 minutos.</p>
+            <p>Pepermint oil can help relieve headache.Add a few drops of pepermint oil to massage oil and gently massage the temples. Be sure to keep the oil away from your eyes and do not use it if the skin presents any laceration. You can also add pepermint oil droplets to cold water. Apply the compresses on your forehead (avoiding your eyes) or in your neck and relax for about 10 minutes.</p>
           </div>
         </div>
       </div>     
@@ -509,7 +513,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
@@ -517,9 +521,7 @@
           <div class="accordion-body">
             <ul>
               <li>
-                <strong> Vascular </strong>Gplus, Biogenol, Salvia, Alaska, Formula 12 (mujer), HW, Cellular, Pura Vida, Naturobiotic, Tiroides, Te Detox.
-              </li>
-              <li><strong>No vascular </strong>Tienma, Easy digestion, Hepato Formula, WW500, Headache, Herbal Tension, Gene 15, Formula 12 (mujer), Te Detox.</li>
+                <strong> vascular </strong>gplus,Biogenol,Salvia,Alaska,Formula12 (mujer),Hw,Cellular,PuraVida,Naturobiotic,Tiroides,TeDetox. </li> <li><strong>noVascular </strong>tienma,EasyDigestion,HepatoFormula,WW500,Headache,HerbalTension,Gene15,Formula12 (mujer),TeDetox.</li>
             </ul>
           </div>
         </div>
@@ -531,14 +533,15 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              Possible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Primera consideración es si es vascular (problemas circulatorios) o no vascular. La segunda consideración es donde esta ubicado el dolor, donde empieza, si es caliente o viene con frio, en la visita con el Doctor lleve un detalle exacto de cómo comienza, se desarrolla el dolor, que lo agrava, que lo alivia, si es mujer la influencia de la menstruación. En niños es la misma consideración. Un buen diagnostico de la migraña puede traducirse en un tratamiento rápido para controlar el dolor. Muchísimos órganos pueden estar involucrados en la migraña con exceso, deficiencia o estancamientos.</p>
-            <p><strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong></p>
+            <p>First consideration is whether vascular (circulatory problems) or non-vascular. The second consideration is where the pain is located, where it begins, if it is hot or comes with cold, in the visit with the doctor it takes an exact detail of how the pain is developed, which aggravates it, that relieves it, if it iswoman the influence of menstruation. In children it is the same consideration. A good diagnosis of migraine can translate into a rapid treatment to control pain. Many organs may be involved in migraine with excess, deficiency or stagnations.</p>
+
+            <p><strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis. Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong></p>
         </div>
       </div>    
       
@@ -580,15 +583,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   

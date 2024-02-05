@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 
 <head>
@@ -12,6 +12,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="/src/css/videocall.css">
   <link rel="stylesheet" href="/src/css/main.css">
+  <link rel="stylesheet" href="/src/css/idioma.css">
+  <link rel="stylesheet" href="/src/js/idioma.js">
   <link rel="styles" href="/src/js/popper.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,34 +25,34 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-1KHPNP784F');
-</script>
   <!-- Puedes agregar tamaños adicionales para compatibilidad con navegadores modernos -->
   <link rel="icon" href="/src/img/imagenes/favico.png" sizes="32x32" type="image/png">
   <link rel="icon" href="/src/img/imagenes/favico16.png" sizes="16x16" type="image/png">
 
+
+
+
+
+
 </head>
 
-
 <body>
-  <!-- Logo en la esquina izquierda -->
-  <div class="language-container bg-verde p-4">
-    <div class="float-end bg-verde">
-      <!--<a href="#" class="language-link">Cambiar Idioma</a> -->
-    </div>
-  </div>
+  
 
+
+  
+
+
+
+
+ 
 
 
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-md p-0">
       <!-- Logo en la esquina izquierda -->
-      <a class="navbar-brand mis-colores-nav p-2" href="/index.html">
+      <a class="navbar-brand mis-colores-nav p-2" href="/eng/index.html">
         <img src="/src/img/imagenes/logo-final.png" alt="logo" class="img-fluid" style="max-width: 200px;">
       </a>
 
@@ -64,10 +66,10 @@
       <!-- Enlaces centrados -->
       <div class="collapse navbar-collapse order-1 justify-content-end p-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/centroDeAyuda.html">Centro de ayuda</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="">Help Center</a>
           <li class="nav-item dropdown">
             <a a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+              data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
             <ul class="dropdown-menu">
               <div class="container-flex m-2 me-4 text-center">
                 <div class="row">
@@ -76,7 +78,7 @@
                   </div>
                   <div class="text-center col-lg-2">
 
-                    <h5>Llamar</h5>
+                    <h5>Call</h5>
                     <p class=" phone-numbers text-nowrap me-4 "><br>1-800-522-7099 <br> +1 (516) 815-6674 <br> +1-718-651-6677 </p>
                     <hr class="my-4 w-100">
                   </div>
@@ -88,7 +90,7 @@
                       </div>
                       <div class="text-center col-lg-2">
 
-                        <h5>Mail</h5>
+                        <h5>Email</h5>
                         <p class=" text-center phone-numbers text-nowrap me-4 textoNav "><br><a href="mailto:contacto@nuestramedicina.com">contacto@nuestramedicina.com</a> <br> <a href="mailto:info@nuestramedicina.com">info@nuestramedicina.com</a>
                         </p>
                         <!--<hr class="my-4 w-100">-->
@@ -104,18 +106,18 @@
           </li>
 
 
-          <a class="letraNav1 nav-link mis-colores-nav" href="/src/components/nav/cesarArmoza.html">Cesar Armoza</a>
+          <a class="letraNav1 nav-link mis-colores-nav" href="/eng/components/nav/cesarArmoza.html">Cesar Armoza</a>
           <li class="nav-item dropdown">
             <a class=" letraNav1 mis-colores-nav nav-link dropdown-toggle" href="#" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Enlaces de Interes
+              Links of interest
             </a>
             <ul class="dropdown-menu">
-              <li class="dropdown-item" href="/src/components/nav/consultasVirtuales.html">Consulta Virtual</li>
-              <li><a class="dropdown-item" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a></li>
-              <li><a class="dropdown-item" href="/src/components/enfermedades/enfermedadesMenu.html">Emfermedades</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/resetasCaseras.html">Recetas Caseras</a></li>
-              <li><a class="dropdown-item" href="/src/components/nav/preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+              <li class="dropdown-item" href="/eng/components/nav/virtualConsultation.html">Virtual Consultation</li>
+              <li><a class="dropdown-item" href="/eng/components/nav/clinic.html">Our clinic</a></li>
+              <li><a class="dropdown-item" href="/eng/components/enfermedades/diseaseMenu.html">Diseases</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/homeRecipes.html">Homemade recipes</a></li>
+              <li><a class="dropdown-item" href="/eng/components/nav/faq.html">Frequent questions</a></li>
               
             </ul>
           </li>
@@ -126,8 +128,8 @@
 
 
       <!-- Botón en la esquina derecha -->
-      <a href="/src/components/nav/consultasVirtuales.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
-          alt=""> Consulta Ya</a>
+      <a href="/eng/components/nav/virtualConsultation.html" class="colorBotonesA boton-llamativo mx-3 btn btn-primary btn-lg order-4 letraBotonNav "><img width="40" src="/src/img/icons/llamada-blanco.png"
+          alt=""> Consult now</a>
 
 
     
@@ -145,109 +147,110 @@
       <!-- Centra los enlaces en el medio de la pantalla -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item dropdown">
-          <a class="letraNav2 nav-link " href="/src/components/nav/consultasVirtuales.html">
-            Consulta Virtual
+          <a class="letraNav2 nav-link " href="/eng/components/nav/virtualConsultation.html">
+            Virtual Consultation
           </a>
           <div class="dropdown-menu center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/acupuntura.html">Acupuntura</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Masajes</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Parches</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/ejerc">Acupuncture</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/masajes.html">Massages</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/parches.html">Patches</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/nuestrosServicios/medicinaTradicionalNatural.html">Medicina Tradicional<br>Natural</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">Cupping</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/ventosas.html">Ventosas</a>
+                  href="/eng/components/servicios/traditionalMedicine.html">Medicina Tradicional<br>Natural</a>
+                <a class="dropdown-item text-center letraNav2" href="/src/components/servicios/cupping.html">cupping</a>
+                
 
 
 
         <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle letraNav2" href="#" role="button" data-bs-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" data-bs-popper="center-start">
-            Enfermedades
+            Diseases
           </a>
           <div class="dropdown-menu dropdown-menu1 center fade ">
             <div class="d-flex ">
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center  textoNav ">A</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/alergias.html">Alergias</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/anemia.html">Anemia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ansiedad.html">Ansiedad</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/arritmia.html">Arritmia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/artritis.html">Artritis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/asma.html">Asma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/allergies.html">Allergies</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anemia.html">Anemia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/anxiety.html">Anxiety</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arrhythmia.html">Arrhythmia</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/arthritis.html">Arthritis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/asthma.html">Asthma</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highBPressureHypertension.html">Arterial pressure
+                  Alta <br> hypertension</a>
                 <h5 class="dropdown-header text-center  textoNav">B</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/bronquitis.html">Bronquitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/bronchitis.html">Bronchitis</a>
                 <h5 class="dropdown-header text-center  textoNav">C</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/cancer.html">Cancer</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/colesterolAlto.html">Colesterol
-                  alto<br>(Hipercolesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/cancer.html">Cancer</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/chronsDisease.html">Crohn's disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/constipation.html">Constipation</a>
+                
 
               </div>
+
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">D</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/desordenesGastricos.html">Desordenes
-                  Gastricos</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/dedsordenesProstaticos.html">Desordenes Prostaticos</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diabetesMellitus.html">Diabetes
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gastricDisorders.html">Disorders
+                  Gastric</a>
+                
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diabetesMellitus.html">Diabetes
                   Millitus</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/diarrea.html">Diarrea</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/dolorDeGarganta.html">Dolor de
-                  Garganta</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/diarrhea.html">Diarrhea</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sti.html">Disease
+                  of <br> sexual transmission</a>
+                
                 <h5 class="dropdown-header text-center textoNav">E</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/enfermedadDeCrohn.html">Emfermedad de
-                  Crohn</a>
-                <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/enfermedadPeriodontal.html">Enfermedad Periodontal</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/ets.html">Enfermedad
-                  de<br>Transmision Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/epilepsia.html">Epilepsia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/estrenimiento.html">Estreñimiento</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/epilepsy.html">Epilepsy</a>
+
+                <h5 class="dropdown-header text-center textoNav">G</h5>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
               </div>
 
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">H</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/halitosis.html">Halitosis (Mal
-                  Aliento)</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hemorroides.html">Hemorroides</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hepatitis.html">Hepatitis</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/herpeszoster.html">Herpes Zoster</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/halitosis.html">Halitosis (bad
+                  Breath)</a>
+                  <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/highCholesterol.html"> High cholesterol <br> (hypercholesterolemia)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hemorroids.html">Hemorrhoids</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hepatitis.html">Hepatitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/herpeszoster.html">herpesZoster</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipertiroidismo.html">Hipertiroidismo</a>
+                  href="/eng/components/enfermedades/hyperthyroidism.html">Hyperthyroidism</a>
                 <a class="dropdown-item text-center letraNav2"
-                  href="/src/components/enfermedades/hipotiroidismo.html">Hipotiroidismo</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sida.html">HIV Infeccion (SIDA)</a>
+                  href="/eng/components/enfermedades/hipothyroidism.html">Hypothyroidism</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/aids.html">HIV INFECTION (AIDS)</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/hairLose.html">Hair lose</a>
                 <h5 class="dropdown-header text-center textoNav">I</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/impotenciaSexual.html">Impotencia
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sexuaImpotence.html">Impotence
                   Sexual</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/incontinencia.html">Incontinencia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/infeccionVUrinarias.html">Infeccion
-                  de las vias Urinarias</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/incontinence.html">Incontinence</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/urinaryTInfection.html">Infection
+                  of the urinary tract</a>
 
               </div>
               <div class="col vertical-bar">
                 <h5 class="dropdown-header text-center textoNav">L</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/lupusEritematoso.html">Lupus
-                  Eritematoso</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/lupusErythematosus.html">Lupus Eritematoso</a>
                 <h5 class="dropdown-header text-center letraNav2 textoNav">M</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/menopausia.html">Menopausia</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/migranias.html">Migraña</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/menopause.html">Menopause</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/migraine.html">Migraine</a>
                 <h5 class="dropdown-header text-center textoNav">P</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/perdidaDeCabello.html">Perdida de
-                  Cabello</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/hipertension.html">Presion Arterial
-                  Alta<br>Hipertension</a>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/psoriasis.html">Psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/periodontalDisease.html">Periodontal disease</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/psoriasis.html">psoriasis</a>
+                <a class="dropdown-item text-center letraNav2"
+                  href="/eng/components/enfermedades/prostaticDisorder.html">Prostatic disorders</a>
               </div>
               <div class="col">
                 <h5 class="dropdown-header text-center textoNav">S</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/sinusitis.html">Sinusitis</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/soreThroat.html">Sore throat</a>
                 <h5 class="dropdown-header text-center textoNav">T</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/trastornoDeLaVesicula.html">Trastorno
-                  de la Vesicula </a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/gallbladderDisorder.html">Gallbladder Disorder</a>
                 <h5 class="dropdown-header text-center textoNav">V</h5>
-                <a class="dropdown-item text-center letraNav2" href="/src/components/enfermedades/vitiligo.html">Vitiligo</a>
+                <a class="dropdown-item text-center letraNav2" href="/eng/components/enfermedades/vitiligo.html">Vitiligo</a>
 
               </div>
 
@@ -255,21 +258,21 @@
           </div>
         </li>
          
-          <a class="nav-link letraNav2" href="/src/components/nav/nuestraClinica.html">Nuestra Clinica</a>
+          <a class="nav-link letraNav2" href="/eng/components/nav/clinic.html">Our clinic</a>
         
           
-          <a class="nav-link letraNav2" href="/src/components/ejercicios/ejerciciosParaSuSalud.html">Ejercicios para su Salud</a>
+          <a class="nav-link letraNav2" href="/eng/components/ejercicios/ejerciciosParaSuSalud.html">Exercises for your health</a>
         
 
 
 
-        <a class="nav-link  letraNav2" href="/src/components/nav/resetasCaseras.html">
-          Recetas caseras
+        <a class="nav-link  letraNav2" href="/eng/components/nav/homeRecipes.html">
+          Homemade recepies
         </a>
 
         
-          <a class="nav-link  letraNav2" href="/src/components/nav/preguntasFrecuentes.html" >
-            Preguntas frecuentes
+          <a class="nav-link  letraNav2" href="/eng/components/nav/faq.html" >
+            Frequent questions
           </a>
 
           
@@ -288,6 +291,7 @@
 
 
 
+
 <!--ESTE ES EL CONTENIDO DE LA PAG-->
 
 <div class="container-fluid text-center">
@@ -297,13 +301,13 @@
         Psoriasis
       </h1>
       <p class="enferTexto m-5">
-        La Psoriasis es un desorden epitelial común, caracterizado por parches de piel enrojecida cubierta por escamas plateadas. El nombre viene del griego Psora el cual significa comezón.
-        <br>  
-        Es una enfermedad en la cual las células de la piel se descarrían. Por lo regular la piel se renueva a sí misma aproximadamente cada 30 días, el tiempo aproximado para que una nueva célula de la piel se abra camino desde la capa más interna de la piel hasta la superficie; pero en la psoriasis, esta célula llega hasta arriba en solo 3 días, como si el cuerpo hubiera perdido sus frenos. El resultado zonas protuberantes de piel llamadas placas, rojas y a menudo con comezón. Después de que las células llegan a la superficie, mueren como células normales, pero hay tantas de ellas que las manchas levantadas se vuelven blancas por las células muertas que se están descamando.
+        Psoriasis is a common epithelial disorder, characterized by reddened skin patches covered by silver scales.The name comes from the Greek psora which means itching.
         <br>
-        Usualmente la psoriasis pasa por ciclos de erupciones y remisión, si bien nunca desaparece completamente, a veces desaparece durante meses o años. Y con la edad puede mejorar o empeorar.
+        It is a disease in which skin cells would go apart. Usually the skin renews itself approximately every 30 days, the approximate time for a new skin cell to open its way from the most internal layer of the skin to the surface; But in psoriasis, this cell reaches up to only 3 days, as if the body had lost its brakes. The result leather protuberant areas called plaques, red and often with itching.After the cells reach the surface, they die as normal cells, but there are so many of them that the raised spots become white by the dead cells that are peeling.
         <br>
-        La Psoriasis no afecta la salud en general, no es contagiosa ni se esparce de una parte del cuerpo a otra, o de una persona a otra. Las áreas de l cuerpo más afectadas son: las piernas, rodillas, brazos, codos, cuero cabelludo, orejas y espalda. Las uñas de los dedos pierden su brillo y desarrollan surcos y fosas.
+        Usually psoriasis goes through cycles of eruptions and remission, although it never disappears completely, sometimes disappears for months or years.And with age it can improve or worsen.
+        <br>
+        Psoriasis does not affect the general health, it is not contagious or spread from one part of the body to another, or from one person to another.The most affected body areas are: legs, knees, arms, elbows, scalp, ears and back.The fingertips lose their brightness and develop furrows and graves.
       </p>
     </div>
 
@@ -322,7 +326,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button accordionheaderStilo align-items-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="centrar">
-              Signos y Sintomas
+              Signs and symptoms
             </div>
           
           </button>
@@ -331,11 +335,11 @@
           <div class="accordion-body">
             
             <ul>
-              <li>Una o más placas pequeñas rojas con escamas plateadas.</li>
-              <li>Pequeñas protuberancias al rededor del área</li>
-              <li>Uñas gruesas y deformes.</li>
-              <li>Comezón</li>
-              <li>Inflamación de las articulaciones (Artritis Psoriásica)</li>
+              <li>One or more red plaques with silver scales. </li>
+              <li> Little bumps around the area </li>
+              <li> Thick and deformed nails. </li>
+              <li> itching </li>
+              <li> Inflammation of the joints (psoriatic arthritis).</li>
             </ul>
           </div>
         </div>
@@ -347,7 +351,7 @@
         <h2 class="accordion-header ">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="centrar">
-              Causas
+              Causes
             </div>
           </button>
         </h2>
@@ -355,11 +359,11 @@
           <div class="accordion-body">
 
             <p>
-              La causa subyacente no es conocida pero puede resultar de:
+              The underlying cause is not known but it can result from:
               <ul>
-                <li>Dieta alta en grasas</li>
-                <li>Deficiencia del sistema inmune</li>
-                <li>Componente hereditario</li>
+                <li> High fat diet. </li>
+                <li> Immune system deficiency. </li>
+                <li> Hereditary component.</li>
               </ul>
             </p>
 
@@ -373,7 +377,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="centrar">
-              Recomendaciones Generales y Consejos Caseros
+              General recommendations and home advice
             </div>
           </button>
         </h2>
@@ -381,35 +385,35 @@
           <div class="accordion-body">
 
             <p>
-              No trate de disfrazar una lesión abierta
+              Do not try to disguise an open injury
             </p>
             <p>
-              Para codos y rodillas, se recomienda tierra de la India. El emoliente mantiene húmedas las placas, y la tierra de la India disfraza su apariencia. <br>
-              Si no puede encontrar tierra de la India, busque una base cosmética con mucho pigmento
+              For elbows and knees, land of India is recommended. The emollient keeps the plates wet, and the land of India disguises its appearance.<br>
+              If you can't find land from India, look for a cosmetic base with a lot of pigment
 
             </p>
             <p>
-              Aplique aceite de pescado o aceite vegetal ya sea de soya o de oliva sobre las escamas dos veces al día. Esto ayuda a aliviar el prurito y suaviza las escamas, haciéndolas fácilmente eliminables. Después de que las escamas han sido suavizadas suficientemente, restriegue suavemente con una esponja de baño y remuévalas.
+              Apply fish oil or vegetable oil either soy or olive on the scales twice a day. This helps relieve the pruritus and softens the scales, making them easily eliminable. After the scales have been sufficiently softened, gently restrient with a bath sponge and remunerate them.
             </p>
 
             <p>
-              Evite el stress tanto como sea posible, ya que pude empeorar las erupciones
+              Avoid stress as much as possible, since eruptions could get worse
             </p>
             <p>
-              Póngase bajo una lámpara de rayos ultravioleta tipo B, para tratar la psoriasis.
+              Put under an ultraviolet ray lamp type B, to treat psoriasis.
             </p>
             <p>
-              Aplique alquitrán de hulla o brea directamente a las placas, no lo haga directamente sobre la piel viva o abierta.
+              Apply Hulla or break tar directly to the plates, do not do it directly on living or open skin.
             </p>
             <p>
-              Los baños y piscinas calientes son excelentes porque ayudan a aplastar las placas o reducir la descamación aunque podría empeorar el prurito.
+              The hot baths and swimming pools are excellent because they help crush the plates or reduce peeling although the pruritus could get worse.
             </p>
             <p>
-              Un baño con agua fría, agregándole una taza de vinagre de sidra de manzana es magnífico contra la comezón.
+              A bath with cold water, adding a cup of apple cider vinegar is magnificent against itching.
               <br>
-              Si tiene libras demás, piérdalas, puede ser de ayuda.
+              If you have others, pint them, it can be helpful.
               <br>
-              Evite las infecciones.
+              Avoid infections.
             </p>
 
           </div>
@@ -422,7 +426,7 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="centrar">
-              Recomendaciones Alimenticias
+              Food recommendations
             </div>
           </button>
         </h2>
@@ -430,11 +434,11 @@
           <div class="accordion-body">
 
             <ul>
-              <li>Coma una dieta que esté compuesta de 50% de alimentos crudos e incluya abundantes frutas, granos y vegetales, coma abundante fibra. Es importante para mantener saludable el colon. También puede seguir un programa de limpieza del colon (enemas).</li>
-              <li>Las carnes rojas y ciertos productos diarios contienen ácido araquidónico, el cual es responsable de la inflamación y hace que la psoriasis empeore. Por lo tanto evítelos.</li>
-              <li>Evite el alcohol ya que está asociado a malnutrición y enfermedad hepática.</li>
-              <li>No consuma frutas cítricas, frituras, alimentos procesados, grasas saturadas, azúcares refinados, harinas blancas.</li>
-              <li>Prepare los siguientes jugos: J61 – J30– J15– J01– J02 Hágalos en extractor o licuadora, se recomienda ingerirlos una o dos veces al día.</li>
+              <li>Eat a diet that is composed of 50% raw foods and includes abundant fruits, grains and vegetables, fiber abundant. It is important to keep the colon healthy.You can also follow a colon cleaning program (enemas). </li>
+              <li> Red meats and certain daily products contain arachidonic acid, which is responsible for inflammation and makes psoriasis get worse.Therefore avoid them. </li>
+              <li> Avoid alcohol since it is associated with malnutrition and liver disease. </li>
+              <li> It does not consume citrus fruits, fried frying, processed foods, saturated fats, refined sugars, white flours. </li>
+              <li> Prepare the following juices: J61 - J30– J15– J01– J02 Hágalos in extractor or blender, it is recommended to ingest them once or twice a day.</li>
             </ul>
 
           </div>
@@ -446,38 +450,38 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="centrar">
-              Recomendaciones Ambientales
+              Environmental recommendations
             </div>
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Tómese unas vacaciones y vaya a la playa y recuéstese en la arena por una semana, logrará mejorar.
+              Take a vacation and go to the beach and fall in the sand for a week, you will improve.
             </p>
             <p>
-              No salga a lugares donde haya maleza, podría lesionar la piel.
+              Do not go to places where there is weeds, I could injure the skin.
             </p>
             <p>
-              No use calzado ajustado, correas, navajas de afeitar sin filo o productos químicos fuertes.
+              Do not wear tight footwear, straps, razor without edge or strong chemicals.
             </p>
             <p>
-              Evite los climas húmedos y las estaciones de invierno, prefiera un clima cálido y seco.
+              Avoid wet climates and winter stations, prefer a warm and dry climate.
             </p>
-            <p>Tome el sol ampliamente para absorber los rayos ultravioleta, pero antes protéjase con un filtro solar.</p>
+            <p> I sunbound widely to absorb ultraviolet rays, but before protect yourself with a solar filter.</p>
             <p>
-              Instale un filtro para remover el cloro del agua del baño o la ducha. El agua municipal contiene cloro, el cual más que deshidratar la piel, contribuye a aumentar los problemas de la misma.
+              Install a filter to remove the chlorine from bath water or shower.Municipal water contains chlorine, which more than dehydrating the skin, helps increase its problems.
             </p>
             <p>
               <strong>
-                FITOTERAPIA: 
-              </strong>Las siguientes plantas ejercen una acción beneficiosa sobre la piel en su conjunto, y puede influir favorablemente en el curso de la enfermedad:
+                PHYTOTHERAPY:
+              </strong> The following plants exert a beneficial action on the skin as a whole, and can favorably influence the course of the disease:
               <ul>
-                <li><strong>Pino:</strong> Usada como alquitrán o brea vegetal, aplicado en forma de pomada; es un poderoso emoliente para la piel.</li>
-                <li><strong>Ruda:</strong> Usada en compresas con la infusión, es revulsiva, útil en estos casos.</li>
-                <li><strong>Aloe:</strong> Lociones con el jugo de aloe, son cicatrizantes, suavizantes y aumentan las defensas.</li>
-                <li><strong>Pensamiento:</strong> La infusión con la planta seca, hacer lociones y lavados con esa misma infusión, depura la sangre de residuos tóxicos, desinflama la piel.</li>
-                <li><strong>Equinacea:</strong> Se usa la decocción de raíz, extractos, compresas o lociones; con la decocción pomadas, es un buen cicatrizante, regenera los tejidos y estimula las defensas.</li>
+                <li> <strong> pine: </strong> used as tar or vegetable break, applied in an ointment form;He is a powerful emollient for the skin. </li>
+                <li> <strong> rue: </strong> used in compresses with infusion, it is revulsive, useful in these cases. </li>
+                <li> <strong> aloe: </strong> lotions with aloe juice, are healing, softeners and increase defenses. </li>
+                <li> <strong> thought: </strong> infusion with the dry plant, make lotions and washed with that same infusion, purified the blood of toxic waste, deflates the skin. </li>
+                <li> <strong> equinacea: </strong> the decoction of root, extracts, compresses or lotions is used;With ointment decoction, it is a good scar, regenerates tissues and stimulates defenses.</li>
               </ul>
             </p>
 
@@ -491,13 +495,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="centrar">
-              Cocina Saludable
+              Healthy food
             </div>
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Aproveche nuestros conejos alimenticios preparando las siguientes recetas: R03 - R06 - R07 - R08 - R13 - R18 - R22 - R25 - R29 - R30 - R35 - R39 - R43 - R48
+            Take advantage of our food rabbits preparing the following recipes: R03 - R06 - R07 - R08 - R13 - R18 - R22 - R25 - R29 - R30 - R35 - R39 - R43 - R48
           </div>
         </div>
       </div>
@@ -509,23 +513,23 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             <div class="centrar">
-              Baños y Aromaterapia
+              Bathrooms and aromatherapy
             </div>
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Muchas esencias oleosas tienen la capacidad de promover la cura y reducir la inflamación e irritación de la piel. Entre las cuales tenemos: caléndula, manzanilla, lavanda y rosa. Añada uno o más de estos aceites (usted puede experimentar y determinar cual trabaja mejor para usted) a un relajante baño de aromaterapia.
+              Many oily essences have the ability to promote cure and reduce the inflammation and irritation of the skin. Among which we have: calendula, chamomile, lavender and pink.Add one or more of these oils (you can experience and determine which one works best for you) to a relaxing aromatherapy bath.
             </p>
             <p>
-              Para áreas más pequeñas, puede usar compresas mejor que el baño si usted así le conviene más.
+              For smaller areas, you can use compresses better than the bathroom if you are more convenient.
             </p>
             <p>
-              Después del baño aplique en la piel, aceite para ablandar; un total de 12 gotas de esencia oleosa o 1 onza. De aceite de jojoba sobre las áreas afectadas ayuda a humectarlas
+              After the bathroom apply to the skin, soften oil;A total of 12 drops of oily or 1 ounce essence. Of jojoba oil on the affected areas helps to moisturize them
             </p>
             <p>
-              <strong>Nota:</strong> No exponga la piel al agua por periodos prolongados, esto podría resecarla aún más. Siempre aplique un humectante o aceite sobre la piel después del baño. Sea cuidadoso no use demasiadas esencias oleosas en estos tratamientos y nunca aplique esencia oleosa pura directamente sobre su piel; dilúyala siempre primero en agua o aceite. Si resulta una irritación, reduzca la cantidad de esencia oleosa que este usando o descontinúe su uso.
+              <strong> Note: </strong> Do not expose the skin to the water for prolonged periods, this could dry it even more.Always apply a moisturizer or oil on the skin after the bathroom.Be careful do not use too many oily essences in these treatments and never apply pure oily essence directly on your skin; Always dilute first in water or oil. If it is an irritation, reduce the amount of oily essence you are using or discontinue its use.
             </p>
             
 
@@ -543,13 +547,13 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             <div class="centrar">
-              Recomendaciones de Suplementos Nutricionales
+              Recommendations of nutritional supplements
             </div>
           </button>
         </h2>
         <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Biogenol, Herbal Tension, Hepato Formula, Marine Protein, Pura Vida, Ultra Detox, Easy Pass, Flores de Bach, Evening Primerose, Zinc, Naturobiotic, Iperoxo, Te Detox para exceso de calor.
+            Biogenol, HerbalTension, HepatoFormula, MarineProtein, PuraVida, UltraDetox, EasyPass, FloresDeBach, EveningPrimerose, Zinc, Naturobiotic,Iperoxo, TeDetoxParaExcesoDeCalor
           </div>
         </div>
       </div>    
@@ -560,18 +564,18 @@
         <h2 class="accordion-header accordionheaderStilo">
           <button class="accordion-button collapsed accordionheaderStilo " type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
             <div class="centrar">
-              Posibles Diagnosticos en Medicina Tradicional China
+              PPossible diagnosis in Traditional Chinese Medicine
             </div>
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p>
-              Calor en la sangre; Exceso de calor y humedad en hígado y vesícula; Estancamiento de humedad y/o flema en el sistema por debilidad del bazo; Deficiencia de líquidos en el riñón.
+              Heat in the blood; Excess heat and moisture in liver and gallbladder;Humidity and/or phlegm stagnation in the system's weakness; Liquid deficiency in the kidney.
             </p>
 
             <p>
-              <strong>Según los síntomas que describa el paciente en consulta, como se vea la lengua, estudios del medico primario, y los pulsos que se toman en ambas muñecas se definirá el diagnóstico. Dependiendo el diagnóstico se definirá el tratamiento con acupuntura, hierbas chinas, dieta oriental y ejercicios recomendados. La clave es un buen diagnóstico. Medico oriental que ataca los síntomas para calmar se llama medico menor. El que ataca el origen de los síntomas para curar que presenta el paciente se llama Medico Mayor o Master en Medicina Tradicional China.</strong>
+              <strong>According to the symptoms described by the patient in consultation, as the language is seen, studies of the primary doctor, and the pulses that are taken in both wrists will define the diagnosis.Depending on the diagnosis, acupuncture treatment, Chinese herbs, oriental diet and recommended exercises will be defined. The key is a good diagnosis.Oriental doctor who attacks the symptoms to calm is called a minor doctor. The one who attacks the origin of the symptoms to cure that the patient is called a major doctor or master in Traditional Chinese medicine.</strong>
             </p>
             
 
@@ -617,15 +621,15 @@
             <h6 class="disclaimerTitulo">
               Disclaimer
             </h6>
-            <p class="disclaimerTexto">Productos vitaminicos, minerales y naturales y las instrucciones
-              generales sugeridas, no intentan substituir los servicios
-              de un facultativo.<br>
-              Si sufre de alguna enfermedad consulte con su medico.
-              No pare de tomar ni cambie ningun medicamento o tratamiento
-              prescripto por su medico primario o el hospital.
-              Consulte con su medico primario antes de tomar vitaminas,
-              productos naturales, hacer ejercicios, o cualquier otra
-              sugerencia de esta pagina web.</p>
+            <p class="disclaimerTexto">Vitamin, mineral and natural products and instructions
+              Suggested generals, they don't try to replace services
+              of a doctor. <br>
+              If you suffer from any disease, consult your doctor.
+              Do not stop taking or change any medication or treatment
+              prescribed by your primary doctor or the hospital.
+              Consult your primary doctor before taking vitamins,
+              natural products, exercise, or any other
+              suggestion of this website.</p>
           </div>
         </div>
   
