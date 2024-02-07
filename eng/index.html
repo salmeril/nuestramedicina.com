@@ -32,7 +32,37 @@
 
 
 
-
+<!-- Language Selector -->
+<div id="languageSelector" class="bg-light">
+ 
+  <div class="language-option" onclick="selectLanguage('es')">
+      <img src="/src/img/icons/espaicon.png" alt="Español">
+      
+  </div>
+  <div class="language-option m-1" onclick="selectLanguage('en')">
+      <img src="/src/img/icons/icon.png" alt="English">
+      
+  </div>
+  <!-- Agrega más opciones según los idiomas que necesites -->
+  </div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Puedes agregar aquí la lógica para mostrar o no el selector según ciertas condiciones
+    });
+    
+    function selectLanguage(language) {
+        // Guardar el idioma seleccionado en el almacenamiento local
+        localStorage.setItem('selectedLanguage', language);
+    
+        // Redirigir según el idioma seleccionado
+        if (language === 'en') {
+            location.href = "eng/index.html";
+        } else {
+            location.href = "../index.html";
+        }
+    }
+    </script>
 
 
 </head>
@@ -42,7 +72,8 @@
 
 
   
-
+  
+  
 
 
 
