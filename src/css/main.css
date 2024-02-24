@@ -58,12 +58,7 @@
 }
 
 
-.carousel-container {
-  max-width: 700px;
-  /* Establece el ancho máximo según tus necesidades */
-  margin: 0 auto;
-  /* Centra el contenedor en la página */
-}
+
 
 .padigCustomIzquierda {
   padding-right: 50px;
@@ -388,16 +383,7 @@ footer {
 
 
 
-.carousel-inner {
-  width: 100%;
-}
 
-.carousel-item img {
-
-  width: 100%;
-  max-height: 400px;
-  /* Ajusta la altura máxima según sea necesario */
-}
 
 .carro {
   align-items: center;
@@ -728,4 +714,14 @@ hr {
       height:63px;
       line-height: 66px;
 }
+}
+
+
+
+
+.carousel-item img {
+  max-width: 450px;
+  max-height: 450px;
+  width: auto;
+  height: auto;
 }

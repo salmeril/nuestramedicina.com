@@ -511,3 +511,21 @@ font-family: 'Young Serif', serif;
   }
   </script>
   
+
+  .carousel-inner {
+    width: 100%;
+  }
+  
+  .carousel-item img {
+  
+    width: 100%;
+    max-height: 400px;
+    /* Ajusta la altura máxima según sea necesario */
+  }
+
+  .carousel-container {
+    max-width: 700px;
+    /* Establece el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    /* Centra el contenedor en la página */
+  }
