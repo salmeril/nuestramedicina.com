@@ -720,8 +720,7 @@ hr {
 
 
 .carousel-item img {
-  max-width: 450px;
-  max-height: 450px;
+ 
   width: auto;
   height: auto;
 }
