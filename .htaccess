@@ -1,0 +1,4 @@
+ErrorDocument 401 /index.html
+ErrorDocument 404 /index.html
+ErrorDocument 500 index.htlm
+DirectoryIndex index.php index.html index.cgi 
