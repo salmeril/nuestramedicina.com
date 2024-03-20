@@ -1,4 +1,4 @@
-ErrorDocument 401 /index.html
-ErrorDocument 404 /index.html
-ErrorDocument 500 index.htlm
+ErrorDocument 401 www.nuestramedicina.com/index.html
+ErrorDocument 404 www.nuestramedicina.com/index.html
+ErrorDocument 500 www.nuestramedicina.com/index.htlm
 DirectoryIndex index.php index.html index.cgi 
