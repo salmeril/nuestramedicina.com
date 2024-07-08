@@ -15,6 +15,7 @@
   <meta name="language" content="Spanish">
   <meta name="author" content="Cesar E. Armoza">
   <link rel="canonical" href="https://www.nuestramedicina.com">
+  <link rel="stylesheet" href="/src/css/alerta.css">
  
 
 
@@ -93,6 +94,16 @@
 </head>
 
 <body>
+
+  <div id="privacy-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Política de Privacidad</h2>
+        <p>Por favor, lee nuestra política de privacidad. Al continuar usando nuestro sitio, confirmas que has leído y aceptas nuestros términos y condiciones.</p>
+        <a href="/src/components/cards/privacy.html" target="_blank">Leer Política de Privacidad</a>
+        <button id="accept-button">Acepto</button>
+    </div>
+</div>
   
   <a href="https://api.whatsapp.com/send?phone=15168156674" class="btn-wsp" target="_blank">
     <i class="fa fa-whatsapp icono"></i>
@@ -605,6 +616,7 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="/src/js/alerta.js"></script>
 </body>
 
 </html>
