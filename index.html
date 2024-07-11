@@ -16,6 +16,7 @@
   <meta name="author" content="Cesar E. Armoza">
   <link rel="canonical" href="https://www.nuestramedicina.com">
   <link rel="stylesheet" href="/src/css/alerta.css">
+  <link rel="stylesheet" href="/src/css/carrouselnoti.css">
  
 
 
@@ -419,8 +420,24 @@
   </div>
   </div>
 
+
+  <!--
+  Carrousel de noticias
+  -->
+  <div class="noti">
+    <h2 class="circles-heading-center titulonoticia text-center anima mt-5">
+      Ultimas Noticias
+    </h2>
+    <div class="carousel-container mt-3 mb-5">
+      <button id="flecha-izquierda" class="arrow">←</button>
+      <div id="noticia" class="carousel"></div>
+      <button id="flecha-derecha" class="arrow">→</button>
+  </div>
+  </div>
+
+
   <!--quizas remplazas el container mid buton-->
-  <div class="container container-especialidades col-12 text-center">
+  <div class="container container-especialidades mt-5 col-12 text-center">
     <h2 class="circles-heading-center anima mt-3">
       Nuestros Servicios
     </h2>
@@ -609,6 +626,7 @@
       </div>
   </footer>
 
+  <script src="/src/js/carrousel.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
