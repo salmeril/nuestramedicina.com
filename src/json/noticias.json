@@ -1,0 +1,38 @@
+[
+    {
+        "titulo": "Ayuda para niños con sobrepeso y obesidad",
+        "contenido": "Guia para Ayudar a Niños con Sobrepeso y Obesidad.",
+        "imagen": "/src/img/imagenes/obesidadninios.png",
+        "link": "/src/components/novedades/sobrepesoninios.html"
+    },
+    {
+        "titulo": "Causas y Alivio del Estreñimiento",
+        "contenido": "Causas y soluciones.",
+        "imagen": "/src/img/imagenes/constipacion.png",
+        "link": "/src/components/novedades/estrenimiento.html"
+    },
+    {
+        "titulo": "Colores y sabores artificiales",
+        "contenido": "Noticia sobre la Eliminación de Colorantes Toxicos por Nestle.",
+        "imagen": "/src/img/imagenes/noticias.png",
+        "link": "/src/components/novedades/colorantes.html"
+    },
+    {
+        "titulo": "Cafe Contra el Dengue",
+        "contenido": "Los Residuos del Cafe de Filtro Contra el Dengue.",
+        "imagen": "/src/img/imagenes/dengue.png",
+        "link": "/src/components/novedades/cafeDengue.html"
+    },
+    {
+        "titulo": "Como Engañar el Hambre con Palomitas",
+        "contenido": "Breve Guia de como Suplantar Snacks poco Saludables, por Palomitas de Maíz.",
+        "imagen": "/src/img/imagenes/palomitasBanner.png",
+        "link": "/src/components/novedades/hambrePalomitas.html"
+    },
+    {
+        "titulo": "El Prejuicio en la Salud del Coraje",
+        "contenido": "Nota de las Complicaciones de Enojo o Coraje, en Nuestro Cuerpo.",
+        "imagen": "/src/img/imagenes/corajeBanner.png",
+        "link": "/src/components/novedades/coraje.html"
+    }
+]
