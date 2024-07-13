@@ -25,7 +25,7 @@
     },
     {
         "titulo": "Ayuda para niños con sobrepeso y obesidad",
-        "contenido": "Guía para Ayudar a Niños con Sobrepeso y Obesidad",
+        "contenido": "Guía para Ayudar a Niños con Sobrepeso y Obesidad ",
         "imagen": "/src/img/imagenes/obesidadninios.png",
         "link": "/src/components/novedades/sobrepesoninios.html"
     },
