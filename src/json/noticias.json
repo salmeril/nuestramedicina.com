@@ -1,5 +1,17 @@
 [
     {
+        "titulo": "Causas del Mal Funcionamiento del Cuerpo",
+        "contenido": "Causas del Mal Funcionamiento del Cuerpo",
+        "imagen": "/src/img/imagenes/bannerfuncionamientocuerpo.png",
+        "link": "/src/components/novedades/malfuncionamiento-25-07.html"
+    },
+    {
+        "titulo": "Tratamiento Tic Nervioso",
+        "contenido": "Tratamiento Natural para los Tics Nerviosos",
+        "imagen": "/src/img/imagenes/ticnervioso.png",
+        "link": "/src/components/novedades/ticnervioso-25-07.html"
+    },
+    {
         "titulo": "Migrañas",
         "contenido": "Medicina Natural para el Tratamiento de la Migraña",
         "imagen": "/src/img/imagenes/nigraniaBanner.png",
