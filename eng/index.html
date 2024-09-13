@@ -32,19 +32,21 @@
 
 
 
-<!-- Language Selector -->
-<div id="languageSelector" class="bg-light">
- 
+  <!-- Discount Banner -->
+  <div style="background-color: black; color: white; text-align: center; padding: 10px 0; position: fixed; width: 100%; top: 0; z-index: 1000;">
+  Get 15% off your first treatment! Offer valid throughout September. <a href="/src/components/nav/consultasVirtuales.html" style="color: #5f5ff3; text-decoration: underline; font-weight: bold;">Book your appointment now!</a>
+  </div>
+
+
+<!-- Ajustar el selector de idioma y otros elementos para que no se superpongan con el banner -->
+<div id="languageSelector" class="bg-light" style="margin-top: 50px;">
   <div class="language-option" onclick="selectLanguage('es')">
       <img src="/src/img/icons/espaicon.png" alt="Español">
-      
   </div>
   <div class="language-option m-1" onclick="selectLanguage('en')">
       <img src="/src/img/icons/icon.png" alt="English">
-      
   </div>
-  <!-- Agrega más opciones según los idiomas que necesites -->
-  </div>
+</div>
   
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -508,7 +510,7 @@
         </div>
       </div>
 
-      <div class="card1" >
+      <!--<div class="card1" >
         <img src="/src/img/imagenes/freepik--Newspaper--inject-60cards 3.png" class="" alt="...">
         <div class="">
           <h3 class="">Last News</h3>
@@ -516,7 +518,7 @@
             <a href="/eng/components/cards/news.html" class="btn-card">Go</a>
         </div>
 
-      </div>
+      </div>-->
 
     </div>
   </div>
