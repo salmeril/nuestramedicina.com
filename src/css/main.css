@@ -477,7 +477,7 @@ hr {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
@@ -724,4 +724,20 @@ hr {
 .row{
   margin-left: 0;
   margin-right: 0;
+}
+
+
+.responsive-gif {
+  margin-left: 6vh;
+  max-width: 100%;
+  height: auto;
+
+  @media screen and (max-width: 1200px) {
+    margin-left: 0;
+  }
+}
+
+.bannerlose{
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
