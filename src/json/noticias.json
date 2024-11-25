@@ -1,4 +1,17 @@
 [
+
+    {
+        "titulo": "Licuado para Cuidar los Riñones y Aliviar el Dolor Lumbar",
+        "contenido": "Recetas Caceras",
+        "imagen": "/src/img/imagenes/bannerlicuados.png",
+        "link": "/src/components/nav/resetasCaseras.html#list-item-60"
+    },
+    {
+        "titulo": "Qué Hacer y Qué No Hacer para el Cuidado de los Riñones",
+        "contenido": "Qué Hacer y Qué No Hacer para el Cuidado de los Riñones",
+        "imagen": "/src/img/imagenes/riñinesbanner.png",
+        "link": "/src/components/novedades/dolorlumbar22-11.html"
+    },
     {
         "titulo": "Causas del Mal Funcionamiento del Cuerpo",
         "contenido": "Causas del Mal Funcionamiento del Cuerpo",
