@@ -687,67 +687,60 @@ hr {
   animation: none; /* Detener la animación durante el hover */
 }
 
-
-.btn-wsp{
-  position:fixed;
-  width:60px;
-  height:60px;
-  line-height: 63px;
-  bottom:25px;
-  right:25px;
-  background:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:35px;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
   z-index:100;
-  transition: all 300ms ease;
 }
-.btn-wsp:hover{
-  background: #20ba5a;
-  transform: scale(1.3)
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-  .btn-wsp{
-      width:63px;
-      height:63px;
-      line-height: 66px;
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
 }
 
+.my-float{
+	margin-top:16px;
 }
 
 
 
-
-
-
-.row{
-  margin-left: 0;
-  margin-right: 0;
-}
-
-
-.responsive-gif {
-  margin-left: 6vh;
-  max-width: 100%;
+/* Contenedor del slider */
+.swiper-container {
+  position: fixed; /* Asegura que esté centrado independientemente del scroll */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Ajusta el tamaño según lo que necesites */
   height: auto;
-
-  @media screen and (max-width: 1200px) {
-    margin-left: 0;
-  }
+  z-index: 10; /* Asegura que esté encima de otros elementos */
 }
 
-.bannerlose{
-  margin-top: 50px;
-  margin-bottom: 100px;
+/* Configuración del slider */
+.swiper {
+  margin-top: 5vh;
+  width: 100%;
+  height: 100%;
 }
 
+/* Configuración de las imágenes dentro del slider */
+.swiper-slide a img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Asegura que las imágenes estén centradas */
+}
 
-.elcosito{
-  margin-top: 50px;
-  
-  @media screen and (max-width: 768px) {
-    margin-top: 100px;
-  }
+/* Botones de navegación */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000; /* Cambia el color según el diseño */
 }

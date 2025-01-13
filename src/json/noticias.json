@@ -1,6 +1,13 @@
 [
 
     {
+        "titulo": "Tratamiento del Parkinson",
+        "contenido": "Con Nuestra Medicina Natural",
+        "imagen": "/src/img/imagenes/banner-parkinson.png",
+        "link": "/src/components/novedades/tratamientoparkinson.html"
+    },
+    
+    {
         "titulo": "Licuado para Cuidar los Riñones y Aliviar el Dolor Lumbar",
         "contenido": "Recetas Caceras",
         "imagen": "/src/img/imagenes/bannerlicuados.png",

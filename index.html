@@ -123,13 +123,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KHPNP784F">
   
 </script>
+
 
 <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
@@ -182,11 +186,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <button id="accept-button">Acepto</button>
     </div>
 </div>
-  
-  <a href="https://api.whatsapp.com/send?phone=15168156674" class="btn-wsp" target="_blank">
-    <i class="fa fa-whatsapp icono"></i>
+
+
+<a href="https://api.whatsapp.com/send?phone=15168156674" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
   </a>
- 
+
+
 
   <div style="background-color: #000000; color: white;  text-align: center; padding: 10px 0; position: fixed; width: 100%; top: 0; z-index: 1000;">
     ¡Obtén un 15% de descuento en tu primer tratamiento! Promoción válida durante todo Diciembre. <a href="/src/components/nav/consultasVirtuales.html" style="color: rgb(115, 115, 248); text-decoration: underline;">¡Aprovecha ahora!</a>
@@ -450,13 +456,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <div class="container bannerlose justify-content-center align-items-center">
-    
-        
-    <a href="/src/components/cards/loseweightnow.html"><img src="/src/img/imagenes/bannerlosenuevo.gif" alt="loseWeightnow" class="responsive-gif"></a>
-        
-    
-</div>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="/src/components/cards/loseweightnow.html">
+          <img src="/src/img/imagenes/bannerlosenuevo.gif" alt="Banner 1">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="/index.html">
+          <img src="/src/img/imagenes/bannerfunctional.gif" alt="Banner 2">
+        </a>
+      </div>
+      <!-- Agrega más slides aquí -->
+    </div>
+
+  </div>
+  
+  
+  
+  
 
   <!--seccion carrousel-->
   <div class="header mt-2 my-2 mb-5 container-fluid text-center">
@@ -714,6 +733,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </footer>
 
   <script src="/src/js/carrousel.js"></script>
+  <script src="/src/js/banner.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
