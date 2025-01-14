@@ -715,24 +715,24 @@ hr {
 
 /* Contenedor del slider */
 .swiper-container {
-  position: relative; /* Cambiado de fixed a relative para evitar problemas de posicionamiento */
-  width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor */
+  position: relative; /* Evita problemas de posicionamiento fijo */
+  width: 100%; /* Ocupa todo el ancho disponible */
   height: auto; /* Permite que la altura se adapte al contenido */
-  z-index: 10; /* Asegura que el carrusel esté encima de otros elementos si es necesario */
+  z-index: 10; /* Mantén el carrusel sobre otros elementos */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 /* Configuración del slider */
 .swiper {
-  margin-top: 5vh; /* Margen superior opcional */
-  width: 60%; /* Ocupa el 100% del ancho disponible */
-  height: auto; /* La altura será automática */
+  margin-top: 5vh; /* Espaciado superior opcional */
+  width: 100%; /* Ocupa el 100% del ancho */
+  height: auto; /* Ajusta la altura automáticamente */
 }
 
 /* Configuración de las imágenes dentro del slider */
 .swiper-slide a img {
-  width: 100%; /* Ocupa todo el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de las imágenes */
+  width: 65%; /* Imagen se adapta al ancho del contenedor */
+  height: auto; /* Mantiene las proporciones originales */
   display: block; /* Asegura que se rendericen como bloques */
   margin: 0 auto; /* Centra las imágenes horizontalmente */
 }
@@ -740,16 +740,40 @@ hr {
 /* Botones de navegación */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #000; /* Cambia el color de los botones según el diseño */
-  z-index: 11; /* Asegúrate de que estén encima del carrusel */
+  color: #000; /* Cambia el color según el diseño */
+  z-index: 11; /* Asegura que los botones estén visibles */
 }
 
-/* Opcional: Ajustes responsivos */
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+/* Estilo para pantallas pequeñas (smartphones) */
+@media only screen and (max-width: 480px) {
   .swiper-container {
-      width: 100%; /* Mantén el 100% del ancho en pantallas pequeñas */
+      width: 100%; /* Asegura que el slider ocupe todo el ancho del dispositivo */
+      height: auto; /* Ajusta la altura automáticamente */
   }
+
   .swiper-slide a img {
-      width: 100%; /* Asegúrate de que las imágenes también se ajusten */
+      width: 90%; /* Haz que las imágenes ocupen el 90% del ancho para mayor visibilidad */
+      height: auto; /* Mantén la proporción */
+  }
+
+  .swiper {
+      margin-top: 2vh; /* Reduce el margen superior en móviles */
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+      font-size: 20px; /* Ajusta el tamaño de los botones de navegación */
+  }
+}
+
+/* Estilo para pantallas medianas (tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .swiper-container {
+      width: 95%; /* Reduce un poco los márgenes laterales */
+  }
+
+  .swiper-slide a img {
+      width: 100%; /* Las imágenes ocupan todo el espacio en tablets */
+      height: auto;
   }
 }
