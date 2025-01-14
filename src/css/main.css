@@ -737,7 +737,7 @@ hr {
   width: 60%;
   height: auto;
   display: flex;
-  margin: 0 auto; /* Asegura que las imágenes estén centradas */
+  margin: auto; /* Asegura que las imágenes estén centradas */
 }
 
 /* Botones de navegación */
