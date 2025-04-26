@@ -361,6 +361,8 @@
           <h4>1. Personal Information</h4>
           <input type="text" name="full_name" placeholder="Full Name" required class="form-control mb-2">
           <input type="text" name="dob" placeholder="Date of Birth (MM/DD/YYYY)" required class="form-control mb-2">
+          <input type="email" name="email" placeholder="Email Address" required class="form-control mb-2">
+          <input type="tel" name="phone" placeholder="Phone Number" required class="form-control mb-2">
         </div>
 
         <!-- Información del Seguro -->
@@ -407,18 +409,14 @@
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
-<!-- EmailJS SDK NUEVO v3 -->
-<!-- EmailJS SDK v3 -->
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
 <script>
   (function() {
     emailjs.init({
-      publicKey: 'g72ZugPj-e9NSvLpQ' // Tu Public Key
+      publicKey: 'g72ZugPj-e9NSvLpQ'
     });
   })();
   
-  // Función para redimensionar una imagen
+  // Función para redimensionar
   function resizeImage(file, maxWidth = 300, callback) {
     const reader = new FileReader();
     reader.onload = function(event) {
@@ -439,10 +437,7 @@
         const ctx = canvas.getContext('2d');
         ctx.drawImage(img, 0, 0, width, height);
   
-        // Exportar como JPG 50% calidad
         const resizedBase64 = canvas.toDataURL('image/jpeg', 0.5);
-  
-        console.log('Imagen procesada. Peso final:', Math.round((resizedBase64.length * 3/4) / 1024), 'KB'); // DEBUG
         callback(resizedBase64);
       };
       img.src = event.target.result;
@@ -461,17 +456,18 @@
       return;
     }
   
-    // Redimensionar ambas imágenes antes de enviar
     resizeImage(frontInput, 300, function(frontImageBase64) {
       resizeImage(backInput, 300, function(backImageBase64) {
   
         emailjs.send('service_zwurumf', 'template_7k9epve', {
           full_name: document.querySelector('[name="full_name"]').value,
           dob: document.querySelector('[name="dob"]').value,
+          email: document.querySelector('[name="email"]').value,
+          phone: document.querySelector('[name="phone"]').value,
           insurance_name: document.querySelector('[name="insurance_name"]').value,
           insurance_id: document.querySelector('[name="insurance_id"]').value,
           group_number: document.querySelector('[name="group_number"]').value,
-          policyholder_name: document.querySelector('[name="policyholder_name"]').value,
+          policyholder_name: document.querySelector('[name="policyholder_name (if different)"]').value,
           front_image: frontImageBase64,
           back_image: backImageBase64
         }, 'g72ZugPj-e9NSvLpQ')
@@ -490,7 +486,7 @@
     });
   });
   
-  // Mostrar Previews de imágenes
+  // Previews de imágenes
   document.getElementById('front-image').addEventListener('change', function(event) {
     var reader = new FileReader();
     reader.onload = function() {
