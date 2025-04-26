@@ -410,13 +410,20 @@
 
 
 <script>
+  // Inicializar EmailJS
   (function() {
     emailjs.init({
-      publicKey: 'g72ZugPj-e9NSvLpQ'
+      publicKey: 'g72ZugPj-e9NSvLpQ' // Tu Public Key
     });
   })();
   
-  // Función para redimensionar
+  // Función segura para obtener valores
+  function safeGetValue(selector) {
+    const el = document.querySelector(selector);
+    return el ? el.value : '';
+  }
+  
+  // Función para redimensionar imagenes
   function resizeImage(file, maxWidth = 300, callback) {
     const reader = new FileReader();
     reader.onload = function(event) {
@@ -437,7 +444,7 @@
         const ctx = canvas.getContext('2d');
         ctx.drawImage(img, 0, 0, width, height);
   
-        const resizedBase64 = canvas.toDataURL('image/jpeg', 0.5);
+        const resizedBase64 = canvas.toDataURL('image/jpeg', 0.5); // 50% calidad
         callback(resizedBase64);
       };
       img.src = event.target.result;
@@ -445,6 +452,7 @@
     reader.readAsDataURL(file);
   }
   
+  // Evento Submit del Formulario
   document.getElementById('insurance-form').addEventListener('submit', function(event) {
     event.preventDefault();
   
@@ -460,14 +468,14 @@
       resizeImage(backInput, 300, function(backImageBase64) {
   
         emailjs.send('service_zwurumf', 'template_7k9epve', {
-          full_name: document.querySelector('[name="full_name"]').value,
-          dob: document.querySelector('[name="dob"]').value,
-          email: document.querySelector('[name="email"]').value,
-          phone: document.querySelector('[name="phone"]').value,
-          insurance_name: document.querySelector('[name="insurance_name"]').value,
-          insurance_id: document.querySelector('[name="insurance_id"]').value,
-          group_number: document.querySelector('[name="group_number"]').value,
-          policyholder_name : document.querySelector('[name="policyholder_name"]').value,
+          full_name: safeGetValue('[name="full_name"]'),
+          dob: safeGetValue('[name="dob"]'),
+          email: safeGetValue('[name="email"]'),
+          phone: safeGetValue('[name="phone"]'),
+          insurance_name: safeGetValue('[name="insurance_name"]'),
+          insurance_id: safeGetValue('[name="insurance_id"]'),
+          group_number: safeGetValue('[name="group_number"]'),
+          policyholder_name: safeGetValue('[name="policyholder_name"]'),
           front_image: frontImageBase64,
           back_image: backImageBase64
         }, 'g72ZugPj-e9NSvLpQ')
@@ -486,7 +494,7 @@
     });
   });
   
-  // Previews de imágenes
+  // Previsualizar imágenes cargadas
   document.getElementById('front-image').addEventListener('change', function(event) {
     var reader = new FileReader();
     reader.onload = function() {
