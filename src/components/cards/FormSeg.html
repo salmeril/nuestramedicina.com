@@ -414,7 +414,7 @@
 <script>
   (function() {
     emailjs.init({
-      publicKey: '1NQ_GfnNDWCO6ZIJX' // Tu Public Key
+      publicKey: 'g72ZugPj-e9NSvLpQ' // Tu Public Key
     });
   })();
   
@@ -465,7 +465,7 @@
     resizeImage(frontInput, 300, function(frontImageBase64) {
       resizeImage(backInput, 300, function(backImageBase64) {
   
-        emailjs.send('service_gyeqhh6', 'template_s06jbi4', {
+        emailjs.send('service_zwurumf', 'template_7k9epve', {
           full_name: document.querySelector('[name="full_name"]').value,
           dob: document.querySelector('[name="dob"]').value,
           insurance_name: document.querySelector('[name="insurance_name"]').value,
@@ -474,7 +474,7 @@
           policyholder_name: document.querySelector('[name="policyholder_name"]').value,
           front_image: frontImageBase64,
           back_image: backImageBase64
-        }, '1NQ_GfnNDWCO6ZIJX')
+        }, 'g72ZugPj-e9NSvLpQ')
         .then(function(response) {
           console.log('Formulario enviado correctamente ✅', response);
           alert('Formulario enviado correctamente ✅');
