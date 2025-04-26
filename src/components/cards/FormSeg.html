@@ -338,14 +338,14 @@
  <form id="insurance-form">
   <div class="container my-4">
     <div class="text-center mb-5">
-      <img src="/src/img/imagenes/bannerForm.jpg" alt="Banner" class="img-fluid" style="max-height: 300px;">
+      <img src="ruta-del-banner.jpg" alt="Banner" class="img-fluid" style="max-height: 300px;">
     </div>
 
     <div class="row align-items-center">
 
       <!-- Imagen decorativa izquierda -->
       <div class="col-lg-2 text-center mb-4">
-        <img src="" alt="" class="img-fluid">
+        <img src="ruta-imagen-izquierda.jpg" alt="Imagen Izquierda" class="img-fluid">
       </div>
 
       <!-- Formulario principal -->
@@ -396,113 +396,122 @@
 
       <!-- Imagen decorativa derecha -->
       <div class="col-lg-2 text-center mb-4">
-        <img src="" alt="" class="img-fluid">
+        <img src="ruta-imagen-derecha.jpg" alt="Imagen Derecha" class="img-fluid">
       </div>
 
     </div>
   </div>
 </form>
 
+<!-- EmailJS SDK v3 -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
 <!-- EmailJS SDK NUEVO v3 -->
 <!-- EmailJS SDK v3 -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 <script>
-(function() {
-  emailjs.init({
-    publicKey: 'g72ZugPj-e9NSvLpQ' // Tu Public Key
-  });
-})();
-
-// Función para redimensionar una imagen a máximo 600px de ancho
-function resizeImage(file, maxWidth = 400, callback) {  // 400px ahora
-  const reader = new FileReader();
-  reader.onload = function(event) {
-    const img = new Image();
-    img.onload = function() {
-      const canvas = document.createElement('canvas');
-      let width = img.width;
-      let height = img.height;
-
-      if (width > maxWidth) {
-        height = height * (maxWidth / width);
-        width = maxWidth;
-      }
-
-      canvas.width = width;
-      canvas.height = height;
-
-      const ctx = canvas.getContext('2d');
-      ctx.drawImage(img, 0, 0, width, height);
-
-      // 60% calidad ahora
-      const resizedBase64 = canvas.toDataURL('image/jpeg', 0.6); 
-      callback(resizedBase64);
+  (function() {
+    emailjs.init({
+      publicKey: '1NQ_GfnNDWCO6ZIJX' // Tu Public Key
+    });
+  })();
+  
+  // Función para redimensionar una imagen
+  function resizeImage(file, maxWidth = 300, callback) {
+    const reader = new FileReader();
+    reader.onload = function(event) {
+      const img = new Image();
+      img.onload = function() {
+        const canvas = document.createElement('canvas');
+        let width = img.width;
+        let height = img.height;
+  
+        if (width > maxWidth) {
+          height = height * (maxWidth / width);
+          width = maxWidth;
+        }
+  
+        canvas.width = width;
+        canvas.height = height;
+  
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+  
+        // Exportar como JPG 50% calidad
+        const resizedBase64 = canvas.toDataURL('image/jpeg', 0.5);
+  
+        console.log('Imagen procesada. Peso final:', Math.round((resizedBase64.length * 3/4) / 1024), 'KB'); // DEBUG
+        callback(resizedBase64);
+      };
+      img.src = event.target.result;
     };
-    img.src = event.target.result;
-  };
-  reader.readAsDataURL(file);
-}
-
-document.getElementById('insurance-form').addEventListener('submit', function(event) {
-  event.preventDefault();
-
-  const frontInput = document.getElementById('front-image').files[0];
-  const backInput = document.getElementById('back-image').files[0];
-
-  if (!frontInput || !backInput) {
-    alert("Por favor, carga ambas imágenes.");
-    return;
+    reader.readAsDataURL(file);
   }
-
-  // Primero redimensionamos ambas imágenes
-  resizeImage(frontInput, 600, function(frontImageBase64) {
-    resizeImage(backInput, 600, function(backImageBase64) {
-
-      // Una vez que tenemos ambas imágenes optimizadas, enviamos el formulario
-      emailjs.send('service_zwurumf', 'template_7k9epve', {
-        full_name: document.querySelector('[name="full_name"]').value,
-        dob: document.querySelector('[name="dob"]').value,
-        insurance_name: document.querySelector('[name="insurance_name"]').value,
-        insurance_id: document.querySelector('[name="insurance_id"]').value,
-        group_number: document.querySelector('[name="group_number"]').value,
-        policyholder_name: document.querySelector('[name="policyholder_name"]').value,
-        front_image: frontImageBase64,
-        back_image: backImageBase64
-      }, 'g72ZugPj-e9NSvLpQ')
-      .then(function(response) {
-        console.log('Formulario enviado correctamente ✅', response);
-        alert('Formulario enviado correctamente ✅');
-      }, function(error) {
-        console.error('Ocurrió un error ❌:', error);
-        alert('Ocurrió un error ❌: ' + JSON.stringify(error));
+  
+  document.getElementById('insurance-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+  
+    const frontInput = document.getElementById('front-image').files[0];
+    const backInput = document.getElementById('back-image').files[0];
+  
+    if (!frontInput || !backInput) {
+      alert("Por favor, carga ambas imágenes.");
+      return;
+    }
+  
+    // Redimensionar ambas imágenes antes de enviar
+    resizeImage(frontInput, 300, function(frontImageBase64) {
+      resizeImage(backInput, 300, function(backImageBase64) {
+  
+        emailjs.send('service_gyeqhh6', 'template_s06jbi4', {
+          full_name: document.querySelector('[name="full_name"]').value,
+          dob: document.querySelector('[name="dob"]').value,
+          insurance_name: document.querySelector('[name="insurance_name"]').value,
+          insurance_id: document.querySelector('[name="insurance_id"]').value,
+          group_number: document.querySelector('[name="group_number"]').value,
+          policyholder_name: document.querySelector('[name="policyholder_name"]').value,
+          front_image: frontImageBase64,
+          back_image: backImageBase64
+        }, '1NQ_GfnNDWCO6ZIJX')
+        .then(function(response) {
+          console.log('Formulario enviado correctamente ✅', response);
+          alert('Formulario enviado correctamente ✅');
+          document.getElementById('insurance-form').reset();
+          document.getElementById('preview-front').style.display = 'none';
+          document.getElementById('preview-back').style.display = 'none';
+        }, function(error) {
+          console.error('Ocurrió un error ❌:', error);
+          alert('Ocurrió un error ❌: ' + JSON.stringify(error));
+        });
+  
       });
-
     });
   });
-});
-
-// Opcional: mostrar previews si querés
-document.getElementById('front-image').addEventListener('change', function(event) {
-  var reader = new FileReader();
-  reader.onload = function() {
-    var output = document.getElementById('preview-front');
-    output.src = reader.result;
-    output.style.display = 'block';
-  };
-  reader.readAsDataURL(event.target.files[0]);
-});
-
-document.getElementById('back-image').addEventListener('change', function(event) {
-  var reader = new FileReader();
-  reader.onload = function() {
-    var output = document.getElementById('preview-back');
-    output.src = reader.result;
-    output.style.display = 'block';
-  };
-  reader.readAsDataURL(event.target.files[0]);
-});
-</script>
+  
+  // Mostrar Previews de imágenes
+  document.getElementById('front-image').addEventListener('change', function(event) {
+    var reader = new FileReader();
+    reader.onload = function() {
+      var output = document.getElementById('preview-front');
+      output.src = reader.result;
+      output.style.display = 'block';
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  });
+  
+  document.getElementById('back-image').addEventListener('change', function(event) {
+    var reader = new FileReader();
+    reader.onload = function() {
+      var output = document.getElementById('preview-back');
+      output.src = reader.result;
+      output.style.display = 'block';
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  });
+  </script>
+  
 
 
 
