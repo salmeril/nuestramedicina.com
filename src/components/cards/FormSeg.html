@@ -334,91 +334,153 @@
   </nav>
 
     
-  <form action="https://formspree.io/f/xjkwkekd" method="POST" enctype="multipart/form-data">
-    <div class="container my-4">
-  
-      <!-- Banner superior -->
-      <div class="text-center mb-5">
-        <img src="ruta-del-banner.jpg" alt="Banner Principal" class="img-fluid" style="max-height: 300px; object-fit: cover; width: 100%;">
-      </div>
-  
-      <div class="row align-items-center">
-  
-        <!-- Imagen decorativa izquierda -->
-        <div class="col-lg-2 text-center mb-4">
-          <img src="ruta-imagen-izquierda.jpg" alt="Imagen Izquierda" class="img-fluid" style="max-width: 100%; height: auto;">
-        </div>
-  
-        <!-- Formulario principal -->
-        <div class="col-lg-8">
-  
-          <div class="text-center mb-4">
-            <h2>Patient Insurance Verification Form</h2>
-            <h5>FORMA DE VERIFICACIÓN PARA EL SEGURO DE SALUD</h5>
-          </div>
-  
-          <!-- Información Personal -->
-          <div class="mb-4">
-            <h4>1. Personal Information</h4>
-            <div class="form-group mb-3">
-              <label for="full-name" class="form-label">Full Name:</label>
-              <input type="text" id="full-name" name="Full Name" class="form-control" required>
-            </div>
-            <div class="form-group mb-3">
-              <label for="dob" class="form-label">Date of Birth:</label>
-              <input type="text" id="dob" name="Date of Birth" class="form-control" placeholder="MM/DD/YYYY" required>
-            </div>
-          </div>
-  
-          <!-- Información del Seguro -->
-          <div class="mb-4">
-            <h4>2. Insurance Information</h4>
-            <div class="form-group mb-3">
-              <label for="insurance-name" class="form-label">Insurance Name:</label>
-              <input type="text" id="insurance-name" name="Insurance Name" class="form-control" required>
-            </div>
-            <div class="form-group mb-3">
-              <label for="insurance-id" class="form-label">Insurance ID:</label>
-              <input type="text" id="insurance-id" name="Insurance ID" class="form-control" required>
-            </div>
-            <div class="form-group mb-3">
-              <label for="group-number" class="form-label">Group Number (if applicable):</label>
-              <input type="text" id="group-number" name="Group Number" class="form-control">
-            </div>
-            <div class="form-group mb-3">
-              <label for="policyholder-name" class="form-label">Policyholder's Name (if different):</label>
-              <input type="text" id="policyholder-name" name="Policyholder's Name" class="form-control">
-            </div>
-          </div>
-  
-          <!-- Subida de imágenes de la tarjeta -->
-          <div class="mb-4">
-            <h4>3. Insurance Card Images</h4>
-            <div class="form-group mb-3">
-              <label for="front-image" class="form-label">Upload Front of Insurance Card:</label>
-              <input type="file" id="front-image" name="Front Image" accept="image/*" class="form-control" required>
-            </div>
-            <div class="form-group mb-3">
-              <label for="back-image" class="form-label">Upload Back of Insurance Card:</label>
-              <input type="file" id="back-image" name="Back Image" accept="image/*" class="form-control" required>
-            </div>
-          </div>
-  
-          <!-- Botón de Enviar -->
-          <div class="text-center mb-4">
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-  
-        </div>
-  
-        <!-- Imagen decorativa derecha -->
-        <div class="col-lg-2 text-center mb-4">
-          <img src="ruta-imagen-derecha.jpg" alt="Imagen Derecha" class="img-fluid" style="max-width: 100%; height: auto;">
-        </div>
-  
-      </div>
+ <!-- Tu Formulario -->
+ <form id="insurance-form">
+  <div class="container my-4">
+    <div class="text-center mb-5">
+      <img src="ruta-del-banner.jpg" alt="Banner" class="img-fluid" style="max-height: 300px;">
     </div>
-  </form>
+
+    <div class="row align-items-center">
+
+      <!-- Imagen decorativa izquierda -->
+      <div class="col-lg-2 text-center mb-4">
+        <img src="ruta-imagen-izquierda.jpg" alt="Imagen Izquierda" class="img-fluid">
+      </div>
+
+      <!-- Formulario principal -->
+      <div class="col-lg-8">
+
+        <div class="text-center mb-4">
+          <h2>Patient Insurance Verification Form</h2>
+          <h5>FORMA DE VERIFICACIÓN PARA EL SEGURO DE SALUD</h5>
+        </div>
+
+        <!-- Información Personal -->
+        <div class="mb-4">
+          <h4>1. Personal Information</h4>
+          <input type="text" name="full_name" placeholder="Full Name" required class="form-control mb-2">
+          <input type="text" name="dob" placeholder="Date of Birth (MM/DD/YYYY)" required class="form-control mb-2">
+        </div>
+
+        <!-- Información del Seguro -->
+        <div class="mb-4">
+          <h4>2. Insurance Information</h4>
+          <input type="text" name="insurance_name" placeholder="Insurance Name" required class="form-control mb-2">
+          <input type="text" name="insurance_id" placeholder="Insurance ID" required class="form-control mb-2">
+          <input type="text" name="group_number" placeholder="Group Number" class="form-control mb-2">
+          <input type="text" name="policyholder_name" placeholder="Policyholder's Name" class="form-control mb-2">
+        </div>
+
+        <!-- Subida de Imágenes -->
+        <div class="mb-4">
+          <h4>3. Upload Insurance Card</h4>
+          <div class="form-group mb-3">
+            <label>Upload Front of Insurance Card:</label>
+            <input type="file" id="front-image" accept="image/*" class="form-control mb-2" required>
+            <img id="preview-front" src="#" alt="Preview Front" style="display:none; max-width: 100%; max-height: 200px;">
+          </div>
+          <div class="form-group mb-3">
+            <label>Upload Back of Insurance Card:</label>
+            <input type="file" id="back-image" accept="image/*" class="form-control mb-2" required>
+            <img id="preview-back" src="#" alt="Preview Back" style="display:none; max-width: 100%; max-height: 200px;">
+          </div>
+        </div>
+
+        <!-- Botón de Enviar -->
+        <div class="text-center mb-4">
+          <button type="submit" class="btn btn-primary">Send Form</button>
+        </div>
+
+      </div>
+
+      <!-- Imagen decorativa derecha -->
+      <div class="col-lg-2 text-center mb-4">
+        <img src="ruta-imagen-derecha.jpg" alt="Imagen Derecha" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+</form>
+
+<!-- Cargar el nuevo SDK de EmailJS v3 -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+  (function() {
+    emailjs.init({
+      publicKey: '1NQ_GfnNDWCO6ZIJX'  // 🔥 Acá ponés tu Public Key de EmailJS
+    });
+  })();
+
+  document.getElementById('insurance-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Convertir imágenes a Base64
+    const frontInput = document.getElementById('front-image').files[0];
+    const backInput = document.getElementById('back-image').files[0];
+
+    if (!frontInput || !backInput) {
+      alert("Por favor, carga ambas imágenes.");
+      return;
+    }
+
+    const readerFront = new FileReader();
+    const readerBack = new FileReader();
+
+    readerFront.onload = function(eFront) {
+      const frontImageBase64 = eFront.target.result;
+
+      readerBack.onload = function(eBack) {
+        const backImageBase64 = eBack.target.result;
+
+        // Enviar el formulario
+        emailjs.send('service_gyeqhh6', 'template_s06jbi4', {
+          full_name: document.querySelector('[name="full_name"]').value,
+          dob: document.querySelector('[name="dob"]').value,
+          insurance_name: document.querySelector('[name="insurance_name"]').value,
+          insurance_id: document.querySelector('[name="insurance_id"]').value,
+          group_number: document.querySelector('[name="group_number"]').value,
+          policyholder_name: document.querySelector('[name="policyholder_name"]').value,
+          front_image: frontImageBase64,
+          back_image: backImageBase64
+        }).then(function() {
+          alert('Formulario enviado correctamente ✅');
+        }, function(error) {
+          alert('Ocurrió un error ❌: ' + JSON.stringify(error));
+        });
+
+      };
+
+      readerBack.readAsDataURL(backInput); // Carga reverso
+    };
+
+    readerFront.readAsDataURL(frontInput); // Carga frente
+  });
+
+  // Mostrar Previews de las imágenes
+  document.getElementById('front-image').addEventListener('change', function(event) {
+    var reader = new FileReader();
+    reader.onload = function() {
+      var output = document.getElementById('preview-front');
+      output.src = reader.result;
+      output.style.display = 'block';
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  });
+
+  document.getElementById('back-image').addEventListener('change', function(event) {
+    var reader = new FileReader();
+    reader.onload = function() {
+      var output = document.getElementById('preview-back');
+      output.src = reader.result;
+      output.style.display = 'block';
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  });
+</script>
+
+
   
   
   
