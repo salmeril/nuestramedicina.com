@@ -415,7 +415,7 @@
 })();
 
 // Función para redimensionar una imagen a máximo 600px de ancho
-function resizeImage(file, maxWidth = 600, callback) {
+function resizeImage(file, maxWidth = 400, callback) {  // 400px ahora
   const reader = new FileReader();
   reader.onload = function(event) {
     const img = new Image();
@@ -424,7 +424,6 @@ function resizeImage(file, maxWidth = 600, callback) {
       let width = img.width;
       let height = img.height;
 
-      // Redimensionar manteniendo proporción
       if (width > maxWidth) {
         height = height * (maxWidth / width);
         width = maxWidth;
@@ -436,7 +435,8 @@ function resizeImage(file, maxWidth = 600, callback) {
       const ctx = canvas.getContext('2d');
       ctx.drawImage(img, 0, 0, width, height);
 
-      const resizedBase64 = canvas.toDataURL('image/jpeg', 0.7); // 70% calidad
+      // 60% calidad ahora
+      const resizedBase64 = canvas.toDataURL('image/jpeg', 0.6); 
       callback(resizedBase64);
     };
     img.src = event.target.result;
