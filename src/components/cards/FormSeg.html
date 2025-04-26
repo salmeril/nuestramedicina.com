@@ -338,14 +338,14 @@
  <form id="insurance-form">
   <div class="container my-4">
     <div class="text-center mb-5">
-      <img src="ruta-del-banner.jpg" alt="Banner" class="img-fluid" style="max-height: 300px;">
+      <img src="/src/img/imagenes/bannerForm.jpg" alt="Banner" class="img-fluid" style="max-height: 300px;">
     </div>
 
     <div class="row align-items-center">
 
       <!-- Imagen decorativa izquierda -->
       <div class="col-lg-2 text-center mb-4">
-        <img src="ruta-imagen-izquierda.jpg" alt="Imagen Izquierda" class="img-fluid">
+        <img src="" alt="" class="img-fluid">
       </div>
 
       <!-- Formulario principal -->
@@ -396,89 +396,116 @@
 
       <!-- Imagen decorativa derecha -->
       <div class="col-lg-2 text-center mb-4">
-        <img src="ruta-imagen-derecha.jpg" alt="Imagen Derecha" class="img-fluid">
+        <img src="" alt="" class="img-fluid">
       </div>
 
     </div>
   </div>
 </form>
 
-<!-- Cargar el nuevo SDK de EmailJS v3 -->
+<!-- EmailJS SDK NUEVO v3 -->
+<!-- EmailJS SDK v3 -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 <script>
-  (function() {
-    emailjs.init({
-      publicKey: '1NQ_GfnNDWCO6ZIJX'  // 🔥 Acá ponés tu Public Key de EmailJS
+(function() {
+  emailjs.init({
+    publicKey: 'g72ZugPj-e9NSvLpQ' // Tu Public Key
+  });
+})();
+
+// Función para redimensionar una imagen a máximo 600px de ancho
+function resizeImage(file, maxWidth = 600, callback) {
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    const img = new Image();
+    img.onload = function() {
+      const canvas = document.createElement('canvas');
+      let width = img.width;
+      let height = img.height;
+
+      // Redimensionar manteniendo proporción
+      if (width > maxWidth) {
+        height = height * (maxWidth / width);
+        width = maxWidth;
+      }
+
+      canvas.width = width;
+      canvas.height = height;
+
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0, width, height);
+
+      const resizedBase64 = canvas.toDataURL('image/jpeg', 0.7); // 70% calidad
+      callback(resizedBase64);
+    };
+    img.src = event.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+document.getElementById('insurance-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const frontInput = document.getElementById('front-image').files[0];
+  const backInput = document.getElementById('back-image').files[0];
+
+  if (!frontInput || !backInput) {
+    alert("Por favor, carga ambas imágenes.");
+    return;
+  }
+
+  // Primero redimensionamos ambas imágenes
+  resizeImage(frontInput, 600, function(frontImageBase64) {
+    resizeImage(backInput, 600, function(backImageBase64) {
+
+      // Una vez que tenemos ambas imágenes optimizadas, enviamos el formulario
+      emailjs.send('service_zwurumf', 'template_7k9epve', {
+        full_name: document.querySelector('[name="full_name"]').value,
+        dob: document.querySelector('[name="dob"]').value,
+        insurance_name: document.querySelector('[name="insurance_name"]').value,
+        insurance_id: document.querySelector('[name="insurance_id"]').value,
+        group_number: document.querySelector('[name="group_number"]').value,
+        policyholder_name: document.querySelector('[name="policyholder_name"]').value,
+        front_image: frontImageBase64,
+        back_image: backImageBase64
+      }, 'g72ZugPj-e9NSvLpQ')
+      .then(function(response) {
+        console.log('Formulario enviado correctamente ✅', response);
+        alert('Formulario enviado correctamente ✅');
+      }, function(error) {
+        console.error('Ocurrió un error ❌:', error);
+        alert('Ocurrió un error ❌: ' + JSON.stringify(error));
+      });
+
     });
-  })();
-
-  document.getElementById('insurance-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    // Convertir imágenes a Base64
-    const frontInput = document.getElementById('front-image').files[0];
-    const backInput = document.getElementById('back-image').files[0];
-
-    if (!frontInput || !backInput) {
-      alert("Por favor, carga ambas imágenes.");
-      return;
-    }
-
-    const readerFront = new FileReader();
-    const readerBack = new FileReader();
-
-    readerFront.onload = function(eFront) {
-      const frontImageBase64 = eFront.target.result;
-
-      readerBack.onload = function(eBack) {
-        const backImageBase64 = eBack.target.result;
-
-        // Enviar el formulario
-        emailjs.send('service_gyeqhh6', 'template_s06jbi4', {
-          full_name: document.querySelector('[name="full_name"]').value,
-          dob: document.querySelector('[name="dob"]').value,
-          insurance_name: document.querySelector('[name="insurance_name"]').value,
-          insurance_id: document.querySelector('[name="insurance_id"]').value,
-          group_number: document.querySelector('[name="group_number"]').value,
-          policyholder_name: document.querySelector('[name="policyholder_name"]').value,
-          front_image: frontImageBase64,
-          back_image: backImageBase64
-        }).then(function() {
-          alert('Formulario enviado correctamente ✅');
-        }, function(error) {
-          alert('Ocurrió un error ❌: ' + JSON.stringify(error));
-        });
-
-      };
-
-      readerBack.readAsDataURL(backInput); // Carga reverso
-    };
-
-    readerFront.readAsDataURL(frontInput); // Carga frente
   });
+});
 
-  // Mostrar Previews de las imágenes
-  document.getElementById('front-image').addEventListener('change', function(event) {
-    var reader = new FileReader();
-    reader.onload = function() {
-      var output = document.getElementById('preview-front');
-      output.src = reader.result;
-      output.style.display = 'block';
-    };
-    reader.readAsDataURL(event.target.files[0]);
-  });
+// Opcional: mostrar previews si querés
+document.getElementById('front-image').addEventListener('change', function(event) {
+  var reader = new FileReader();
+  reader.onload = function() {
+    var output = document.getElementById('preview-front');
+    output.src = reader.result;
+    output.style.display = 'block';
+  };
+  reader.readAsDataURL(event.target.files[0]);
+});
 
-  document.getElementById('back-image').addEventListener('change', function(event) {
-    var reader = new FileReader();
-    reader.onload = function() {
-      var output = document.getElementById('preview-back');
-      output.src = reader.result;
-      output.style.display = 'block';
-    };
-    reader.readAsDataURL(event.target.files[0]);
-  });
+document.getElementById('back-image').addEventListener('change', function(event) {
+  var reader = new FileReader();
+  reader.onload = function() {
+    var output = document.getElementById('preview-back');
+    output.src = reader.result;
+    output.style.display = 'block';
+  };
+  reader.readAsDataURL(event.target.files[0]);
+});
 </script>
+
+
+
 
 
   
