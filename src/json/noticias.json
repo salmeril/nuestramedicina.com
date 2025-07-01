@@ -1,4 +1,24 @@
 [
+    {
+        "titulo": " Gastritis por Helicobacter pylori",
+        "contenido": "Alivio Natural para la Gastritis",
+        "imagen": "/src/img/imagenes/gastritisbanner.png",
+        "link": "/src/components/novedades/gastritisporhp.html"
+    },
+
+    {
+        "titulo": " Migrañas y Tratamientos Naturales",
+        "contenido": "Alivio Natural para la Migraña",
+        "imagen": "/src/img/imagenes/migraniabanner.png",
+        "link": "/src/components/novedades/migranias.html"
+    },
+
+    {
+        "titulo": "Alivio Natural para la Ciática",
+        "contenido": "Alivio Natural para la Ciática",
+        "imagen": "/src/img/imagenes/dolordeespalda.png",
+        "link": "/src/components/novedades/alivionaturalparalaciatica.html"
+    },
 
     {
         "titulo": "Tratamiento del Parkinson",
