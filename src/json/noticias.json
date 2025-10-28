@@ -1,4 +1,10 @@
 [
+     {
+        "titulo": " Terapia con Células Madre",
+        "contenido": "Medicina Regenerativa y Natural",
+        "imagen": "/src/img/imagenes/celulasmadrebanner.png",
+        "link": "/src/components/novedades/celulasMadre.html"
+    },
     {
         "titulo": " Gastritis por Helicobacter pylori",
         "contenido": "Alivio Natural para la Gastritis",
