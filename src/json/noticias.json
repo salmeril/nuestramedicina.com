@@ -1,5 +1,18 @@
 [
      {
+        "titulo": "Hierbas Naturales, Alimentación Saludable y Energía Vital",
+        "contenido": "Un enfoque natural para restaurar y mantener tu salud",
+        "imagen": "/src/img/imagenes/bannerfijohierbas.png",
+        "link": "/src/components/novedades/virtual.html"
+    },
+     {
+        "titulo": "🩺 Consulta Presencial y Virtual",
+        "contenido": "Dr. César Armoza · Acupunturista y Especialista en Medicina Natural",
+        "imagen": "/src/img/imagenes/bannervirtualfijo.png",
+        "link": "/src/components/novedades/virtual.html"
+    },
+
+     {
         "titulo": " Terapia con Células Madre",
         "contenido": "Medicina Regenerativa y Natural",
         "imagen": "/src/img/imagenes/celulasmadrebanner.png",
